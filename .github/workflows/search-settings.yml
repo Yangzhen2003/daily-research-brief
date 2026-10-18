@@ -1,0 +1,49 @@
+name: Save search settings
+on:
+  issues:
+    types: [opened, edited]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  save-and-publish:
+    if: github.actor == github.repository_owner && github.event.issue.user.login == github.repository_owner && (startsWith(github.event.issue.title, '[检索设置]') || startsWith(github.event.issue.title, '[核心文献]'))
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Apply structured settings
+        env:
+          REQUEST_BODY: ${{ github.event.issue.body }}
+          REQUEST_NUMBER: ${{ github.event.issue.number }}
+          REQUEST_UPDATED_AT: ${{ github.event.issue.updated_at }}
+          REQUEST_AUTHOR: ${{ github.event.issue.user.login }}
+          REQUEST_ACTOR: ${{ github.actor }}
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/apply_search_request.py
+      - name: Validate
+        run: python3 scripts/validate.py
+      - name: Commit settings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/search-settings.json site/data/core-papers.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save owner search settings"
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

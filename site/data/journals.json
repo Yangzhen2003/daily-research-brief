@@ -1,0 +1,392 @@
+{
+  "source": "用户提供的JCR_JournalResults_06_2026.csv",
+  "scope": "传播学期刊；SSCI且JIF Quartile Q1/Q2",
+  "note": "上传表中排除ESCI后保留77种SSCI Q1/Q2期刊；不等同于中科院分区。原文件未提供指标年份，不推断指标年份。",
+  "journals": [
+    {
+      "name": "JOURNAL OF ADVERTISING",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "COMMUNICATION THEORY",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Journal of Computer-Mediated Communication",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "International Journal of Advertising",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "TELECOMMUNICATIONS POLICY",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "POLITICAL COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Social Media + Society",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Communication Methods and Measures",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "JOURNAL OF COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Digital Journalism",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "COMMUNICATION RESEARCH",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Journal of Public Relations Research",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "NEW MEDIA & SOCIETY",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "PUBLIC OPINION QUARTERLY",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "PUBLIC RELATIONS REVIEW",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "PUBLIC UNDERSTANDING OF SCIENCE",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "SCIENCE COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "International Journal of Press-Politics",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Journalism Studies",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Environmental Communication-A Journal of Nature and Culture",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "INFORMATION SOCIETY",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Policy and Internet",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Information Communication & Society",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "HUMAN COMMUNICATION RESEARCH",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "JOURNAL OF BUSINESS AND TECHNICAL COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "JOURNAL OF ADVERTISING RESEARCH",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "MEDIA CULTURE & SOCIETY",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "EUROPEAN JOURNAL OF COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "INTERNATIONAL JOURNAL OF CONFLICT MANAGEMENT",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "International Journal of Business Communication",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Media and Communication",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "MEDIA PSYCHOLOGY",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Mass Communication and Society",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "HEALTH COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "JOURNAL OF HEALTH COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Critical Discourse Studies",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "RESEARCH ON LANGUAGE AND SOCIAL INTERACTION",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "JOURNALISM & MASS COMMUNICATION QUARTERLY",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Management Communication Quarterly",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Convergence-The International Journal of Research into New Media Technologies",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Journalism",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Cyberpsychology-Journal of Psychosocial Research on Cyberspace",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Discourse Context & Media",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "WRITTEN COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "JOURNAL OF LANGUAGE AND SOCIAL PSYCHOLOGY",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Communication & Sport",
+      "edition": "SSCI",
+      "quartile": "Q1"
+    },
+    {
+      "name": "Social Semiotics",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Mobile Media & Communication",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "JOURNAL OF BROADCASTING & ELECTRONIC MEDIA",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Journal of Information Technology & Politics",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Journalism Practice",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "JOURNAL OF SOCIAL AND PERSONAL RELATIONSHIPS",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Journal of Children and Media",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Communications-European Journal of Communication Research",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Argumentation",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Psychology of Popular Media",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Games and Culture",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "INTERNATIONAL JOURNAL OF PUBLIC OPINION RESEARCH",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Feminist Media Studies",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Asian Journal of Communication",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Signs and Society",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "COMMUNICATION MONOGRAPHS",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Chinese Journal of Communication",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "PERSONAL RELATIONSHIPS",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "International Communication Gazette",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "DISCOURSE & SOCIETY",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Discourse & Communication",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Journal of Media Psychology-Theories Methods and Applications",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "DISCOURSE STUDIES",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "LANGUAGE & COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "JAVNOST-THE PUBLIC",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "JOURNAL OF APPLIED COMMUNICATION RESEARCH",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "International Journal of Communication",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "IEEE TRANSACTIONS ON PROFESSIONAL COMMUNICATION",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Media International Australia",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Communication and Critical-Cultural Studies",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    },
+    {
+      "name": "Journal of Media Ethics",
+      "edition": "SSCI",
+      "quartile": "Q2"
+    }
+  ]
+}

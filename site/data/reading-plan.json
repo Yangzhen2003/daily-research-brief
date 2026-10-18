@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "effectiveDate": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "activeTopicIds": ["sti", "social", "agency", "methods"],
+  "topics": [
+    {"id":"sti","label":"人工智能与社会技术想象","query":"\"sociotechnical imaginaries\" OR \"sociotechnical imaginary\" OR (\"technological imaginary\" AND (\"artificial intelligence\" OR algorithm OR platform)) OR (imaginaries AND (AI OR \"machine learning\"))","note":"社会技术想象（STI）的概念、测量与 AI 相关经验研究；兼收技术想象与公众/政策话语。"},
+    {"id":"social","label":"社交媒体平台","query":"(\"social media\" OR Weibo OR \"X/Twitter\" OR \"Twitter/X\") AND (misinformation OR \"opinion expression\" OR \"platform governance\" OR \"user engagement\")","note":"微博、X 等平台的传播过程、内容治理与用户行为。"},
+    {"id":"agency","label":"主体性与共融性语言","query":"(\"agency and communion\" OR \"agency/communion\" OR (agency AND communion)) AND (language OR text OR narrative OR stereotype OR \"social perception\")","note":"agency/communion 二分在语言、叙事与刻板印象研究中的测量与效应。"},
+    {"id":"methods","label":"计算社会科学方法","query":"(\"causal inference\" OR \"text as data\" OR \"computational social science\") AND (communication OR \"social media\" OR \"digital trace\")","note":"因果识别与文本作为数据的测量方法；优先可迁移到传播研究的设计。"}
+  ],
+  "groups": [
+    {"id":"crossdisciplinary","label":"其他研究","target":5,"latestTarget":3,"citedTarget":2,"keywords":true},
+    {"id":"journals","label":"传播学与社会科学","target":5,"communicationFirst":true,"keywords":true},
+    {"id":"communication-issue","label":"传播学顶刊推荐","unit":"issue","keywords":false},
+    {"id":"general-science","label":"综合顶刊推荐","target":1,"keywords":false}
+  ],
+  "rotations": {
+    "startDate":"2026-10-18",
+    "communication":[
+      {"id":"joc","name":"Journal of Communication","url":"https://academic.oup.com/joc"},
+      {"id":"hcr","name":"Human Communication Research","url":"https://academic.oup.com/hcr"},
+      {"id":"cr","name":"Communication Research","url":"https://journals.sagepub.com/home/crx"},
+      {"id":"jcmc","name":"Journal of Computer-Mediated Communication","url":"https://academic.oup.com/jcmc"},
+      {"id":"ct","name":"Communication Theory","url":"https://academic.oup.com/ct"},
+      {"id":"nms","name":"New Media & Society","url":"https://journals.sagepub.com/home/nms"},
+      {"id":"sms","name":"Social Media + Society","url":"https://journals.sagepub.com/home/sms"}
+    ],
+    "general":[
+      {"id":"pnas","name":"PNAS","url":"https://www.pnas.org/"},
+      {"id":"nature","name":"Nature","url":"https://www.nature.com/nature/"},
+      {"id":"science","name":"Science","url":"https://www.science.org/journal/science"},
+      {"id":"science-advances","name":"Science Advances","url":"https://www.science.org/journal/sciadv"},
+      {"id":"scientific-data","name":"Scientific Data","url":"https://www.nature.com/sdata/"},
+      {"id":"nature-communications","name":"Nature Communications","url":"https://www.nature.com/ncomms/"}
+    ]
+  },
+  "weeklyReviewDay":5,
+  "note":"从2026-10-18起执行四个研究主题；历史简报保持原栏目与内容。整期栏目不受关键词或Q1/Q2主题栏名单限制，以明确指定七刊为准。"
+}
