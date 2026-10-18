@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 6,
+  "historyPolicy": "exclude-recommended",
+  "journalPolicy": "ssci-communication-q1-q2-and-social-science",
+  "searchPlatforms": [
+    "Google Scholar",
+    "NBER",
+    "SSRN",
+    "arXiv"
+  ],
+  "date": "2026-10-18",
+  "edition": "试刊第1期 · 部分发布",
+  "title": "社会技术想象、情绪传播与文本测量的不确定性",
+  "summary": "本期为试刊：可核验新研究3篇，均来自 arXiv。SSRN 与出版社目录返回 403，Google Scholar 仅完成一次主题检索；传播学与社会科学、整期与综合刊栏目暂缺。先生成可核验部分，不用无关论文凑数。",
+  "notice": "试刊仅发布已核验部分，不是完整达标简报。永久历史为空，本期新增3篇；未沿用任何引用数，未知引用不记0。",
+  "searchSettings": {
+    "themeKeywords": "\"sociotechnical imaginaries\" OR \"sociotechnical imaginary\" OR (\"technological imaginary\" AND (\"artificial intelligence\" OR algorithm OR platform))\n(\"social media\" OR Weibo OR \"X/Twitter\") AND (misinformation OR \"opinion expression\" OR \"platform governance\" OR \"user engagement\")\n(\"agency and communion\" OR (agency AND communion)) AND (language OR text OR narrative OR stereotype)\n(\"causal inference\" OR \"text as data\") AND (communication OR \"social media\")",
+    "journalKeywords": "\"sociotechnical imaginaries\" OR \"sociotechnical imaginary\"\n\"social media\" AND (misinformation OR \"platform governance\")\n(\"agency and communion\" OR (agency AND communion)) AND (language OR narrative OR stereotype)\n(\"causal inference\" OR \"text as data\") AND communication",
+    "excludeTerms": "",
+    "lookbackDays": 30,
+    "effectiveDate": "defaults",
+    "scope": "default",
+    "topicIds": [
+      "sti",
+      "social",
+      "agency",
+      "methods"
+    ]
+  },
+  "activeTopicIds": [
+    "sti",
+    "social",
+    "agency",
+    "methods"
+  ],
+  "searchNote": "关键词按2026-10-18上海日期取 defaults（无已保存请求）。四个主题均启用。本期只记录实际执行的检索：Google Scholar 跑通 STI 主题一次，未做期刊二次筛选；SSRN 与出版社目录 403。",
+  "themeSearches": [
+    {
+      "platform": "Google Scholar",
+      "query": "\"sociotechnical imaginaries\"",
+      "channel": "Google Scholar 原生网页",
+      "timeRange": "不限年份；执行2026-10-18",
+      "purpose": "主题发现",
+      "status": "原生结果成功，首屏12条；多为书籍、综述与政策文本，未筛出本期合格期刊论文。",
+      "topicIds": [
+        "sti"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "all:\"sociotechnical imaginaries\"（submittedDate 降序）",
+      "channel": "arXiv API",
+      "timeRange": "截至2026-10-18",
+      "purpose": "主题发现",
+      "status": "API 成功；8月11日新闻编辑室 GenAI 论文入选。",
+      "topicIds": [
+        "sti"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "all:social media misinformation（submittedDate 降序）",
+      "channel": "arXiv API",
+      "timeRange": "截至2026-10-18",
+      "purpose": "主题发现",
+      "status": "API 成功；结果多为计算与工程论文，仅10月15日情绪传播一篇入选。",
+      "topicIds": [
+        "social"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "all:\"text as data\"（submittedDate 降序）",
+      "channel": "arXiv API",
+      "timeRange": "截至2026-10-18",
+      "purpose": "主题发现",
+      "status": "API 成功；10月14日文本协变量选择论文入选。",
+      "topicIds": [
+        "methods"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "all:\"agency and communion\"（submittedDate 降序）",
+      "channel": "arXiv API",
+      "timeRange": "截至2026-10-18",
+      "purpose": "主题发现",
+      "status": "API 成功但仅2条旧文，无30日内合格候选；本栏目不凑数。",
+      "topicIds": [
+        "agency"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "q=sociotechnical；另查 q=artificial intelligence、q=social media",
+      "channel": "NBER 站内检索",
+      "timeRange": "按 public_date 降序至2026-10-18",
+      "purpose": "主题发现",
+      "status": "接口成功；未见同时满足四主题与30日窗口的工作论文。",
+      "topicIds": [
+        "sti",
+        "social"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "站内主题检索",
+      "channel": "SSRN 网页",
+      "timeRange": "未执行",
+      "purpose": "主题发现",
+      "status": "HTTP 403（Cloudflare 拦截），未绕过验证；本期无 SSRN 候选。",
+      "topicIds": []
+    }
+  ],
+  "unexecutedSearches": [
+    {
+      "platform": "Google Scholar",
+      "query": "四主题 × 传播学期刊二次筛选",
+      "channel": "Google Scholar 原生网页",
+      "timeRange": "未完成",
+      "purpose": "传播学与社会科学5篇",
+      "status": "仅完成 STI 主题一次首屏检索，未做期刊限定筛选，故该栏留空。"
+    },
+    {
+      "platform": "Journal of Communication",
+      "query": "https://academic.oup.com/joc/advance-articles",
+      "channel": "出版方目录",
+      "timeRange": "未完成",
+      "purpose": "当天轮到的传播学整期",
+      "status": "HTTP 403（Cloudflare），未取得目录，不推进完成游标。"
+    }
+  ],
+  "verificationLog": [
+    {
+      "platform": "arXiv",
+      "query": "How Do Emotions Spread And Affect Decision-Making In Social Networks? An Opinion Dynamics Perspective | https://arxiv.org/abs/2610.22334",
+      "channel": "arXiv 摘要页/API",
+      "timeRange": "核验2026-10-18；不是主题检索",
+      "purpose": "逐篇题录、摘要、日期与身份核验",
+      "status": "题录、作者、v1日期、DOI 已核验；摘要核验；未读正文。"
+    },
+    {
+      "platform": "arXiv",
+      "query": "Which Text Matters: Handling Model Uncertainty in Text-as-Data Regressions | https://arxiv.org/abs/2610.19720",
+      "channel": "arXiv 摘要页/API",
+      "timeRange": "核验2026-10-18；不是主题检索",
+      "purpose": "逐篇题录、摘要、日期与身份核验",
+      "status": "题录、作者、v1日期、DOI 已核验；摘要核验；未读正文。"
+    },
+    {
+      "platform": "arXiv",
+      "query": "The GenAI Catch-22: Use of Generative AI in Norwegian Newsrooms During the 2025 Parliamentary Election | https://arxiv.org/abs/2608.10773",
+      "channel": "arXiv 摘要页/API",
+      "timeRange": "核验2026-10-18；不是主题检索",
+      "purpose": "逐篇题录、摘要、日期与身份核验",
+      "status": "题录、作者、v1日期、DOI 已核验；摘要核验；未读正文。"
+    }
+  ],
+  "periodicalChecks": [
+    {
+      "platform": "Journal of Communication",
+      "query": "https://academic.oup.com/joc/advance-articles",
+      "channel": "出版方目录，非关键词检索",
+      "timeRange": "截至2026-10-18",
+      "purpose": "当天轮到的传播学整期（Online First）",
+      "status": "HTTP 403（Cloudflare），目录不可读；本期不发布该栏，也不改换期刊。"
+    },
+    {
+      "platform": "PNAS",
+      "query": "https://www.pnas.org/",
+      "channel": "出版方目录，非关键词检索",
+      "timeRange": "截至2026-10-18",
+      "purpose": "当天轮到的综合顶刊1篇",
+      "status": "HTTP 403（Cloudflare），无法核验最新在线社会科学论文；留空。"
+    }
+  ],
+  "groups": [
+    {
+      "id": "crossdisciplinary",
+      "label": "其他研究",
+      "target": 5,
+      "sortBy": "split",
+      "sortDescription": "最新3篇按首发日期降序；高被引0/2，不填虚构次数。",
+      "selectionBuckets": [
+        {
+          "id": "latest",
+          "label": "最新研究",
+          "target": 3,
+          "sortBy": "publicationDate",
+          "sortDescription": "arXiv 10月15日、10月14日、8月11日；NBER无合格候选、SSRN受阻，由 arXiv 补足并说明。"
+        },
+        {
+          "id": "cited",
+          "label": "高被引研究",
+          "target": 2,
+          "sortBy": "citationCount",
+          "sortDescription": "本期缺2篇：候选均为近期论文，未核验到足以构成“高被引”的 Scholar 实际被引数，不记0。"
+        }
+      ],
+      "sourceCoverage": [
+        {
+          "database": "NBER",
+          "status": "unavailable",
+          "reason": "站内检索未见同时满足四主题与30日窗口的工作论文。"
+        },
+        {
+          "database": "SSRN",
+          "status": "unavailable",
+          "reason": "HTTP 403（Cloudflare），未绕过验证。"
+        },
+        {
+          "database": "arXiv",
+          "status": "included",
+          "reason": "API 可读；三篇均为未推荐论文，v1 日期已核验。"
+        }
+      ],
+      "latestSourceExceptions": "SSRN 403；NBER 无符合主题的30日内论文。最新3篇均由 arXiv 补足；其中8月11日一篇超出30日窗口，扩展理由见 sortDescription。",
+      "papers": [
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractLicenseObserved": "",
+          "identityAliases": [],
+          "title": "How Do Emotions Spread And Affect Decision-Making In Social Networks? An Opinion Dynamics Perspective",
+          "titleZh": "情绪如何在社交网络中扩散并影响决策：一个意见动力学框架",
+          "authors": "Aditi Saxena; Twinkle Tripathy",
+          "venue": "arXiv 2610.22334",
+          "source": "arXiv",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest",
+          "category": "社交媒体 · 情绪传染与意见动力学",
+          "url": "https://arxiv.org/abs/2610.22334",
+          "doi": "https://doi.org/10.48550/arXiv.2610.22334",
+          "publicationDate": "2026-10-15",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2610.22334",
+          "theory": "情绪被表示为二维环形空间（效价—唤醒）上的状态，而非单一正负刻度；情绪通过人际传染改变关系强度，进而影响判断与意见。作者把“情绪—关系—意见”放进同一个动力系统，追问共识、极化与聚类能否由情绪传染推出。",
+          "data": "合成数据与真实世界数据集各一组用于验证；摘要未报告真实数据的平台、规模、时间范围与抽样方式，这些细节未核验。",
+          "method": "在复加权网络上用拉普拉斯流描述情绪传染与决策更新；借助网络的公平划分（equitable partitions）与拉普拉斯谱性质推导长期行为。属于形式建模，不是人类受试者实验。",
+          "results": "摘要报告：情绪相近的个体会趋于一致，表现为情绪传染；由此可复现意见的共识、极化与聚类。具体阈值、收敛速度与真实数据上的拟合优度未在摘要中给出。",
+          "takeaway": "把情绪当作环上状态、把传染写成网络流，可以统一解释共识与极化；但这是模型推论，尚非平台证据。",
+          "abstractZh": "论文把情绪放在效价—唤醒的环形模型上，用网络拉普拉斯流刻画情绪传染，并证明情绪相近的个体会走向一致，由此复现意见的共识、极化与聚类；合成数据与真实数据用于验证。",
+          "relevance": "如果你的社交媒体研究把情绪当外生变量或只测正负效价，这篇提示两件事：情绪状态需要更细的表示；网络结构应与情绪共同建模。可借用其“情绪距离—关系权重”思路设计测量。",
+          "limitations": "已核验 arXiv 官方摘要、作者与 v1 日期，未阅读正文关键部分，不标全文核验。模型对平台机制、算法推荐与内容类型做了简化；真实数据结果不能等同于因果效应。",
+          "topicIds": [
+            "social",
+            "methods"
+          ],
+          "readingUse": "理论框架、研究设计",
+          "researchConnection": "支持把情绪传染与网络结构放在同一模型里；挑战“情绪只是个体属性”的做法。边界：它解释聚合模式，不解释平台为何放大某类情绪。",
+          "readingPriority": "normal",
+          "priorityReason": "方法上可迁移到社交媒体情绪传播建模，但需要另找平台数据验证。",
+          "abstractSource": "https://arxiv.org/abs/2610.22334",
+          "abstractUnavailableReason": "未逐字转载：arXiv 摘要的许可因论文而异，本次未核验到可转载许可，完整英文摘要见来源链接。中文概述为独立写作。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractLicenseObserved": "",
+          "identityAliases": [],
+          "title": "Which Text Matters: Handling Model Uncertainty in Text-as-Data Regressions, with an Application to Central Bank Communication",
+          "titleZh": "哪些文本指标真正有用：文本即数据回归中的模型不确定性",
+          "authors": "Martin Feldkircher; Bernd Prostmaier; Paul Hofmarcher; Pierre Siklos",
+          "venue": "arXiv 2610.19720",
+          "source": "arXiv",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest",
+          "category": "计算方法 · 文本测量与模型选择",
+          "url": "https://arxiv.org/abs/2610.19720",
+          "doi": "https://doi.org/10.48550/arXiv.2610.19720",
+          "publicationDate": "2026-10-14",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2610.19720",
+          "theory": "文本→协变量→回归的两步设计很常见，却很少由理论决定该造哪些协变量。同一构念的竞争操作化（主题份额、理想点、情绪分）会支持不同结论，因此“选哪些文本协变量、用线性还是非线性”本身是模型不确定性问题。",
+          "data": "224 场欧洲央行月度新闻发布会（2002 年末至 2025 年中），构造 45 个竞争性文本指标；结果变量为专业通胀预期。摘要未给指标清单与预处理细节。",
+          "method": "提出 spike-and-slab 广义可加模型（SSGAMs），同时做协变量选择与线性/非线性判别；以稀疏先验抑制无关指标。",
+          "results": "摘要报告：模型选出稀疏指标集合；一些广泛使用的替代指标与所有检验过的非线性效应都没有增量信息。具体入选指标、效应方向与幅度未在摘要中列出。",
+          "takeaway": "先列出同一构念的多种文本操作化，再让模型选择，比只报一个显著指标更可靠。",
+          "abstractZh": "作者把“选哪些文本协变量、用什么函数形式”当作模型不确定性问题，提出 spike-and-slab 广义可加模型，并在 224 场欧洲央行发布会、45 个文本指标上示范：最终只留下稀疏集合，常用替代指标与非线性效应没有增量信息。",
+          "relevance": "直接可用于“文本作为数据”的测量章节：把竞争操作化写进设计，报告选择结果与不确定性；也提醒审稿人追问为何选这个词典或主题数。",
+          "limitations": "已核验摘要与 v1；未读正文的识别假设、先验设定与稳健性检验。应用仅限央行沟通一个场景，外推到社交媒体文本需重新验证。",
+          "topicIds": [
+            "methods"
+          ],
+          "readingUse": "变量测量、研究设计",
+          "researchConnection": "支持“多操作化 + 模型选择”的做法；挑战把单一文本指标当作构念的做法。边界：它解决选择问题，不解决文本测量的效度问题本身。",
+          "readingPriority": "high",
+          "priorityReason": "给出可复用的流程，直接对应文本测量的多重操作化难题。",
+          "abstractSource": "https://arxiv.org/abs/2610.19720",
+          "abstractUnavailableReason": "未逐字转载：本次未核验到可转载许可，完整英文摘要见来源链接。中文概述为独立写作。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractLicenseObserved": "",
+          "identityAliases": [],
+          "title": "The GenAI Catch-22: Use of Generative Artificial Intelligence in Norwegian Newsrooms During the 2025 Parliamentary Election",
+          "titleZh": "生成式AI的双重困境：挪威新闻编辑室在2025年大选中的想象与实践",
+          "authors": "Mari Reisjå; Anders Sundnes Løvlie",
+          "venue": "arXiv 2608.10773",
+          "source": "arXiv",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest",
+          "category": "社会技术想象 · 新闻业与生成式AI",
+          "url": "https://arxiv.org/abs/2608.10773",
+          "doi": "https://doi.org/10.48550/arXiv.2608.10773",
+          "publicationDate": "2026-08-11",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2608.10773",
+          "theory": "以 Jasanoff 的社会技术想象为框架：编辑室管理者共享的想象会设定对技术能力与发展速度的预期，进而塑造投入方向。作者进一步提出“GenAI Catch-22”：监督 AI 需要人的专业判断，而大量使用 AI 又可能侵蚀这种判断。",
+          "data": "挪威新闻编辑室，2025 年议会选举期间，历时十个月的编辑室管理者与记者访谈；摘要未给访谈人数、机构数量与抽样方式。",
+          "method": "纵向案例研究：追踪最初面向受众的 GenAI 计划如何遭遇技术与实践挑战，比较管理者想象与编辑室实际使用。",
+          "results": "摘要报告：共享的乐观想象导致面向受众的 GenAI 服务计划落空，转为编辑室内部的日常使用；同时识别出内部威胁——记者自身使用 AI——与被过度强调的外部虚假信息威胁形成对照；并提出能力退化的 Catch-22。",
+          "takeaway": "社会技术想象不只属于国家与政策文件，也存在于编辑室管理者的预期里，并会以“计划坍塌”的方式留下痕迹。",
+          "abstractZh": "论文追踪挪威新闻编辑室在 2025 年大选期间十个月的 GenAI 实践，发现管理者共享的乐观社会技术想象使面向受众的服务计划落空，转为内部日常使用；并提出“GenAI Catch-22”：越依赖 AI，越可能削弱监督 AI 所需的人类专业能力。",
+          "relevance": "把社会技术想象落到组织层面，适合作为你 STI 研究的机制参照；“能力退化”可操作化为对 AI 输出的核查行为与专业判断测试。",
+          "limitations": "已核验摘要与 v1；未读正文的编码过程与访谈提纲。单国、单次选举、十个月窗口，不能直接推及所有新闻室或平台。",
+          "topicIds": [
+            "sti",
+            "social"
+          ],
+          "readingUse": "理论框架、结果讨论",
+          "researchConnection": "支持“想象塑造技术落地”的判断；补充了组织层面的机制。边界：案例研究，不估计总体效应。",
+          "readingPriority": "high",
+          "priorityReason": "同时覆盖 STI 与新闻业 AI 使用，能直接支撑概念框架与假设。",
+          "abstractSource": "https://arxiv.org/abs/2608.10773",
+          "abstractUnavailableReason": "未逐字转载：本次未核验到可转载许可，完整英文摘要见来源链接。中文概述为独立写作。"
+        }
+      ]
+    },
+    {
+      "id": "journals",
+      "label": "传播学与社会科学",
+      "target": 5,
+      "sortBy": "citationCount",
+      "journalPriorityNote": "本期未完成“先主题检索再筛期刊”的流程（仅跑通 STI 主题一次首屏），无经核验的合格传播学候选，故留空而不补其他学科、不用无关论文凑数。",
+      "sortDescription": "目标5篇，实际0篇。",
+      "papers": []
+    },
+    {
+      "id": "communication-issue",
+      "label": "传播学顶刊推荐",
+      "unit": "issue",
+      "target": 0,
+      "sortBy": "issue",
+      "sortDescription": "当天轮到 Journal of Communication。",
+      "note": "advance-articles 返回 403，未取得目录；不发布、不推进完成游标、不改换期刊。",
+      "papers": []
+    },
+    {
+      "id": "general-science",
+      "label": "综合顶刊推荐",
+      "target": 1,
+      "sortBy": "publicationDate",
+      "rotationJournalId": "pnas",
+      "sortDescription": "当天轮到 PNAS。",
+      "papers": []
+    }
+  ],
+  "coreTracking": [],
+  "coreTrackingNote": "core-papers.json 当前没有已提交核心文献，等待用户通过网站提交；浏览器私人收藏未自动视为同步成功，未虚构引用关系。",
+  "shortfallReason": "其他研究：最新3/3（arXiv 补足；SSRN 403、NBER 无30日内合格论文；1篇超出窗口）；高被引0/2（候选过新，未核验到可用 Scholar 引用数，不记0）；传播学与社会科学0/5（期刊筛选未完成）；传播学整期0（JOC 403）；综合顶刊0/1（PNAS 403）。"
+}

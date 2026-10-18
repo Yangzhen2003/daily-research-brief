@@ -1,1 +1,32 @@
-{"version":1,"records":[]}
+{
+  "version": 1,
+  "records": [
+    {
+      "date": "2026-10-18",
+      "title": "How Do Emotions Spread And Affect Decision-Making In Social Networks? An Opinion Dynamics Perspective",
+      "identifiers": [
+        "arxiv:2610.22334",
+        "doi:10.48550/arxiv.2610.22334",
+        "title:howdoemotionsspreadandaffectdecisionmakinginsocialnetworksanopiniondynamicsperspective"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Which Text Matters: Handling Model Uncertainty in Text-as-Data Regressions, with an Application to Central Bank Communication",
+      "identifiers": [
+        "arxiv:2610.19720",
+        "doi:10.48550/arxiv.2610.19720",
+        "title:whichtextmattershandlingmodeluncertaintyintextasdataregressionswithanapplicationtocentralbankcommunication"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "title": "The GenAI Catch-22: Use of Generative Artificial Intelligence in Norwegian Newsrooms During the 2025 Parliamentary Election",
+      "identifiers": [
+        "arxiv:2608.10773",
+        "doi:10.48550/arxiv.2608.10773",
+        "title:thegenaicatch22useofgenerativeartificialintelligenceinnorwegiannewsroomsduringthe2025parliamentaryelection"
+      ]
+    }
+  ]
+}
