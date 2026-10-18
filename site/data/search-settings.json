@@ -2,8 +2,8 @@
   "version": 1,
   "owner": "Yangzhen2003",
   "defaults": {
-    "themeKeywords": "\"sociotechnical imaginaries\" OR \"sociotechnical imaginary\" OR (\"technological imaginary\" AND (\"artificial intelligence\" OR algorithm OR platform))\n(\"social media\" OR Weibo OR \"X/Twitter\") AND (misinformation OR \"opinion expression\" OR \"platform governance\" OR \"user engagement\")\n(\"agency and communion\" OR (agency AND communion)) AND (language OR text OR narrative OR stereotype)\n(\"causal inference\" OR \"text as data\") AND (communication OR \"social media\")",
-    "journalKeywords": "\"sociotechnical imaginaries\" OR \"sociotechnical imaginary\"\n\"social media\" AND (misinformation OR \"platform governance\")\n(\"agency and communion\" OR (agency AND communion)) AND (language OR narrative OR stereotype)\n(\"causal inference\" OR \"text as data\") AND communication",
+    "themeKeywords": "\"sociotechnical imaginaries\" OR \"sociotechnical imaginary\" OR (\"technological imaginary\" AND (\"artificial intelligence\" OR algorithm OR platform))\n(\"social media\" OR Weibo OR \"X/Twitter\") AND (misinformation OR \"opinion expression\" OR \"platform governance\" OR \"user engagement\")\n(\"agency and communion\" OR (agency AND communion)) AND (language OR text OR narrative OR stereotype)\n(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") AND (communication OR \"digital platforms\" OR \"social media\")",
+    "journalKeywords": "\"sociotechnical imaginaries\" OR \"sociotechnical imaginary\"\n\"social media\" AND (misinformation OR \"platform governance\")\n(\"agency and communion\" OR (agency AND communion)) AND (language OR narrative OR stereotype)\n(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") AND (communication OR \"digital platforms\" OR \"social media\")",
     "excludeTerms": "",
     "lookbackDays": 30,
     "topicIds": ["sti", "social", "agency", "methods"]

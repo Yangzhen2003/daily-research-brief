@@ -7,7 +7,7 @@
     {"id":"sti","label":"人工智能与社会技术想象","query":"\"sociotechnical imaginaries\" OR \"sociotechnical imaginary\" OR (\"technological imaginary\" AND (\"artificial intelligence\" OR algorithm OR platform)) OR (imaginaries AND (AI OR \"machine learning\"))","note":"社会技术想象（STI）的概念、测量与 AI 相关经验研究；兼收技术想象与公众/政策话语。"},
     {"id":"social","label":"社交媒体平台","query":"(\"social media\" OR Weibo OR \"X/Twitter\" OR \"Twitter/X\") AND (misinformation OR \"opinion expression\" OR \"platform governance\" OR \"user engagement\")","note":"微博、X 等平台的传播过程、内容治理与用户行为。"},
     {"id":"agency","label":"主体性与共融性语言","query":"(\"agency and communion\" OR \"agency/communion\" OR (agency AND communion)) AND (language OR text OR narrative OR stereotype OR \"social perception\")","note":"agency/communion 二分在语言、叙事与刻板印象研究中的测量与效应。"},
-    {"id":"methods","label":"计算社会科学方法","query":"(\"causal inference\" OR \"text as data\" OR \"computational social science\") AND (communication OR \"social media\" OR \"digital trace\")","note":"因果识别与文本作为数据的测量方法；优先可迁移到传播研究的设计。"}
+    {"id":"methods","label":"计算社会科学方法","query":"(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") AND (communication OR \"digital platforms\" OR \"social media\")","note":"因果识别与文本作为数据的测量方法；优先可迁移到传播研究的设计。"}
   ],
   "groups": [
     {"id":"crossdisciplinary","label":"其他研究","target":5,"latestTarget":3,"citedTarget":2,"keywords":true},
