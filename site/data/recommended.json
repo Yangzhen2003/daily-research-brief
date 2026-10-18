@@ -3,29 +3,68 @@
   "records": [
     {
       "date": "2026-10-18",
-      "title": "How Do Emotions Spread And Affect Decision-Making In Social Networks? An Opinion Dynamics Perspective",
+      "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
       "identifiers": [
-        "arxiv:2610.22334",
-        "doi:10.48550/arxiv.2610.22334",
-        "title:howdoemotionsspreadandaffectdecisionmakinginsocialnetworksanopiniondynamicsperspective"
+        "doi:10.3386/w35744",
+        "title:themeasurementrevolutioncrediblemeasurementandinferenceintheageofai"
       ]
     },
     {
       "date": "2026-10-18",
-      "title": "Which Text Matters: Handling Model Uncertainty in Text-as-Data Regressions, with an Application to Central Bank Communication",
+      "title": "When LLMs Enter Everyday Feminism on Chinese Social Media: Opportunities and Risks for Women's Empowerment",
       "identifiers": [
-        "arxiv:2610.19720",
-        "doi:10.48550/arxiv.2610.19720",
-        "title:whichtextmattershandlingmodeluncertaintyintextasdataregressionswithanapplicationtocentralbankcommunication"
+        "arxiv:2602.20876",
+        "doi:10.48550/arxiv.2602.20876",
+        "title:whenllmsentereverydayfeminismonchinesesocialmediaopportunitiesandrisksforwomensempowerment"
       ]
     },
     {
       "date": "2026-10-18",
-      "title": "The GenAI Catch-22: Use of Generative Artificial Intelligence in Norwegian Newsrooms During the 2025 Parliamentary Election",
+      "title": "Multimodal rumor detection enhanced by external evidence and forgery features",
       "identifiers": [
-        "arxiv:2608.10773",
-        "doi:10.48550/arxiv.2608.10773",
-        "title:thegenaicatch22useofgenerativeartificialintelligenceinnorwegiannewsroomsduringthe2025parliamentaryelection"
+        "arxiv:2601.14954",
+        "doi:10.48550/arxiv.2601.14954",
+        "title:multimodalrumordetectionenhancedbyexternalevidenceandforgeryfeatures"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "title": "The Effects of Digital Media on Political Knowledge and Participation in Election Campaigns: Evidence From Panel Data",
+      "identifiers": [
+        "doi:10.1177/0093650211426004",
+        "title:theeffectsofdigitalmediaonpoliticalknowledgeandparticipationinelectioncampaignsevidencefrompaneldata"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Theorizing “Stories About Algorithms” as a Mechanism in the Formation and Maintenance of Algorithmic Imaginaries",
+      "identifiers": [
+        "doi:10.1177/20563051221077025",
+        "title:theorizingstoriesaboutalgorithmsasamechanismintheformationandmaintenanceofalgorithmicimaginaries"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "title": "How Social Media Construct “Truth” Around Crisis Events: Weibo's Rumor Management Strategies After the 2015 Tianjin Blasts",
+      "identifiers": [
+        "doi:10.1002/poi3.155",
+        "title:howsocialmediaconstructtrutharoundcrisiseventsweibosrumormanagementstrategiesafterthe2015tianjinblasts"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Promote diligently and censor politely: how Sina Weibo intervenes in online activism in China",
+      "identifiers": [
+        "doi:10.1080/1369118x.2021.1983001",
+        "title:promotediligentlyandcensorpolitelyhowsinaweibointervenesinonlineactivisminchina"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Share or not? Effects of Stereotypes on Social Media Engagement Using the Stereotype Content Model",
+      "identifiers": [
+        "doi:10.1080/17512786.2021.1927804",
+        "title:shareornoteffectsofstereotypesonsocialmediaengagementusingthestereotypecontentmodel"
       ]
     }
   ]
