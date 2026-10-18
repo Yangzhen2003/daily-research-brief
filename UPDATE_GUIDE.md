@@ -6,7 +6,7 @@
 
 必须读取main最新UPDATE_GUIDE.md、site/data/reading-plan.json、rotation-state.json、core-papers.json、search-settings.json、journals.json、index.json、recommended.json。保留未来设置、收藏与永久历史。search-settings的once只当天生效，ongoing从生效日起持续；适用项按effectiveDate、savedAt、requestNumber降序选择，否则defaults。
 
-四个研究主题：sti（人工智能与社会技术想象、技术想象与AI话语）、social（微博、X等社交媒体的传播过程、内容治理与用户行为）、agency（主体性与共融性语言，agency/communion的测量与效应）、methods（因果识别、文本作为数据、计算社会科学）。默认四个主题都启用；有效设置含topicIds时只启用该列表。有效用户请求的themeKeywords、journalKeywords用于全部主题或单主题覆盖；没有有效用户请求时，使用保存的defaults。四个主题同时启用时，其余主题采用reading-plan中的query。表单单主题设置时两个关键词字段覆盖该主题。分别记录实际执行式与topicIds，不把计划检索冒称已执行。每日篇数是栏目合计，不是每个主题各一份；质量和相关性优先，不为主题配额凑数。
+四个研究主题：sti（平台/算法想象与受众日常：算法想象、平台想象及用户的算法感知与民间理论，不覆盖广义AI想象）、social（微博等中国社交媒体的表达、谣言、集体行动与审查）、agency（主体性与共融性语言，agency/communion的测量与效应）、methods（因果识别、文本作为数据、计算社会科学）。默认四个主题都启用；有效设置含topicIds时只启用该列表。有效用户请求的themeKeywords、journalKeywords用于全部主题或单主题覆盖；没有有效用户请求时，使用保存的defaults。四个主题同时启用时，其余主题采用reading-plan中的query。表单单主题设置时两个关键词字段覆盖该主题。分别记录实际执行式与topicIds，不把计划检索冒称已执行。每日篇数是栏目合计，不是每个主题各一份；质量和相关性优先，不为主题配额凑数。
 
 ## 四个栏目
 

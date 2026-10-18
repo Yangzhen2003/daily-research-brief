@@ -4,7 +4,7 @@
 
 每天上午10点（UTC+8）由 Agent 启动 Google Scholar、NBER、SSRN、arXiv 主题检索，整理后提交，GitHub Actions 发布到 GitHub Pages。
 
-四个研究主题：人工智能与社会技术想象、社交媒体平台（微博/X）、主体性与共融性语言（agency/communion）、计算社会科学方法。不设新闻与 leader 注意力主题。
+四个研究主题：平台/算法想象与受众日常、社交媒体平台（微博专项）、主体性与共融性语言（agency/communion）、计算社会科学方法。不设新闻与 leader 注意力主题。
 
 四个栏目：其他研究5篇（最新3篇分别来自NBER、SSRN、arXiv，高被引2篇）；传播学与社会科学5篇，优先传播学SSCI Q1/Q2；传播学七刊每天轮换完整一期，Online First 单独算一期；综合六刊每天轮换1篇最新在线社会科学研究。后两个栏目不使用主题关键词。访问受限或合格候选不足时明确说明，不凑数。
 
