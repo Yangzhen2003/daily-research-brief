@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 6,
+  "historyPolicy": "exclude-recommended",
+  "journalPolicy": "ssci-communication-q1-q2-and-social-science",
+  "searchPlatforms": ["Google Scholar", "NBER", "SSRN", "arXiv"],
+  "date": "2026-10-19",
+  "title": "AI监督的可验证条件与全球保护地测量",
+  "summary": "本期2篇：其他研究1篇（NBER），综合顶刊1篇（Nature，学科归属待判断）。本轮主题检索覆盖不完整，Scholar未执行，HCR文章页受限；相关栏目据实留缺。",
+  "notice": "仅纳入可由正式题录页、全文或出版方目录交叉核验的研究；Google Scholar引用数未实际读取，未记0也未以其他指标替代。",
+  "searchNote": "本轮只完成公开网页域名限定检索与来源交叉核验，未完成四主题逐库原生检索，不能视为完整检索。Google Scholar原生页未实际读取。后两栏查看出版方目录；HCR在线优先集合未完成核验，正式卷期仅作补充目录记录。",
+  "coreTracking": [],
+  "coreTrackingNote": "core-papers.json的requests为空，待用户提交核心文献；本轮没有可执行的前后引用关系追踪。",
+  "themeSearches": [
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers/w35878 \"When Does Randomized Oversight Align AI Agents That Can Conceal\"",
+      "channel": "公开网页搜索（域名限定），非NBER站内检索",
+      "timeRange": "截至2026-10-19；近30天优先",
+      "purpose": "候选身份与摘要交叉核验",
+      "status": "发现w35878；NBER论文页返回403。同题arXiv摘要、首发日期与HTML片段可读，未完成全文核验。",
+      "topicIds": ["methods"]
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:papers.ssrn.com generative AI social science October 2026",
+      "channel": "公开网页搜索（域名限定），非SSRN站内检索",
+      "timeRange": "截至2026-10-19；近30天优先",
+      "purpose": "探索性候选检索；未覆盖完整四主题",
+      "status": "检索结果不足以确认独立且未重复的合格候选；已发现条目与NBER/arXiv同文，按永久身份去重后不纳入。",
+      "topicIds": ["sti", "social", "agency", "methods"]
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org/abs/2610 social media causal communication 2026",
+      "channel": "公开网页搜索（域名限定），非arXiv API；未按submittedDate原生排序",
+      "timeRange": "截至2026-10-19；近30天优先",
+      "purpose": "方法主题探索性候选发现与身份交叉核验",
+      "status": "其他查询返回arXiv:2609.38262，与NBER w35878和SSRN 7540121题录相同；已核验摘要和首发日期，未读完整正文。",
+      "topicIds": ["methods"]
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "未执行：四组生效主题的Scholar原生检索",
+      "channel": "未访问Google Scholar原生页",
+      "timeRange": "2026-10-19本轮未执行",
+      "purpose": "高被引与传播学/社会科学发现及引用数核验",
+      "status": "本轮未完成Scholar检索和引用数核验，不将未执行冒称访问失败；引用数留缺失，两组候选均未纳入。",
+      "topicIds": ["sti", "social", "agency", "methods"]
+    }
+  ],
+  "periodicalChecks": [
+    {
+      "platform": "Human Communication Research",
+      "query": "https://academic.oup.com/hcr/issue/52/4?browseBy=volume",
+      "channel": "Oxford Academic出版方目录，非关键词检索",
+      "timeRange": "核验2026-10-19",
+      "purpose": "当天轮换期刊最新完整一期",
+      "status": "目录确认Volume 52 Issue 4 (October 2026)共4篇Original Research；逐篇页面重定向至不可访问CDN，无法完成摘要级核验，本期不发布整期且不推进游标。"
+    },
+    {
+      "platform": "Nature",
+      "query": "https://www.nature.com/nature/research-articles",
+      "channel": "Nature出版方最新研究目录，非关键词检索",
+      "timeRange": "核验2026-10-19；按在线日期降序",
+      "purpose": "当天轮换综合顶刊最新在线社会科学研究",
+      "status": "核验2026-10-14论文Global conservation area coverage substantially exceeds current estimates；出版方页面提供题录、摘要、方法、结果、日期与DOI。"
+    }
+  ],
+  "verificationLog": [
+    {
+      "platform": "NBER / arXiv",
+      "query": "w35878 | arXiv:2609.38262 | SSRN 7540121",
+      "channel": "域名限定公开网页结果、arXiv摘要与HTML片段、SSRN题录结果",
+      "timeRange": "核验2026-10-19",
+      "purpose": "题录、首发日期、摘要、全文和身份别名核验",
+      "status": "作者、标题、NBER号、arXiv ID、2026-09-29首发与摘要已交叉核验；未完成全文核验。三个版本记为同一研究。"
+    },
+    {
+      "platform": "Nature",
+      "query": "10.1038/s41586-026-11157-4",
+      "channel": "Nature论文页与研究目录",
+      "timeRange": "核验2026-10-19",
+      "purpose": "题录、首次公开日期、摘要、方法、结果和许可核验",
+      "status": "出版方域名限定搜索结果提供题录、2026-10-14在线日期、摘要和正文节选；直接打开论文页被身份服务重定向阻止。未完成全文核验，不转载完整摘要。"
+    }
+  ],
+  "shortfallReason": "其他研究1/5：最新1/3（已核验候选跨库同文去重，且四主题逐库检索未完整执行），高被引0/2（Scholar未执行）；传播学与社会科学0/5（Scholar未执行）；传播学整期尚未完成（HCR在线集合未完成核验，正式52(4)目录4篇文章页受阻；不推进游标）；综合顶刊1/1（学科归属待判断）。本期发布的是有缺额的部分成果，不代表已完成完整检索。",
+  "groups": [
+    {
+      "id": "crossdisciplinary",
+      "label": "其他研究",
+      "target": 5,
+      "sortBy": "split",
+      "sortDescription": "最新研究按首次公开日期降序；本期1篇完成题录和摘要交叉核验。",
+      "selectionBuckets": [
+        {"id": "latest", "label": "最新研究", "target": 3, "sortBy": "publicationDate", "sortDescription": "1篇，首次公开于2026-09-29。"},
+        {"id": "cited", "label": "高被引研究", "target": 2, "sortBy": "citationCount", "sortDescription": "Scholar引用数未能实际读取，缺2篇。"}
+      ],
+      "sourceCoverage": [
+        {"database": "NBER", "status": "included", "reason": "w35878，题录与摘要由arXiv同题版本交叉核验；NBER直接页面403。"},
+        {"database": "SSRN", "status": "unavailable", "reason": "唯一核验到的候选7540121与w35878为同一研究，历史身份去重后不重复纳入。"},
+        {"database": "arXiv", "status": "unavailable", "reason": "核验到的2609.38262与w35878为同一研究，按NBER来源纳入一次；其余主题候选未达到本期核验门槛。"}
+      ],
+      "latestSourceExceptions": "三库唯一完整核验候选是同一研究的三个版本；按NBER工作论文身份纳入一次，SSRN与arXiv不重复计数。",
+      "papers": [
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "未转载原文完整摘要；中文概述依据arXiv摘要及可访问HTML片段独立撰写。",
+          "identityAliases": ["arxiv:2609.38262", "ssrn:7540121"],
+          "title": "When Does Randomized Oversight Align AI Agents That Can Conceal?",
+          "titleZh": "随机监督何时能约束会隐瞒的AI代理？",
+          "authors": "Joshua S. Gans; Richard T. Holden",
+          "venue": "NBER Working Paper 35878",
+          "source": "NBER",
+          "category": "AI治理 · 审计与激励机制",
+          "url": "https://www.nber.org/papers/w35878",
+          "doi": "https://doi.org/10.3386/w35878",
+          "theory": "把AI代理视为可选择违规与隐瞒强度的策略性行动者，监督不仅发现证据，也会改变代理留下证据的方式。模型强调审计概率、证据可保存性、惩罚设计与隐瞒成本之间的共同约束。",
+          "data": "理论论文，无观察数据集；正文用形式模型刻画多种违规渠道、代理类型和可重叠的评估者，并以AI代理安全事件说明制度含义。",
+          "method": "建立委托—代理与随机审计模型，比较证据可保留和可擦除两种制度环境；推导何时稀疏随机审计也能实现全类型威慑，并在附录扩展到多评估者与不确定性。",
+          "results": "若违规证据能在隐瞒后保留且代理无法预知审计抽样，稀疏随机审计配合不限于没收收益的制裁可以威慑所有类型；若证据可被擦除，仅提高审计强度可能诱发更深隐瞒，需要降低违规收益或提高隐瞒成本。",
+          "takeaway": "AI监督的关键不是单纯增加检查频率，而是让证据在隐瞒后仍可审计、让抽查不可预测，并把激励设计延伸到停止违规的奖励与隐瞒成本。",
+          "abstractZh": "论文研究能隐瞒违规和修改记录的AI代理何时可被随机审计约束。结论指出，审计会反过来改变证据生成；证据可保存且抽样不可预测时，低频审计也可能实现威慑，否则须从违规收益和隐瞒成本入手。",
+          "relevance": "可用于研究平台治理、算法问责与可审计性：它把“监督强度”拆成证据机制、抽样不可预测性和激励结构，便于转化为制度变量。",
+          "limitations": "只核验摘要与HTML片段，未核验完整模型证明；以理论模型为主，模型能力、组织流程和执行成本高度抽象，对平台传播情境的适用性需经验检验。本文提供机制建模背景，不是因果识别或文本测量教程。",
+          "topicIds": ["methods"],
+          "readingUse": "理论框架、制度机制与研究假设",
+          "researchConnection": "支持把算法问责研究从是否审计推进到证据是否持久、抽样是否可预测和制裁是否有效；可为平台审核或生成式AI治理提出可检验机制假设。",
+          "readingPriority": "high",
+          "priorityReason": "模型直接连接AI代理、审计、隐瞒和制度设计，理论机制清晰且可迁移到平台治理研究。",
+          "abstractSource": "https://arxiv.org/abs/2609.38262",
+          "sourceDatabase": "NBER",
+          "selectionBucket": "latest",
+          "publicationDate": "2026-09-29",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2609.38262"
+        }
+      ]
+    },
+    {
+      "id": "journals",
+      "label": "传播学与社会科学",
+      "target": 5,
+      "sortBy": "citationCount",
+      "journalPriorityNote": "本轮未完成Google Scholar四主题原生检索、77刊名单筛选和实际引用数核验；不使用其他引用指标替代，留缺5篇。",
+      "sortDescription": "无可实际核验Scholar引用数的合格论文。",
+      "papers": []
+    },
+    {
+      "id": "communication-issue",
+      "label": "传播学顶刊完整一期",
+      "unit": "issue",
+      "target": 0,
+      "sortBy": "issue",
+      "sortDescription": "当天轮到Human Communication Research；目录确认最新一期但逐篇核验不完整。",
+      "note": "HCR 52(4)目录列出4篇Original Research；文章页重定向受阻，未发布整期、未推进完成游标。",
+      "papers": []
+    },
+    {
+      "id": "general-science",
+      "label": "综合顶刊最新在线社会科学研究",
+      "target": 1,
+      "sortBy": "publicationDate",
+      "rotationJournalId": "nature",
+      "sortDescription": "Nature最新研究目录中符合社会科学资格的最近在线论文，按2026-10-14日期纳入。",
+      "papers": [
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "CC BY-NC-ND 4.0允许非商业原样使用但本简报不逐字转载；中文摘要为独立概述。",
+          "identityAliases": [],
+          "title": "Global conservation area coverage substantially exceeds current estimates",
+          "titleZh": "全球保护地覆盖率显著高于现有估计",
+          "authors": "Helen M. K. O’Neill; Joe Beeken; Heather C. Bingham; Rachel E. Golden Kroner; Yifan He; Jessica L. Stewart; Adil Mohamed Ali; Javier Beltran; Joseph W. Bull; et al.",
+          "venue": "Nature",
+          "source": "Nature",
+          "category": "综合顶刊 · 学科归属待判断",
+          "url": "https://www.nature.com/articles/s41586-026-11157-4",
+          "doi": "https://doi.org/10.1038/s41586-026-11157-4",
+          "theory": "研究把全球保护目标视为一个测量与治理问题：国际数据库偏重国家正式申报，可能系统遗漏社区、原住民和私人治理的保护区域，从而扭曲政策进度判断。",
+          "data": "使用覆盖25个国家和地区的全球代表性样本，整合全球数据库与国家层级保护地资料；样本约覆盖全球陆地面积10%，并以1,000次第二阶段分析输出估计不确定性。",
+          "method": "比较样本内全球认可保护地与官方统计，使用校准比率调整各类保护区域估计，再外推全球陆地覆盖率；同时评估生态代表性缺口。",
+          "results": "估计2022年26.81%的陆地处于某种保护状态，包括15.79%全球认可保护地、3.64%国家认可保护地和7.38%潜在其他有效区域保护措施；但新增识别区域并未实质填补生态代表性缺口。",
+          "takeaway": "全球距离30%面积目标可能只差约3.2个百分点，但面积达标不等于生态有效或公平；政策重点应从单一覆盖率转向代表性、治理质量和资源投入。",
+          "abstractZh": "通过25国和地区的代表性样本，研究发现全球保护区域可能覆盖26.81%的陆地，远高于仅依赖国际正式申报数据库的估计；然而这些新增区域并未明显改善生态系统代表性。",
+          "relevance": "适合用作公共政策指标、全球治理和测量偏差案例；也展示了官方数据库遗漏如何改变政策叙事与目标评估。",
+          "limitations": "仅核验出版方搜索结果中的摘要与正文节选，未完成全文阅读。样本约覆盖10%全球陆地，国家资料可比性不一；潜在OECM资格不确定，面积指标不直接代表治理成效。主要分析偏保护科学，社会科学归属待用户判断。",
+          "topicIds": ["methods"],
+          "readingUse": "政策指标测量、跨国数据库偏差与全球治理案例",
+          "researchConnection": "支持把数据库覆盖偏差视为制度性测量问题；可与平台数据不可见性、指标治理和公共叙事研究对照。",
+          "readingPriority": "high",
+          "priorityReason": "数据设计透明、政策含义直接，且能连接测量方法与全球治理研究。",
+          "abstractSource": "https://www.nature.com/articles/s41586-026-11157-4",
+          "publicationDate": "2026-10-14",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://www.nature.com/articles/s41586-026-11157-4",
+          "socialScienceAssessment": "uncertain",
+          "socialScienceReason": "主要方法是保护地空间覆盖估计，同时涉及全球政策指标、多元治理主体和统计遗漏；可能关联环境政策与全球治理，但主要分析仍偏保护科学，学科归属交用户判断。"
+        }
+      ]
+    }
+  ]
+}
