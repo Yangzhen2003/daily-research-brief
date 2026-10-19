@@ -1,0 +1,1186 @@
+{
+  "schemaVersion": 6,
+  "historyPolicy": "exclude-recommended",
+  "journalPolicy": "ssci-communication-q1-q2-and-social-science",
+  "searchPlatforms": [
+    "Google Scholar",
+    "NBER",
+    "SSRN",
+    "arXiv"
+  ],
+  "date": "2026-10-20",
+  "title": "算法想象、主体性测量与传播学在线研究",
+  "summary": "本期13篇：其他研究3篇（arXiv补足），传播学主题精选0/5；Communication Research在线集合部分核验10篇（总98条，余88条目录未取得），Science 0/1。检索和集合均有明确访问限制，本期不是完整轮换。",
+  "notice": "引用数均未实际取得，保留缺失，不记0；未转载完整英文摘要，所有研究均按摘要核验记录。传播学在线集合不完整，不推进完成游标。",
+  "searchNote": "使用保存的四主题默认关键词先做三库域名限定公开网页检索，再以简化式补检；并非原生站内高级检索。Scholar原生检索实际触发异常流量限制。最新研究优先近30天，但对两个高度相关的旧候选扩展时间窗口并逐篇标明；未把修订日当首发。",
+  "searchSettings": {
+    "topics": [
+      {
+        "id": "sti",
+        "label": "平台/算法想象与受众日常",
+        "query": "(\"algorithmic imaginary\" OR \"algorithmic imaginaries\" OR \"algorithmic imagination\" OR \"platform imaginary\" OR \"platform imaginaries\" OR \"platform imagination\") OR (\"sociotechnical imaginaries\" AND (platform OR platformization OR algorithm OR \"social media\")) OR ((\"algorithm awareness\" OR \"algorithmic awareness\" OR \"algorithmic folklore\" OR \"algorithmic sense-making\" OR \"imagined algorithm\" OR \"folk theory of algorithms\") AND (user OR users OR audience OR audiences OR everyday OR vernacular))",
+        "note": "平台与算法的想象，以及受众/用户的日常感知（algorithm awareness、folk theory、vernacular）；不覆盖广义 AI 想象。以 Scholar 为主渠道，arXiv 命中偏少。"
+      },
+      {
+        "id": "social",
+        "label": "社交媒体平台",
+        "query": "(\"Weibo\" OR \"Sina Weibo\" OR \"Chinese social media\") AND (\"opinion expression\" OR \"political expression\" OR rumor OR \"collective action\" OR censorship OR hashtag)",
+        "note": "当前透镜：微博/中国社交媒体上的表达、谣言、集体行动与审查；需要 X 平台对照时另跑一条。"
+      },
+      {
+        "id": "agency",
+        "label": "主体性与共融性语言",
+        "query": "(\"agency and communion\" OR \"agency/communion\" OR \"agentic and communal\" OR \"stereotype content model\" OR \"warmth and competence\") AND (language OR linguistic OR text OR narrative OR discourse OR stereotype OR \"media portrayal\") AND (communication OR media OR journalism OR \"social media\" OR \"public opinion\")",
+        "note": "agency/communion 在语言、叙事与刻板印象中的测量与效应；窄查询（文本测量时加跑）：(\"stereotype content model\" OR \"warmth and competence\") AND (text OR corpus OR \"language model\" OR annotation)。"
+      },
+      {
+        "id": "methods",
+        "label": "计算社会科学方法",
+        "query": "(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") AND (communication OR \"digital platforms\" OR \"social media\")",
+        "note": "因果识别与文本作为数据的测量方法；优先可迁移到传播研究的设计。"
+      }
+    ],
+    "rotation": {
+      "communication": {
+        "id": "cr",
+        "name": "Communication Research",
+        "url": "https://journals.sagepub.com/home/crx"
+      },
+      "general": {
+        "id": "science",
+        "name": "Science",
+        "url": "https://www.science.org/journal/science"
+      }
+    },
+    "effectiveSource": "search-settings.json defaults；requests为空",
+    "lookbackDays": 30,
+    "checkedAt": "2026-10-19 22:04:25 UTC"
+  },
+  "themeSearches": [
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org (\"algorithmic imaginary\" OR \"algorithmic imaginaries\" OR \"algorithmic imagination\" OR \"platform imaginary\" OR \"platform imaginaries\" OR \"platform imagination\") OR (\"sociotechnical imaginaries\" AND (platform OR platformization OR algorithm OR \"social media\")) OR ((\"algorithm awareness\" OR \"algorithmic awareness\" OR \"algorithmic folklore\" OR \"algorithmic sense-making\" OR \"imagined algorithm\" OR \"folk theory of algorithms\") AND (user OR users OR audience OR audiences OR everyday OR vernacular))",
+      "channel": "公开网页检索引擎2；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "sti"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org (\"Weibo\" OR \"Sina Weibo\" OR \"Chinese social media\") AND (\"opinion expression\" OR \"political expression\" OR rumor OR \"collective action\" OR censorship OR hashtag)",
+      "channel": "公开网页检索引擎2；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "social"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org (\"agency and communion\" OR \"agency/communion\" OR \"agentic and communal\" OR \"stereotype content model\" OR \"warmth and competence\") AND (language OR linguistic OR text OR narrative OR discourse OR stereotype OR \"media portrayal\") AND (communication OR media OR journalism OR \"social media\" OR \"public opinion\")",
+      "channel": "公开网页检索引擎2；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "agency"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org (\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") AND (communication OR \"digital platforms\" OR \"social media\")",
+      "channel": "公开网页检索引擎2；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "methods"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers (\"algorithmic imaginary\" OR \"algorithmic imaginaries\" OR \"algorithmic imagination\" OR \"platform imaginary\" OR \"platform imaginaries\" OR \"platform imagination\") OR (\"sociotechnical imaginaries\" AND (platform OR platformization OR algorithm OR \"social media\")) OR ((\"algorithm awareness\" OR \"algorithmic awareness\" OR \"algorithmic folklore\" OR \"algorithmic sense-making\" OR \"imagined algorithm\" OR \"folk theory of algorithms\") AND (user OR users OR audience OR audiences OR everyday OR vernacular))",
+      "channel": "公开网页检索引擎1；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "sti"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers (\"Weibo\" OR \"Sina Weibo\" OR \"Chinese social media\") AND (\"opinion expression\" OR \"political expression\" OR rumor OR \"collective action\" OR censorship OR hashtag)",
+      "channel": "公开网页检索引擎1；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "social"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers (\"agency and communion\" OR \"agency/communion\" OR \"agentic and communal\" OR \"stereotype content model\" OR \"warmth and competence\") AND (language OR linguistic OR text OR narrative OR discourse OR stereotype OR \"media portrayal\") AND (communication OR media OR journalism OR \"social media\" OR \"public opinion\")",
+      "channel": "公开网页检索引擎1；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "agency"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers (\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") AND (communication OR \"digital platforms\" OR \"social media\")",
+      "channel": "公开网页检索引擎1；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "methods"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:papers.ssrn.com (\"algorithmic imaginary\" OR \"algorithmic imaginaries\" OR \"algorithmic imagination\" OR \"platform imaginary\" OR \"platform imaginaries\" OR \"platform imagination\") OR (\"sociotechnical imaginaries\" AND (platform OR platformization OR algorithm OR \"social media\")) OR ((\"algorithm awareness\" OR \"algorithmic awareness\" OR \"algorithmic folklore\" OR \"algorithmic sense-making\" OR \"imagined algorithm\" OR \"folk theory of algorithms\") AND (user OR users OR audience OR audiences OR everyday OR vernacular))",
+      "channel": "公开网页检索引擎2；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "sti"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:papers.ssrn.com (\"Weibo\" OR \"Sina Weibo\" OR \"Chinese social media\") AND (\"opinion expression\" OR \"political expression\" OR rumor OR \"collective action\" OR censorship OR hashtag)",
+      "channel": "公开网页检索引擎2；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "social"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:papers.ssrn.com (\"agency and communion\" OR \"agency/communion\" OR \"agentic and communal\" OR \"stereotype content model\" OR \"warmth and competence\") AND (language OR linguistic OR text OR narrative OR discourse OR stereotype OR \"media portrayal\") AND (communication OR media OR journalism OR \"social media\" OR \"public opinion\")",
+      "channel": "公开网页检索引擎2；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "agency"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:papers.ssrn.com (\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") AND (communication OR \"digital platforms\" OR \"social media\")",
+      "channel": "公开网页检索引擎2；域名限定，非站内高级检索",
+      "timeRange": "执行于2026-10-19 22:04:25 UTC前；未加日期过滤，近30天优先核验",
+      "purpose": "主题候选发现",
+      "status": "完整布尔式未返回结果，随后使用同主题简化式检索；不据此宣称全库无结果。",
+      "topicIds": [
+        "methods"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org \"algorithmic imaginaries\"",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；进入arXiv官方摘要页逐篇核验，历史推荐先排除。",
+      "topicIds": [
+        "sti"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org Weibo censorship rumor",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；进入arXiv官方摘要页逐篇核验，历史推荐先排除。",
+      "topicIds": [
+        "social"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org \"agency and communion\" language",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；进入arXiv官方摘要页逐篇核验，历史推荐先排除。",
+      "topicIds": [
+        "agency"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org \"causal inference\" \"social media\"",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；进入arXiv官方摘要页逐篇核验，历史推荐先排除。",
+      "topicIds": [
+        "methods"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers \"social media\" \"causal\"",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；抽查w35181官方详情页403，未达到内容核验门槛；搜索结果引用数不当作Scholar引用数。",
+      "topicIds": [
+        "sti"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers \"Weibo\"",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；抽查w35181官方详情页403，未达到内容核验门槛；搜索结果引用数不当作Scholar引用数。",
+      "topicIds": [
+        "social"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers \"stereotype\" language",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；抽查w35181官方详情页403，未达到内容核验门槛；搜索结果引用数不当作Scholar引用数。",
+      "topicIds": [
+        "agency"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers \"algorithmic\" users",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；抽查w35181官方详情页403，未达到内容核验门槛；搜索结果引用数不当作Scholar引用数。",
+      "topicIds": [
+        "methods"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:papers.ssrn.com \"algorithmic imaginaries\"",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；7115359和5051552官方详情页403，未达到内容核验门槛；不使用搜索结果引用数。",
+      "topicIds": [
+        "sti"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:papers.ssrn.com Weibo censorship",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；7115359和5051552官方详情页403，未达到内容核验门槛；不使用搜索结果引用数。",
+      "topicIds": [
+        "social"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:papers.ssrn.com \"agency and communion\"",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；7115359和5051552官方详情页403，未达到内容核验门槛；不使用搜索结果引用数。",
+      "topicIds": [
+        "agency"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:papers.ssrn.com \"causal inference\" \"social media\"",
+      "channel": "公开网页检索引擎1；域名限定，非站内检索",
+      "timeRange": "2026-10-20本轮；未加日期过滤，允许有说明地扩展30天窗口",
+      "purpose": "简化式主题检索",
+      "status": "返回候选；7115359和5051552官方详情页403，未达到内容核验门槛；不使用搜索结果引用数。",
+      "topicIds": [
+        "methods"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org \"social media\" \"causal\" \"Oct\" \"2026\"",
+      "channel": "公开网页检索引擎1；域名限定",
+      "timeRange": "2026-10-20本轮；查询含2026年10月",
+      "purpose": "方法主题近期候选补检",
+      "status": "发现2610.22464等候选；核验2610.22464的官方题录与摘要后纳入。",
+      "topicIds": [
+        "methods"
+      ]
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "\"algorithmic imaginary\"",
+      "channel": "Google Scholar原生网页；云端浏览器",
+      "timeRange": "2026-10-20 06:01:57 +08:00",
+      "purpose": "原生主题检索与引用数可用性检查",
+      "status": "实际请求被转至google.com/sorry；页面明确提示网络存在异常流量。未返回论文列表或引用数，停止其他主题原生请求，不绕验证。",
+      "topicIds": [
+        "sti"
+      ]
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "未执行：(\"Weibo\" OR \"Sina Weibo\" OR \"Chinese social media\") AND (\"opinion expression\" OR \"political expression\" OR rumor OR \"collective action\" OR censorship OR hashtag)",
+      "channel": "Google Scholar原生网页",
+      "timeRange": "2026-10-20；未实际提交",
+      "purpose": "主题检索",
+      "status": "首个主题检索已触发异常流量页面，本轮停止该站请求，未继续提交本主题；不得解释为无候选。",
+      "topicIds": [
+        "social"
+      ]
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "未执行：(\"agency and communion\" OR \"agency/communion\" OR \"agentic and communal\" OR \"stereotype content model\" OR \"warmth and competence\") AND (language OR linguistic OR text OR narrative OR discourse OR stereotype OR \"media portrayal\") AND (communication OR media OR journalism OR \"social media\" OR \"public opinion\")",
+      "channel": "Google Scholar原生网页",
+      "timeRange": "2026-10-20；未实际提交",
+      "purpose": "主题检索",
+      "status": "首个主题检索已触发异常流量页面，本轮停止该站请求，未继续提交本主题；不得解释为无候选。",
+      "topicIds": [
+        "agency"
+      ]
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "未执行：(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") AND (communication OR \"digital platforms\" OR \"social media\")",
+      "channel": "Google Scholar原生网页",
+      "timeRange": "2026-10-20；未实际提交",
+      "purpose": "主题检索",
+      "status": "首个主题检索已触发异常流量页面，本轮停止该站请求，未继续提交本主题；不得解释为无候选。",
+      "topicIds": [
+        "methods"
+      ]
+    }
+  ],
+  "periodicalChecks": [
+    {
+      "platform": "Communication Research",
+      "query": "https://journals.sagepub.com/toc/crxa/0/0",
+      "channel": "SAGE出版方OnlineFirst目录；无主题关键词",
+      "timeRange": "2026-10-20本轮快照",
+      "purpose": "当天轮换传播学在线集合",
+      "status": "可见1—10 of 98 results；首屏10篇逐篇摘要与题录已核验，未按固定目标截断为完成。"
+    },
+    {
+      "platform": "Communication Research",
+      "query": "https://journals.sagepub.com/toc/crxa/0/0?pageSize=100",
+      "channel": "SAGE出版方目录",
+      "timeRange": "2026-10-20本轮",
+      "purpose": "尝试覆盖全部在线目录",
+      "status": "读取工具返回URL不可访问；未取得全部98条。"
+    },
+    {
+      "platform": "Communication Research",
+      "query": "https://journals.sagepub.com/toc/crxa/0/0?pageNum=1",
+      "channel": "SAGE出版方目录",
+      "timeRange": "2026-10-20本轮",
+      "purpose": "尝试获取下一页",
+      "status": "读取工具返回URL不可访问；剩余88条未枚举，不标记完整。"
+    },
+    {
+      "platform": "Science",
+      "query": "https://www.science.org/toc/science/0/0",
+      "channel": "Science出版方在线目录；无主题关键词",
+      "timeRange": "2026-10-20本轮",
+      "purpose": "当天轮换综合顶刊最新在线社会科学研究",
+      "status": "HTTP 403；不能判断最新合格研究。"
+    },
+    {
+      "platform": "Science",
+      "query": "https://www.science.org/journal/science",
+      "channel": "Science出版方首页；无主题关键词",
+      "timeRange": "2026-10-20本轮",
+      "purpose": "核对最新目录入口",
+      "status": "HTTP 403，未取得可靠最新目录；留缺，不换刊。"
+    },
+    {
+      "platform": "Science",
+      "query": "site:science.org/toc/science/2026 \"16 October\" | site:science.org \"Science\" \"2026\" \"October 16\" \"Research Articles\"",
+      "channel": "公开网页域名限定目录索引查询；不使用主题关键词",
+      "timeRange": "2026-10-20本轮",
+      "purpose": "补查出版方目录索引",
+      "status": "未返回可核验的完整目录或合格候选，不能以此断言期刊没有社会科学论文。"
+    }
+  ],
+  "verificationLog": [
+    {
+      "platform": "arXiv",
+      "query": "https://doi.org/10.48550/arXiv.2610.22464 | https://arxiv.org/abs/2610.22464",
+      "channel": "arXiv官方摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "arXiv",
+      "query": "https://doi.org/10.48550/arXiv.2603.22817 | https://arxiv.org/abs/2603.22817",
+      "channel": "arXiv官方摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "arXiv",
+      "query": "https://doi.org/10.48550/arXiv.2601.20838 | https://arxiv.org/abs/2601.20838",
+      "channel": "arXiv官方摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261494013 | https://journals.sagepub.com/doi/abs/10.1177/00936502261494013",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261496144 | https://journals.sagepub.com/doi/abs/10.1177/00936502261496144",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261478982 | https://journals.sagepub.com/doi/abs/10.1177/00936502261478982",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261489660 | https://journals.sagepub.com/doi/abs/10.1177/00936502261489660",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261487784 | https://journals.sagepub.com/doi/abs/10.1177/00936502261487784",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261490466 | https://journals.sagepub.com/doi/abs/10.1177/00936502261490466",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261489667 | https://journals.sagepub.com/doi/abs/10.1177/00936502261489667",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261484417 | https://journals.sagepub.com/doi/abs/10.1177/00936502261484417",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261480405 | https://journals.sagepub.com/doi/abs/10.1177/00936502261480405",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    },
+    {
+      "platform": "SAGE出版方",
+      "query": "https://doi.org/10.1177/00936502261478981 | https://journals.sagepub.com/doi/abs/10.1177/00936502261478981",
+      "channel": "SAGE出版方文章摘要页",
+      "timeRange": "核验于2026-10-20本轮",
+      "purpose": "题录、作者、首次公开日期、摘要、身份和访问等级核验",
+      "status": "作者、标题、DOI、首次公开日期和摘要已读取；未核验完整正文，未转载完整英文摘要。Google Scholar引用数缺失。"
+    }
+  ],
+  "coreTracking": [],
+  "coreTrackingNote": "core-papers.json的requests为空，待用户提交核心文献；未虚构引用追踪。",
+  "shortfallReason": "其他研究3/5：最新3/3，NBER与SSRN候选详情页403，由arXiv补足，2篇扩展30天窗口；高被引0/2，Scholar原生网页异常流量限制。传播学与社会科学0/5，同一限制阻止实际引用排序。Communication Research在线集合10篇部分核验，98条中余88条目录未取得，不等同完整一期；完成游标不推进。Science 0/1，出版方目录403。周二不生成weeklyReview。",
+  "groups": [
+    {
+      "id": "crossdisciplinary",
+      "label": "其他研究",
+      "target": 5,
+      "sortBy": "split",
+      "sortDescription": "最新3篇按首次公开日期降序；高被引2篇缺额。",
+      "selectionBuckets": [
+        {
+          "id": "latest",
+          "label": "最新研究",
+          "target": 3,
+          "sortBy": "publicationDate",
+          "sortDescription": "2026-10-15、2026-03-24、2026-01-28；后两篇为说明后的窗口扩展。"
+        },
+        {
+          "id": "cited",
+          "label": "高被引研究",
+          "target": 2,
+          "sortBy": "citationCount",
+          "sortDescription": "Scholar引用数未取得，0/2。"
+        }
+      ],
+      "sourceCoverage": [
+        {
+          "database": "NBER",
+          "status": "unavailable",
+          "reason": "主题检索返回候选，w35181官方详情页403，未完成摘要核验。"
+        },
+        {
+          "database": "SSRN",
+          "status": "unavailable",
+          "reason": "主题检索返回候选，7115359和5051552详情页403，未完成摘要核验。"
+        },
+        {
+          "database": "arXiv",
+          "status": "included",
+          "reason": "3篇官方摘要、作者和首发时间已核验，均不在永久历史中。"
+        }
+      ],
+      "latestSourceExceptions": "NBER、SSRN详情页受限，最新位由arXiv 3篇补足；因相关性及核验条件，2篇扩展30天窗口，不声称是全库最新3篇。",
+      "papers": [
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "未逐字转载原文完整摘要；本轮未完成转载许可核验，中文概述为独立归纳。",
+          "identityAliases": [],
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Google Scholar原生请求被异常流量页面阻止，未实际读取引用数；缺失不记0，不用其他指标替代。",
+          "title": "Political Narratives in the 2024 Moldovan Presidential Election: Stance, Amplification, and Influence",
+          "titleZh": "2024年摩尔多瓦总统选举的政治叙事：立场、放大与影响",
+          "authors": "Andrea Piras; Osman Rahmoun; Elena Zheleva",
+          "venue": "arXiv:2610.22464；DSAA 2026待出版论文",
+          "source": "arXiv",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest",
+          "category": "计算方法 · 多语言立场与同伴影响",
+          "url": "https://arxiv.org/abs/2610.22464",
+          "doi": "https://doi.org/10.48550/arXiv.2610.22464",
+          "publicationDate": "2026-10-15",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2610.22464",
+          "theory": "将政治叙事区分为立场表达、网络放大与同伴影响三个层面；描述性跨语言差异需要与曝光影响的识别分开。",
+          "data": "2024年8至10月X、Facebook与Reddit的公开选举帖子；摘要未给样本总量。",
+          "method": "LLM多语言立场标注；X转发与语义对齐网络；近端因果推断估计同伴曝光效应。",
+          "results": "不同平台和语言的立场分布存在差异；主要立场类别的平均处理效应为正且显著。摘要未报告效应量和具体识别假设检验。",
+          "takeaway": "先描述立场与放大结构，再明确同伴曝光的处理定义和识别假设。",
+          "abstractZh": "研究结合多语言文本标注、网络分析和近端因果推断，考察选举叙事的传播与立场强化。",
+          "limitations": "仅核验摘要和题录，未读正文；观察性因果结论依赖近端识别假设与LLM标注效度。",
+          "topicIds": [
+            "methods"
+          ],
+          "readingUse": "研究设计、变量测量与识别比较",
+          "researchConnection": "可对照跨语言接触研究中的语言分类、网络接触和立场变化三层分析；跨语言差异本身不能证明翻译功能的因果效应。",
+          "readingPriority": "high",
+          "priorityReason": "近期研究，直接提供多语言社交媒体分析与因果识别结合的案例。",
+          "abstractSource": "https://arxiv.org/abs/2610.22464",
+          "relevance": "可对照跨语言接触研究中的语言分类、网络接触和立场变化三层分析；跨语言差异本身不能证明翻译功能的因果效应。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "未逐字转载原文完整摘要；本轮未完成转载许可核验，中文概述为独立归纳。",
+          "identityAliases": [
+            "doi:10.1145/3772363.3798598"
+          ],
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Google Scholar原生请求被异常流量页面阻止，未实际读取引用数；缺失不记0，不用其他指标替代。",
+          "title": "\"Don't Mess Up My Algorithm\": Phatic Communication and Algorithmic Contagion in Meme Sharing",
+          "titleZh": "“别弄乱我的算法”：表情包分享中的寒暄传播与算法传染想象",
+          "authors": "Ji Eun Song; Hyunsoo Jang; Juhee Im; Joongseek Lee",
+          "venue": "arXiv:2603.22817",
+          "source": "arXiv",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest",
+          "category": "算法想象 · 日常关系实践",
+          "url": "https://arxiv.org/abs/2603.22817",
+          "doi": "https://doi.org/10.48550/arXiv.2603.22817",
+          "publicationDate": "2026-03-24",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2603.22817",
+          "theory": "寒暄性分享维持人际关系，同时用户将私信行为想象为个性化推荐信号，形成关系义务与算法控制的张力。",
+          "data": "21名活跃Instagram表情包私信用户的半结构访谈；不是推荐系统机制审计。",
+          "method": "访谈分析用户如何判断内容的关系适切性、解释推荐变化和采取控制策略。",
+          "results": "受访者区分接收者友好与不友好的表情包，将后者的扩散描述为算法传染；关系规范、工具效能感低与机制不透明共同限制控制。",
+          "takeaway": "用户关于算法的信念会嵌入关系维护实践，即使其相信的推荐机制尚未证实。",
+          "abstractZh": "研究揭示私信表情包的关系用途如何与用户对个性化推荐的想象纠缠，导致失控感与应对策略。",
+          "limitations": "质性小样本且仅核验摘要；不能将用户推测写成Instagram实际推荐机制。首发早于30天窗口，因相关性和可核验性扩展纳入。",
+          "topicIds": [
+            "sti"
+          ],
+          "readingUse": "理论框架、访谈提纲与概念边界",
+          "researchConnection": "直接支持研究算法民间理论如何影响日常行为；可用于区分平台机制、主观机制认知与行为反应。",
+          "readingPriority": "high",
+          "priorityReason": "与平台/算法想象及受众日常主题高度契合。",
+          "abstractSource": "https://arxiv.org/abs/2603.22817",
+          "relevance": "直接支持研究算法民间理论如何影响日常行为；可用于区分平台机制、主观机制认知与行为反应。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "未逐字转载原文完整摘要；本轮未完成转载许可核验，中文概述为独立归纳。",
+          "identityAliases": [],
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Google Scholar原生请求被异常流量页面阻止，未实际读取引用数；缺失不记0，不用其他指标替代。",
+          "title": "Reward Models Inherit Value Biases from Pretraining",
+          "titleZh": "奖励模型继承预训练阶段的价值偏向",
+          "authors": "Brian Christian; Jessica A. F. Thompson; Elle Michelle Yang; Vincent Adam; Hannah Rose Kirk; Christopher Summerfield; Tsvetomira Dumbalska",
+          "venue": "arXiv:2601.20838；ICLR 2026",
+          "source": "arXiv",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest",
+          "category": "主体性与共融性 · 心理语言测量",
+          "url": "https://arxiv.org/abs/2601.20838",
+          "doi": "https://doi.org/10.48550/arXiv.2601.20838",
+          "publicationDate": "2026-01-28",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2601.20838",
+          "theory": "以主体性与共融性两维考察语言模型价值表征；对齐后的偏向可能源于预训练表示而不仅是偏好数据。",
+          "data": "10个主流开放权重奖励模型与经验证的心理语言语料；模型家族包括Llama与Gemma。",
+          "method": "比较模型奖励与基础模型logits；构建隐式奖励分数，并对偏好数据来源和数量进行训练消融。",
+          "results": "Llama奖励模型更偏主体性，Gemma更偏共融性；保持偏好数据与微调相同仍出现差异，偏向可追溯到基础模型并在消融中持续。",
+          "takeaway": "用LLM给叙事编码时，模型本身的主体性/共融性偏向可能成为测量误差来源。",
+          "abstractZh": "研究发现奖励模型沿主体性与共融性维度的偏向与基础模型家族有关，且不能仅靠改变偏好数据消除。",
+          "limitations": "仅核验摘要与题录；模型偏好不是人类叙事动机，也不能证明社会条件塑造个人表达。首发2026-01-28，未将3月修订当首发；已扩展30天窗口。",
+          "topicIds": [
+            "agency",
+            "methods"
+          ],
+          "readingUse": "变量测量、编码验证与稳健性设计",
+          "researchConnection": "补充agency/communion文本研究的测量警示：跨模型与人工编码应交叉验证，避免将模型价值偏向当作语料差异。",
+          "readingPriority": "high",
+          "priorityReason": "直接涉及两维心理语言构念，对自动编码方案有针对性价值。",
+          "abstractSource": "https://arxiv.org/abs/2601.20838",
+          "relevance": "补充agency/communion文本研究的测量警示：跨模型与人工编码应交叉验证，避免将模型价值偏向当作语料差异。"
+        }
+      ]
+    },
+    {
+      "id": "journals",
+      "label": "传播学与社会科学",
+      "target": 5,
+      "sortBy": "citationCount",
+      "sortDescription": "Scholar原生网页受阻，0/5，不以其他指标排序。",
+      "journalPriorityNote": "先实际检查Scholar主题检索，被异常流量页面阻止，未完成传播学候选及77刊筛选；不将出版方通读栏目冒充Scholar发现，不降低SSCI资格规则。",
+      "papers": []
+    },
+    {
+      "id": "communication-issue",
+      "label": "传播学顶刊完整一期",
+      "unit": "issue",
+      "target": 10,
+      "sortBy": "issue",
+      "sortDescription": "按SAGE当前OnlineFirst首屏原顺序；这是不完整集合的部分成果。",
+      "collection": {
+        "journalId": "cr",
+        "journalName": "Communication Research",
+        "kind": "online-first",
+        "title": "OnlineFirst — 2026-10-20访问快照（部分：1—10/98）",
+        "url": "https://journals.sagepub.com/toc/crxa/0/0",
+        "checkedAt": "2026-10-19 22:04:25 UTC",
+        "complete": false,
+        "totalReported": 98,
+        "enumerated": 10,
+        "missingEntries": 88,
+        "incompleteReason": "pageSize=100与pageNum=1均无法由读取工具访问，剩余88条未枚举，不能判断其类型和历史推荐状态。",
+        "toc": [
+          {
+            "title": "Constantly Connected, Differently Affected: Response Speed Shapes Parents’ and Adolescents’ Feelings of Connection",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261494013",
+            "articleType": "Research article",
+            "status": "new"
+          },
+          {
+            "title": "Two Paths of Conversation: How Stories and Statistics are Associated With Community Engagement in Online Debate Surrounding Vaccine Science Skeptical Content",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261496144",
+            "articleType": "Research article",
+            "status": "new"
+          },
+          {
+            "title": "Human Imagery and Psychological Reactance in Persuasive Health Messages",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261478982",
+            "articleType": "Research article",
+            "status": "new"
+          },
+          {
+            "title": "From Hate Speech to Collective Action Intentions: The Role of Counter-Speech and Accuracy Cues Among Targeted Minorities",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261489660",
+            "articleType": "Research article",
+            "status": "new"
+          },
+          {
+            "title": "Media Use for Strong and Weak Ties: A Configural Examination of Personal Media System and Well-Being",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261487784",
+            "articleType": "Research article",
+            "status": "new"
+          },
+          {
+            "title": "Predicting Irritation Disclosures in Romantic Relationships: Testing and Extending the Revelation Risk Model",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261490466",
+            "articleType": "Research article",
+            "status": "new"
+          },
+          {
+            "title": "Democratic Media Performance and Democratization: A Global Longitudinal Perspective",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261489667",
+            "articleType": "Research article",
+            "status": "new"
+          },
+          {
+            "title": "When Past Hurt Meets Present Care: How Family History Shapes Adult Caregivers’ Communal Coping With Siblings in Their Caregiving for Parents With Health Challenges",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261484417",
+            "articleType": "Research article",
+            "status": "new"
+          },
+          {
+            "title": "Investigating Conditional Macro-Level Media Effects Over a Long-Term: How Crisis Periods Moderate the Effects of Suicide Coverage on Suicide Rate Change (1861–2007)",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261480405",
+            "articleType": "Research article",
+            "status": "new"
+          },
+          {
+            "title": "Experimental Research on Stereotype Expression in Freely Generated Language: A Systematic Literature Review",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261478981",
+            "articleType": "Review article",
+            "status": "new"
+          }
+        ]
+      },
+      "note": "10篇均完成摘要核验；后续分页不可读，不能宣称完整一期，不能推进轮换完成游标。",
+      "papers": [
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "Constantly Connected, Differently Affected: Response Speed Shapes Parents’ and Adolescents’ Feelings of Connection",
+          "titleZh": "持续连接，影响各异：回复速度如何关联亲子连接感",
+          "authors": "Razieh Pourafshari; Miriam Brinberg; Joseph B. Bayer",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 研究论文",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261494013",
+          "doi": "https://doi.org/10.1177/00936502261494013",
+          "publicationDate": "2026-10-17",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261494013",
+          "theory": "持续连接与时间符号学：回复速度可作为关系可用性的信号，其意义可能因亲子角色而异。",
+          "data": "142对家长—青少年，28天配对每日日记。",
+          "method": "比较自身与对方的感知回复速度与每日连接感之间的关联，分析双方相互依赖。",
+          "results": "感知回复越快，连接感越强，家长的关联更明显；家长对青少年回复速度的感知也预测青少年连接感。",
+          "takeaway": "提醒区分客观回复延迟和主观速度感知；可作关系沟通设计参照。",
+          "abstractZh": "感知回复越快，连接感越强，家长的关联更明显；家长对青少年回复速度的感知也预测青少年连接感。",
+          "relevance": "提醒区分客观回复延迟和主观速度感知；可作关系沟通设计参照。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。不能把回复速度与连接感的关联直接解释为因果；摘要未给模型效应量。",
+          "topicIds": [],
+          "readingUse": "日记研究、配对分析",
+          "researchConnection": "提醒区分客观回复延迟和主观速度感知；可作关系沟通设计参照。",
+          "readingPriority": "normal",
+          "priorityReason": "用于拓宽传播学研究设计与理论视野，按兴趣选读。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261494013",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "Two Paths of Conversation: How Stories and Statistics are Associated With Community Engagement in Online Debate Surrounding Vaccine Science Skeptical Content",
+          "titleZh": "两条对话路径：故事与统计如何关联疫苗怀疑讨论中的参与",
+          "authors": "Han Li; Inhwan Bae; Pengfei Zhao; Natalie Bazarova; Drew Margolin",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 研究论文",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261496144",
+          "doi": "https://doi.org/10.1177/00936502261496144",
+          "publicationDate": "2026-10-17",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261496144",
+          "theory": "Fisher理性与叙事范式：不同证据形式可能组织不同的公共讨论方式。",
+          "data": "Reddit r/DebateVaccines中的疫苗科学怀疑帖子及支持或反对评论；摘要未给样本量。",
+          "method": "大规模LLM辅助观察分析，比较统计证据与叙事证据对应的参与模式。",
+          "results": "统计路径更集中并围绕纠错争论；叙事路径参与更分散、生成性互动更多，对竞争观点的接纳更强。",
+          "takeaway": "可为叙事形式如何关联社会反应提供设计参照；不能直接推出agency/communion的方向。",
+          "abstractZh": "统计路径更集中并围绕纠错争论；叙事路径参与更分散、生成性互动更多，对竞争观点的接纳更强。",
+          "relevance": "可为叙事形式如何关联社会反应提供设计参照；不能直接推出agency/communion的方向。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。证据形式与互动是观察性关联，未确认随机分配；LLM标注误差与社区选择限制外推。",
+          "topicIds": [
+            "methods"
+          ],
+          "readingUse": "文本测量、讨论结构与假设推导",
+          "researchConnection": "可为叙事形式如何关联社会反应提供设计参照；不能直接推出agency/communion的方向。",
+          "readingPriority": "high",
+          "priorityReason": "与当前理论、文本测量或外部数据对齐问题关系紧密，建议优先精读正文。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261496144",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "Human Imagery and Psychological Reactance in Persuasive Health Messages",
+          "titleZh": "健康说服信息中的人物图像与心理抗拒",
+          "authors": "Chelsea L. Ratcliff; Helen Lillie; Manusheela Pokharel; Jakob D. Jensen; Doris E. Acheme; Benjamin Sam-Paintsil",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 研究论文",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261478982",
+          "doi": "https://doi.org/10.1177/00936502261478982",
+          "publicationDate": "2026-10-11",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261478982",
+          "theory": "心理抗拒理论：视觉与文字都可能威胁选择自由，削弱说服效果。",
+          "data": "1,100名参与者观看防晒公益信息，人物性别与肤色也有变化。",
+          "method": "比较强硬/礼貌文字、强硬/中性肢体语言，分析抗拒的间接作用。",
+          "results": "强硬文字与强硬肢体语言通过心理抗拒降低保护行为意愿；女性参与者对男性模特信息也出现这种间接效应。",
+          "takeaway": "可参考多模态沟通中如何将文字风格与人物线索分别操作化。",
+          "abstractZh": "强硬文字与强硬肢体语言通过心理抗拒降低保护行为意愿；女性参与者对男性模特信息也出现这种间接效应。",
+          "relevance": "可参考多模态沟通中如何将文字风格与人物线索分别操作化。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。摘要未给各条件分配、效应量或行为追踪；行为意愿不能等同实际防晒行为。",
+          "topicIds": [],
+          "readingUse": "实验设计、视觉变量与中介测量",
+          "researchConnection": "可参考多模态沟通中如何将文字风格与人物线索分别操作化。",
+          "readingPriority": "normal",
+          "priorityReason": "用于拓宽传播学研究设计与理论视野，按兴趣选读。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261478982",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "From Hate Speech to Collective Action Intentions: The Role of Counter-Speech and Accuracy Cues Among Targeted Minorities",
+          "titleZh": "从仇恨言论到集体行动意愿：反言论与准确性线索的作用",
+          "authors": "Desiree Schmuck; Magdalena Obermaier; Nancy Molina-Rogers; Muniba Saleem",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 研究论文",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261489660",
+          "doi": "https://doi.org/10.1177/00936502261489660",
+          "publicationDate": "2026-09-29",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261489660",
+          "theory": "集体行动社会认同模型（SIMCA）将群体不公与集体效能连接到行动意愿。",
+          "data": "两个实验：328名穆斯林与583名拉丁裔参与者。",
+          "method": "检验仇恨言论、不准确信息线索及反言论与群体不公、效能和行动意愿的关系。",
+          "results": "仇恨言论提高群体不公感并进而增强集体行动意愿；不准确感知或标注会放大该效应。反言论降低不公感，与低准确性内容结合可增强效能。",
+          "takeaway": "对社交媒体集体行动研究有参考；不能把不公叙事直接等同共融性语言。",
+          "abstractZh": "仇恨言论提高群体不公感并进而增强集体行动意愿；不准确感知或标注会放大该效应。反言论降低不公感，与低准确性内容结合可增强效能。",
+          "relevance": "对社交媒体集体行动研究有参考；不能把不公叙事直接等同共融性语言。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。只核验摘要，未读实验材料与效应量；群体行动意愿不等于实际动员。",
+          "topicIds": [
+            "social"
+          ],
+          "readingUse": "理论框架、机制假设和实验设计",
+          "researchConnection": "对社交媒体集体行动研究有参考；不能把不公叙事直接等同共融性语言。",
+          "readingPriority": "high",
+          "priorityReason": "与当前理论、文本测量或外部数据对齐问题关系紧密，建议优先精读正文。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261489660",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "Media Use for Strong and Weak Ties: A Configural Examination of Personal Media System and Well-Being",
+          "titleZh": "强弱关系的媒介配置与幸福感",
+          "authors": "Ceciley X. Zhang; Ronald E. Rice",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 研究论文",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261487784",
+          "doi": "https://doi.org/10.1177/00936502261487784",
+          "publicationDate": "2026-09-28",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261487784",
+          "theory": "配置视角强调个人媒介系统与关系强度的组合，而非孤立考察单一媒介。",
+          "data": "1,197名美国成年人；分析样本1,143人。",
+          "method": "考察强弱关系媒介配置的规模、密度、中心化和同质性，并分析五类数字压力的间接关联。",
+          "results": "更大、更互联和更中心化的弱关系配置及总体均一配置具有幸福感优势；弱关系配置规模也可能经技术挫折降低幸福感，强关系规模则有相反间接关联。",
+          "takeaway": "提示不要只用使用时长代表媒介经验，可区分关系层次与多维压力。",
+          "abstractZh": "更大、更互联和更中心化的弱关系配置及总体均一配置具有幸福感优势；弱关系配置规模也可能经技术挫折降低幸福感，强关系规模则有相反间接关联。",
+          "relevance": "提示不要只用使用时长代表媒介经验，可区分关系层次与多维压力。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。调查关联不能自动证明中介因果；摘要未说明采样与时间顺序，主观压力和幸福感可能共源。",
+          "topicIds": [
+            "methods"
+          ],
+          "readingUse": "变量测量、配置分析与结果讨论",
+          "researchConnection": "提示不要只用使用时长代表媒介经验，可区分关系层次与多维压力。",
+          "readingPriority": "normal",
+          "priorityReason": "用于拓宽传播学研究设计与理论视野，按兴趣选读。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261487784",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "Predicting Irritation Disclosures in Romantic Relationships: Testing and Extending the Revelation Risk Model",
+          "titleZh": "预测亲密关系中的不满披露：揭示风险模型的检验与扩展",
+          "authors": "Rudy C. Pett; Anita L. Vangelisti",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 研究论文",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261490466",
+          "doi": "https://doi.org/10.1177/00936502261490466",
+          "publicationDate": "2026-09-25",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261490466",
+          "theory": "揭示风险模型（RRM）从亲密、风险、沟通效能与披露意愿解释表达或隐瞒；关系权力可能改变相关评估。",
+          "data": "448名参与者，两个月纵向调查。",
+          "method": "用早期模型变量预测之后实际披露或隐瞒，并加入关系权力。",
+          "results": "原RRM构成共同预测之后是否披露不满；权力预测沟通效能和感知披露风险。",
+          "takeaway": "可参考从表达意愿推进到后续实际表达的研究设计。",
+          "abstractZh": "原RRM构成共同预测之后是否披露不满；权力预测沟通效能和感知披露风险。",
+          "relevance": "可参考从表达意愿推进到后续实际表达的研究设计。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。纵向预测仍可能受遗漏变量影响；摘要未报告失访、测量间隔细节和预测准确度。",
+          "topicIds": [],
+          "readingUse": "纵向研究设计、行为与意愿区分",
+          "researchConnection": "可参考从表达意愿推进到后续实际表达的研究设计。",
+          "readingPriority": "normal",
+          "priorityReason": "用于拓宽传播学研究设计与理论视野，按兴趣选读。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261490466",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "Democratic Media Performance and Democratization: A Global Longitudinal Perspective",
+          "titleZh": "民主媒介表现与民主化：全球纵向视角",
+          "authors": "Florian Arendt",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 研究论文",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261489667",
+          "doi": "https://doi.org/10.1177/00936502261489667",
+          "publicationDate": "2026-09-24",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261489667",
+          "theory": "媒介民主功能可能领先于民主化，也可能只是反映制度发展，需要区分共同变化与时间先后。",
+          "data": "1946—2018年全球年度媒介表现与民主化序列；Vanhanen指标及V-Dem各维度。",
+          "method": "ARIMA分析年度变化共变及符合Granger逻辑的时间先后。",
+          "results": "媒介表现改善与多维民主化共变；Vanhanen、参与及协商维度有先后证据，自由维度边缘，平等维度无证据。",
+          "takeaway": "可直接参照文本指标与年度外部数据对齐，但需尊重分析单位与共同趋势。",
+          "abstractZh": "媒介表现改善与多维民主化共变；Vanhanen、参与及协商维度有先后证据，自由维度边缘，平等维度无证据。",
+          "relevance": "可直接参照文本指标与年度外部数据对齐，但需尊重分析单位与共同趋势。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。作者明确限制因果解释；Granger时间先后不是随机干预因果，宏观数据也不能解释个人机制。",
+          "topicIds": [
+            "methods"
+          ],
+          "readingUse": "时间序列、外部指标对齐与识别边界",
+          "researchConnection": "可直接参照文本指标与年度外部数据对齐，但需尊重分析单位与共同趋势。",
+          "readingPriority": "high",
+          "priorityReason": "与当前理论、文本测量或外部数据对齐问题关系紧密，建议优先精读正文。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261489667",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "When Past Hurt Meets Present Care: How Family History Shapes Adult Caregivers’ Communal Coping With Siblings in Their Caregiving for Parents With Health Challenges",
+          "titleZh": "当过往伤害遇上当下照护：家庭经历与手足共同应对",
+          "authors": "Abdullah S. Salehuddin; Andy J. Merolla; Tamara D. Afifi",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 研究论文",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261484417",
+          "doi": "https://doi.org/10.1177/00936502261484417",
+          "publicationDate": "2026-09-19",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261484417",
+          "theory": "共同应对把照护视为共享问题，但关系历史与未解决伤害可能改变其功能，合作并不总与福祉同向。",
+          "data": "研究1调查776人；研究2访谈30名成年照护者。",
+          "method": "顺序解释型混合方法：先检验调节中介假设，再用访谈解释反预期关联。",
+          "results": "童年家庭功能与未解决伤害均正向关联共同应对；共同应对关联较低繁荣感、较高照护负担和怨恨。访谈显示残余伤害会阻碍或扭曲合作。",
+          "takeaway": "提醒共融性研究避免预设关系取向总有积极后果；此文是概念对照而非同构念证据。",
+          "abstractZh": "童年家庭功能与未解决伤害均正向关联共同应对；共同应对关联较低繁荣感、较高照护负担和怨恨。访谈显示残余伤害会阻碍或扭曲合作。",
+          "relevance": "提醒共融性研究避免预设关系取向总有积极后果；此文是概念对照而非同构念证据。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。调查不确证因果；共同应对和communion不是同一构念，不能直接替换量表。",
+          "topicIds": [
+            "agency"
+          ],
+          "readingUse": "混合方法、反预期结果解释",
+          "researchConnection": "提醒共融性研究避免预设关系取向总有积极后果；此文是概念对照而非同构念证据。",
+          "readingPriority": "normal",
+          "priorityReason": "用于拓宽传播学研究设计与理论视野，按兴趣选读。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261484417",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "Investigating Conditional Macro-Level Media Effects Over a Long-Term: How Crisis Periods Moderate the Effects of Suicide Coverage on Suicide Rate Change (1861–2007)",
+          "titleZh": "长期宏观媒介效应的条件：危机时期如何调节自杀报道与自杀率变化（1861—2007）",
+          "authors": "Christina Viehmann; Stefan Geiß; Manina Biermayer; Oliver Quiring; Florian Arendt",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 研究论文",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261480405",
+          "doi": "https://doi.org/10.1177/00936502261480405",
+          "publicationDate": "2026-09-03",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261480405",
+          "theory": "条件性维特效应：宏观社会危机可能调节媒介报道与群体结果之间的长期关联。",
+          "data": "英国1861—2007年自杀统计，与《泰晤士报》危机和自杀报道的自动内容分析。",
+          "method": "将历史文本指标与年度社会统计对齐，检验危机时期的调节关系。",
+          "results": "自杀报道增加只在危机时期与更高自杀率相关，支持具有情境条件的维特效应解释。",
+          "takeaway": "为“社会结构条件何时改变表达影响”提供设计案例；结果方向需在新议题中重新论证。",
+          "abstractZh": "自杀报道增加只在危机时期与更高自杀率相关，支持具有情境条件的维特效应解释。",
+          "relevance": "为“社会结构条件何时改变表达影响”提供设计案例；结果方向需在新议题中重新论证。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。摘要没有给效应量、控制项和识别检验；历史长序列存在构念漂移与共同趋势风险。",
+          "topicIds": [
+            "methods"
+          ],
+          "readingUse": "外部数据对齐、历史文本测量与交互假设",
+          "researchConnection": "为“社会结构条件何时改变表达影响”提供设计案例；结果方向需在新议题中重新论证。",
+          "readingPriority": "high",
+          "priorityReason": "与当前理论、文本测量或外部数据对齐问题关系紧密，建议优先精读正文。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261480405",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        },
+        {
+          "year": 2026,
+          "evidence": "摘要核验",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "只提供原创中文概述；本轮未核验转载完整英文摘要的许可。",
+          "identityAliases": [],
+          "title": "Experimental Research on Stereotype Expression in Freely Generated Language: A Systematic Literature Review",
+          "titleZh": "自由生成语言中刻板印象表达的实验研究：系统综述",
+          "authors": "Kim T. Beenen; Camiel J. Beukeboom; Christian Burgers; Pia Sommerauer",
+          "venue": "Communication Research · OnlineFirst",
+          "source": "SAGE出版方",
+          "category": "传播学通读 · 综述",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00936502261478981",
+          "doi": "https://doi.org/10.1177/00936502261478981",
+          "publicationDate": "2026-09-01",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261478981",
+          "theory": "刻板印象通过多种语言偏差传播；自由生成语言实验能同时捕捉多种语言特征。",
+          "data": "106项自由生成语言实验的系统综述。",
+          "method": "系统归纳该实验范式考察的语言变量及其组合，讨论自动检测和沟通干预的意义。",
+          "results": "多数实验只研究单一语言变量，变量之间的相互作用仍缺乏研究；建议同时测量并联合分析多种语言特征。",
+          "takeaway": "可为agency/communion与其他语言指标联合测量提供方法依据，避免只输出单个分类分数。",
+          "abstractZh": "多数实验只研究单一语言变量，变量之间的相互作用仍缺乏研究；建议同时测量并联合分析多种语言特征。",
+          "relevance": "可为agency/communion与其他语言指标联合测量提供方法依据，避免只输出单个分类分数。",
+          "limitations": "仅核验出版方摘要与题录，未读完整正文。摘要未提供检索库、纳排标准和实验质量分布；不能从综述直接推导特定语言维度的效应方向。",
+          "topicIds": [
+            "agency",
+            "methods"
+          ],
+          "readingUse": "文献综述、变量测量与实验设计",
+          "researchConnection": "可为agency/communion与其他语言指标联合测量提供方法依据，避免只输出单个分类分数。",
+          "readingPriority": "high",
+          "priorityReason": "与当前理论、文本测量或外部数据对齐问题关系紧密，建议优先精读正文。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/00936502261478981",
+          "citationCount": null,
+          "citationStatus": "missing",
+          "citationMissingReason": "Scholar原生检索受异常流量限制；本栏目按出版方目录顺序，不要求引用排序。"
+        }
+      ]
+    },
+    {
+      "id": "general-science",
+      "label": "综合顶刊最新在线社会科学研究",
+      "target": 1,
+      "sortBy": "publicationDate",
+      "rotationJournalId": "science",
+      "sortDescription": "Science目录403，0/1；不更换当天轮换期刊。",
+      "papers": []
+    }
+  ]
+}
