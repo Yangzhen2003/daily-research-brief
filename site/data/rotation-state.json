@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19 22:04:25 UTC",
+  "updatedAt": "2026-10-20 22:42:00 UTC",
   "communication": {},
   "general": {
     "nature": {
@@ -21,6 +21,21 @@
       "general": {
         "journalId": "science",
         "status": "unavailable",
+        "completionCursorAdvanced": false
+      }
+    },
+    "2026-10-21": {
+      "communication": {
+        "journalId": "jcmc",
+        "status": "incomplete",
+        "enumerated": 2,
+        "totalReported": 2,
+        "completionCursorAdvanced": false
+      },
+      "general": {
+        "journalId": "science-advances",
+        "status": "incomplete",
+        "selected": 1,
         "completionCursorAdvanced": false
       }
     }
