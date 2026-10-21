@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21 03:40:00 UTC",
-  "communication": {},
-  "general": {},
+  "updatedAt": "2026-10-21 22:09:04 UTC",
+  "communication": {
+    "ct": {
+      "lastCompleteSnapshot": "2026-10-22",
+      "collectionUrl": "https://academic.oup.com/ct/advance-articles",
+      "enumerated": 27,
+      "researchArticles": 25
+    }
+  },
+  "general": {
+    "scientific-data": {
+      "lastSelectedPublicationDate": "2026-10-21",
+      "lastSelectedDoi": "10.1038/s41597-026-08160-9"
+    }
+  },
   "lastAttempts": {
     "2026-10-21": {
       "communication": {
@@ -17,6 +29,21 @@
         "status": "incomplete",
         "selected": 1,
         "completionCursorAdvanced": false
+      }
+    },
+    "2026-10-22": {
+      "communication": {
+        "journalId": "ct",
+        "status": "complete",
+        "enumerated": 27,
+        "totalReported": 27,
+        "completionCursorAdvanced": true
+      },
+      "general": {
+        "journalId": "scientific-data",
+        "status": "complete",
+        "selected": 1,
+        "completionCursorAdvanced": true
       }
     }
   }
