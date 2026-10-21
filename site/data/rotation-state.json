@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20 22:42:00 UTC",
+  "updatedAt": "2026-10-21 03:40:00 UTC",
   "communication": {},
-  "general": {
-    "nature": {
-      "completedDate": "2026-10-19",
-      "publicationDate": "2026-10-14",
-      "doi": "10.1038/s41586-026-11157-4"
-    }
-  },
+  "general": {},
   "lastAttempts": {
-    "2026-10-20": {
-      "communication": {
-        "journalId": "cr",
-        "status": "incomplete",
-        "enumerated": 10,
-        "totalReported": 98,
-        "completionCursorAdvanced": false
-      },
-      "general": {
-        "journalId": "science",
-        "status": "unavailable",
-        "completionCursorAdvanced": false
-      }
-    },
     "2026-10-21": {
       "communication": {
         "journalId": "jcmc",
