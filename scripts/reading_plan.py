@@ -1,7 +1,8 @@
 """Pure date rotation and structured owner requests; no network or credential access."""
 import json,re
 from datetime import date
-TOPICS={'sti','social','agency','methods'}
+# Keep sti valid for published issues, saved requests, and existing favorites.
+TOPICS={'measurement','sti','social','agency','methods'}
 def rotation(plan,day,kind):
     offset=(date.fromisoformat(day)-date.fromisoformat(plan['rotations']['startDate'])).days
     assert offset>=0, 'Rotation has not started'

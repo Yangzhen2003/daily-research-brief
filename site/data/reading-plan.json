@@ -1,10 +1,26 @@
 {
   "version": 1,
-  "effectiveDate": "2026-10-18",
+  "effectiveDate": "2026-10-21",
   "timezone": "Asia/Shanghai",
-  "activeTopicIds": ["sti", "social", "agency", "methods"],
+  "activeTopicIds": ["measurement", "social", "agency", "methods"],
+  "legacyTopics": [{"id": "sti", "label": "平台/算法想象与受众日常", "retiredDate": "2026-10-21"}],
   "topics": [
-    {"id":"sti","label":"平台/算法想象与受众日常","query":"(\"algorithmic imaginary\" OR \"algorithmic imaginaries\" OR \"algorithmic imagination\" OR \"platform imaginary\" OR \"platform imaginaries\" OR \"platform imagination\") OR (\"sociotechnical imaginaries\" AND (platform OR platformization OR algorithm OR \"social media\")) OR ((\"algorithm awareness\" OR \"algorithmic awareness\" OR \"algorithmic folklore\" OR \"algorithmic sense-making\" OR \"imagined algorithm\" OR \"folk theory of algorithms\") AND (user OR users OR audience OR audiences OR everyday OR vernacular))","note":"平台与算法的想象，以及受众/用户的日常感知（algorithm awareness、folk theory、vernacular）；不覆盖广义 AI 想象。以 Scholar 为主渠道，arXiv 命中偏少。"},
+    {
+      "id": "measurement",
+      "label": "文本测量与理论构念",
+      "query": "\"dictionary\" \"text\" \"development\" \"validation\" psychology\n\"word embeddings\" measurement sociology\n\"distributed dictionary representation\" measurement\n(\"text measurement\" OR \"text-based measures\" OR \"text as data\") \"construct validity\"",
+      "queries": [
+        "\"dictionary\" \"text\" \"development\" \"validation\" psychology",
+        "\"word embeddings\" measurement sociology",
+        "\"distributed dictionary representation\" measurement",
+        "(\"text measurement\" OR \"text-based measures\" OR \"text as data\") \"construct validity\""
+      ],
+      "supplementalQueries": [
+        "\"word embeddings\" \"cultural dimensions\"",
+        "\"semantic projection\" \"word embeddings\""
+      ],
+      "note": "以发现可测量的理论构念及其文本操作化为目标：词典开发与验证、embedding文化测量、DDR、文本测量效度。queries中四条短式分别检索，不拼成一个长布尔式；supplementalQueries用于补充维度投影方法与追踪基础文献。优先说明理论构念、测量对象、帖子/用户/语料层级、计算方式、效度证据与中文微博迁移边界；不预先限定失业、AI或微博，也不把文本表达直接当作个体心理属性。2026-10-21网页检索抽样支持可行，尚未验证四库原生检索及30天新文献供给，记录见docs/search-probe-2026-10-21.md。"
+    },
     {"id":"social","label":"社交媒体平台","query":"(\"Weibo\" OR \"Sina Weibo\" OR \"Chinese social media\") AND (\"opinion expression\" OR \"political expression\" OR rumor OR \"collective action\" OR censorship OR hashtag)","note":"当前透镜：微博/中国社交媒体上的表达、谣言、集体行动与审查；需要 X 平台对照时另跑一条。"},
     {"id":"agency","label":"主体性与共融性语言","query":"(\"agency and communion\" OR \"agency/communion\" OR \"agentic and communal\" OR \"stereotype content model\" OR \"warmth and competence\") AND (language OR linguistic OR text OR narrative OR discourse OR stereotype OR \"media portrayal\") AND (communication OR media OR journalism OR \"social media\" OR \"public opinion\")","note":"agency/communion 在语言、叙事与刻板印象中的测量与效应；窄查询（文本测量时加跑）：(\"stereotype content model\" OR \"warmth and competence\") AND (text OR corpus OR \"language model\" OR annotation)。"},
     {"id":"methods","label":"计算社会科学方法","query":"(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") AND (communication OR \"digital platforms\" OR \"social media\")","note":"因果识别与文本作为数据的测量方法；优先可迁移到传播研究的设计。"}
@@ -36,5 +52,5 @@
     ]
   },
   "weeklyReviewDay":5,
-  "note":"从2026-10-18起执行四个研究主题；历史简报保持原栏目与内容。整期栏目不受关键词或Q1/Q2主题栏名单限制，以明确指定七刊为准。"
+  "note":"2026-10-21起后续检索以文本测量与理论构念替换平台/算法想象主题；其余三个主题、四栏目与期刊轮换规则保留。legacyTopics仅供历史标签显示与旧收藏兼容，不参与默认检索。历史简报保持原栏目与内容。"
 }

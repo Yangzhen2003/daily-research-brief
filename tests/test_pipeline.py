@@ -71,13 +71,13 @@ class Pipeline(unittest.TestCase):
 
     def test_four_topics_accepted_and_unknown_rejected(self):
         data = dict(effectiveDate='2026-10-18', scope='once', themeKeywords='x', journalKeywords='y',
-                    excludeTerms='', lookbackDays=30, topicIds=['sti', 'social', 'agency', 'methods'])
+                    excludeTerms='', lookbackDays=30, topicIds=['measurement', 'social', 'agency', 'methods'])
         body = '<!-- daily-search-settings:v1 -->\n```json\n' + json.dumps(data) + '\n```'
-        self.assertEqual(parse_request(body)['topicIds'], ['sti', 'social', 'agency', 'methods'])
+        self.assertEqual(parse_request(body)['topicIds'], ['measurement', 'social', 'agency', 'methods'])
         data['topicIds'] = ['sti', 'social', 'agency', 'methods', 'leader']
         with self.assertRaises(AssertionError):
             parse_request('<!-- daily-search-settings:v1 -->\n```json\n' + json.dumps(data) + '\n```')
-        self.assertEqual(TOPICS, {'sti', 'social', 'agency', 'methods'})
+        self.assertEqual(TOPICS, {'measurement', 'sti', 'social', 'agency', 'methods'})
 
     def _fixture(self, tmp):
         target = Path(tmp)
