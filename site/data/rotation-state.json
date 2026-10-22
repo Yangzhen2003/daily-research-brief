@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21 22:09:04 UTC",
+  "updatedAt": "2026-10-22 22:06:23 UTC",
   "communication": {
     "ct": {
       "lastCompleteSnapshot": "2026-10-22",
@@ -13,6 +13,10 @@
     "scientific-data": {
       "lastSelectedPublicationDate": "2026-10-21",
       "lastSelectedDoi": "10.1038/s41597-026-08160-9"
+    },
+    "nature-communications": {
+      "lastSelectedPublicationDate": "2026-10-22",
+      "lastSelectedDoi": "10.1038/s41467-026-78593-8"
     }
   },
   "lastAttempts": {
@@ -41,6 +45,22 @@
       },
       "general": {
         "journalId": "scientific-data",
+        "status": "complete",
+        "selected": 1,
+        "completionCursorAdvanced": true
+      }
+    },
+    "2026-10-23": {
+      "communication": {
+        "journalId": "nms",
+        "status": "incomplete",
+        "enumerated": 10,
+        "totalReported": 202,
+        "missingEntries": 192,
+        "completionCursorAdvanced": false
+      },
+      "general": {
+        "journalId": "nature-communications",
         "status": "complete",
         "selected": 1,
         "completionCursorAdvanced": true
