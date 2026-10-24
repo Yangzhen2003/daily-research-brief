@@ -1,12 +1,18 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23 22:08:57 UTC",
+  "updatedAt": "2026-10-25T06:10:03+08:00",
   "communication": {
     "ct": {
       "lastCompleteSnapshot": "2026-10-22",
       "collectionUrl": "https://academic.oup.com/ct/advance-articles",
       "enumerated": 27,
       "researchArticles": 25
+    },
+    "joc": {
+      "lastCompleteSnapshot": "2026-10-25",
+      "collectionUrl": "https://academic.oup.com/joc/advance-articles",
+      "enumerated": 8,
+      "researchArticles": 7
     }
   },
   "general": {
@@ -21,6 +27,11 @@
     "pnas": {
       "lastSelectedPublicationDate": "2026-10-23",
       "lastSelectedDoi": "10.1073/pnas.2529506123"
+    },
+    "nature": {
+      "lastSelectedPublicationDate": "2026-10-21",
+      "lastSelectedDoi": "10.1038/s41586-026-11161-8",
+      "socialScienceAssessment": "uncertain"
     }
   },
   "lastAttempts": {
@@ -83,6 +94,22 @@
         "journalId": "pnas",
         "status": "complete",
         "selected": 1,
+        "completionCursorAdvanced": true
+      }
+    },
+    "2026-10-25": {
+      "communication": {
+        "journalId": "joc",
+        "status": "complete",
+        "enumerated": 8,
+        "totalReported": 8,
+        "completionCursorAdvanced": true
+      },
+      "general": {
+        "journalId": "nature",
+        "status": "complete",
+        "selected": 1,
+        "socialScienceAssessment": "uncertain",
         "completionCursorAdvanced": true
       }
     }
