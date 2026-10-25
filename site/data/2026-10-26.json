@@ -1,0 +1,1020 @@
+{
+  "schemaVersion": 6,
+  "historyPolicy": "exclude-recommended",
+  "journalPolicy": "ssci-communication-q1-q2-and-social-science",
+  "searchPlatforms": [
+    "Google Scholar",
+    "NBER",
+    "SSRN",
+    "arXiv"
+  ],
+  "date": "2026-10-26",
+  "title": "文本效度、网络因果推断与关系维系的隐形成本",
+  "summary": "其他研究5篇、传播学与社会科学5篇、Human Communication Research完整在线集合3篇，共13篇；Science目录安全验证受阻，缺1篇。",
+  "notice": "Science本次缺1篇，不替换期刊、不推进其完成游标；HCR可读完整在线集合3篇全部解读。NBER采用历史版本9月30日，而非当前10月版本。",
+  "searchNote": "采用最新main默认四主题，无生效用户请求；所有7条主题式已在原生Scholar分别执行，方法主题实际读取前3页。三库最新研究通过明确标注的域名检索发现，再核验原始题录；出版方/作者机构仅补核已由Scholar发现论文，不充当额外主题发现渠道。7篇排序研究引用数均为本次原生实际读取，不用其他指标替代。与105条永久历史及当期跨栏按DOI、arXiv ID、规范化题名和已核验别名去重。",
+  "themeSearches": [
+    {
+      "platform": "Google Scholar",
+      "query": "\"dictionary\" \"text\" \"development\" \"validation\" psychology",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "云端Chrome原生Google Scholar结果页",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；主题和高被引不限年，最新近30天",
+      "purpose": "主题发现、传播学筛选和实际引用核验",
+      "status": "已执行；measurement四条独立执行，其余三主题分别执行。方法主题进一步点击Next至第2和第3页；其余主题无实际引用或已推荐候选不凑数。"
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "\"word embeddings\" measurement sociology",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "云端Chrome原生Google Scholar结果页",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；主题和高被引不限年，最新近30天",
+      "purpose": "主题发现、传播学筛选和实际引用核验",
+      "status": "已执行；measurement四条独立执行，其余三主题分别执行。方法主题进一步点击Next至第2和第3页；其余主题无实际引用或已推荐候选不凑数。"
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "\"distributed dictionary representation\" measurement",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "云端Chrome原生Google Scholar结果页",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；主题和高被引不限年，最新近30天",
+      "purpose": "主题发现、传播学筛选和实际引用核验",
+      "status": "已执行；measurement四条独立执行，其余三主题分别执行。方法主题进一步点击Next至第2和第3页；其余主题无实际引用或已推荐候选不凑数。"
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "(\"text measurement\" OR \"text-based measures\" OR \"text as data\") \"construct validity\"",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "云端Chrome原生Google Scholar结果页",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；主题和高被引不限年，最新近30天",
+      "purpose": "主题发现、传播学筛选和实际引用核验",
+      "status": "已执行；measurement四条独立执行，其余三主题分别执行。方法主题进一步点击Next至第2和第3页；其余主题无实际引用或已推荐候选不凑数。"
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "(\"Weibo\" OR \"Sina Weibo\" OR \"Chinese social media\") (\"opinion expression\" OR \"political expression\" OR rumor OR \"collective action\" OR censorship OR hashtag)",
+      "topicIds": [
+        "social"
+      ],
+      "channel": "云端Chrome原生Google Scholar结果页",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；主题和高被引不限年，最新近30天",
+      "purpose": "主题发现、传播学筛选和实际引用核验",
+      "status": "已执行；measurement四条独立执行，其余三主题分别执行。方法主题进一步点击Next至第2和第3页；其余主题无实际引用或已推荐候选不凑数。"
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "(\"agency and communion\" OR \"agency/communion\" OR \"agentic and communal\" OR \"stereotype content model\" OR \"warmth and competence\") (language OR linguistic OR text OR narrative OR discourse OR stereotype OR \"media portrayal\") (communication OR media OR journalism OR \"social media\" OR \"public opinion\")",
+      "topicIds": [
+        "agency"
+      ],
+      "channel": "云端Chrome原生Google Scholar结果页",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；主题和高被引不限年，最新近30天",
+      "purpose": "主题发现、传播学筛选和实际引用核验",
+      "status": "已执行；measurement四条独立执行，其余三主题分别执行。方法主题进一步点击Next至第2和第3页；其余主题无实际引用或已推荐候选不凑数。"
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") (communication OR \"digital platforms\" OR \"social media\")",
+      "topicIds": [
+        "methods"
+      ],
+      "channel": "云端Chrome原生Google Scholar结果页",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；主题和高被引不限年，最新近30天",
+      "purpose": "主题发现、传播学筛选和实际引用核验",
+      "status": "已执行；measurement四条独立执行，其余三主题分别执行。方法主题进一步点击Next至第2和第3页；其余主题无实际引用或已推荐候选不凑数。"
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") (communication OR \"digital platforms\" OR \"social media\")",
+      "topicIds": [
+        "methods"
+      ],
+      "url": "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=10",
+      "channel": "原生结果点击Next至第2页",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "扩展未推荐候选并读取引用数",
+      "status": "已执行；第2页网络因果推断实际309；已推荐隐私研究435剔除。"
+    },
+    {
+      "platform": "Google Scholar",
+      "query": "(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") (communication OR \"digital platforms\" OR \"social media\")",
+      "topicIds": [
+        "methods"
+      ],
+      "url": "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=20",
+      "channel": "原生结果点击Next至第3页",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "扩展未推荐候选并读取引用数",
+      "status": "已执行；第2页核验网络因果推断309，第3页核验政治表达1119、青年匹配242及偶遇新闻110等候选。"
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers \"October 2026\" \"text\" -w35925 -w35900",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非平台原生高级检索",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；近30天候选",
+      "purpose": "发现三库最新未推荐研究",
+      "status": "实际执行，随后核验原始记录/原生摘要页及首次公开版本；NBER核验到9月30日历史版本。"
+    },
+    {
+      "platform": "SSRN",
+      "query": "site:ssrn.com \"October\" \"2026\" \"construct validity\" -7575478 -7606338",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非平台原生高级检索",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；近30天候选",
+      "purpose": "发现三库最新未推荐研究",
+      "status": "实际执行，随后核验原始记录/原生摘要页及首次公开版本；NBER核验到9月30日历史版本。"
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org/abs/2610 \"measurement\" \"social\" -2610.12409 -2610.22409",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非平台原生高级检索",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；近30天候选",
+      "purpose": "发现三库最新未推荐研究",
+      "status": "实际执行，随后核验原始记录/原生摘要页及首次公开版本；NBER核验到9月30日历史版本。"
+    },
+    {
+      "platform": "NBER",
+      "query": "site:nber.org/papers \"October 2026\" \"language\" -w35900 -w35744 -w35925",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非平台原生高级检索",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；近30天候选",
+      "purpose": "发现三库最新未推荐研究",
+      "status": "实际执行，随后核验原始记录/原生摘要页及首次公开版本；NBER核验到9月30日历史版本。"
+    },
+    {
+      "platform": "arXiv",
+      "query": "site:arxiv.org/abs/2610 \"construct validity\" -2610.12409 -2610.22409 -2610.16757 -2610.26412 -reproducibility",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非平台原生高级检索",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）；近30天候选",
+      "purpose": "发现三库最新未推荐研究",
+      "status": "实际执行，随后核验原始记录/原生摘要页及首次公开版本；NBER核验到9月30日历史版本。"
+    }
+  ],
+  "periodicalChecks": [
+    {
+      "platform": "Human Communication Research / Oxford Academic",
+      "query": "https://academic.oup.com/hcr/advance-articles",
+      "channel": "出版方公开目录及独立原文",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "无主题词读取完整在线集合、类型和分页",
+      "status": "正文目录3篇，读取至页脚，无分页或更多加载；逐篇题录/摘要可取，全部未推荐。侧栏Latest不是正文目录，未重复计入。"
+    },
+    {
+      "platform": "Science / AAAS",
+      "query": "https://www.science.org/toc/science/0/0",
+      "channel": "出版方公开读取与原生Chrome",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "无主题词读取当天轮到期刊的最新在线目录",
+      "status": "公开读取403；原生页面明确显示Cloudflare安全验证，一次重载后仍未通过，停止该站，不绕验证。未获得可核验完整目录，无法确认最新合格社会科学研究，留缺1篇，不换刊，不推进完成游标。"
+    }
+  ],
+  "verificationLog": [
+    {
+      "platform": "arXiv",
+      "query": "10.48550/arXiv.2610.28772",
+      "channel": "原始来源题录与摘要核验",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "已读方法与结果关键段，按全文核验。 本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。 日期：arXiv v1提交2026-10-20 18:09:44 UTC；DOI页面标待注册，题录以arXiv ID核验。",
+      "evidenceUrls": [
+        "https://arxiv.org/abs/2610.28772",
+        "https://arxiv.org/html/2610.28772v1"
+      ]
+    },
+    {
+      "platform": "SSRN",
+      "query": "10.2139/ssrn.7576659",
+      "channel": "原始来源题录与摘要核验",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。 日期：原生SSRN Posted 8 Oct 2026；Date Written 7 Oct不是首发。",
+      "evidenceUrls": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7576659"
+      ]
+    },
+    {
+      "platform": "NBER",
+      "query": "10.3386/w35859",
+      "channel": "原始来源题录与摘要核验",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。 日期：NBER原生Other Versions展开显示September 30, 2026（rev0）；这是本次可核验最早版本日期，当前Issue/Revision为October。仍在近30天窗口内。",
+      "evidenceUrls": [
+        "https://www.nber.org/papers/w35859"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "10.48550/arXiv.1705.08527",
+      "channel": "原始来源题录与摘要核验",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 原生Google Scholar方法主题第2页实际显示被引用次数309；本次快照，不是检索引擎摘要或替代数据库计数。 日期：arXiv v1日；2022修订和2024正式卷期不作为首次公开。",
+      "evidenceUrls": [
+        "https://arxiv.org/abs/1705.08527",
+        "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=10"
+      ]
+    },
+    {
+      "platform": "arXiv",
+      "query": "10.48550/arXiv.2005.00649",
+      "channel": "原始来源题录与摘要核验",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 原生Google Scholar方法主题第1页实际显示被引用次数204；本次快照，不是检索引擎摘要或替代数据库计数。 日期：采用arXiv v1公开日，ACL正式会议日期不替代。",
+      "evidenceUrls": [
+        "https://arxiv.org/abs/2005.00649",
+        "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29"
+      ]
+    },
+    {
+      "platform": "Journal of Communication 64(4):612–634",
+      "query": "10.1111/jcom.12103",
+      "channel": "Google Scholar主题发现；原始题录与摘要补核",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 原生Google Scholar方法主题第3页实际显示被引用次数1119；本次快照，不是检索引擎摘要或替代数据库计数。 日期：采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+      "evidenceUrls": [
+        "https://academic.oup.com/joc/article-abstract/64/4/612/4086027",
+        "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=20"
+      ]
+    },
+    {
+      "platform": "European Journal of Communication 28(1)",
+      "query": "10.1177/0267323112465369",
+      "channel": "Google Scholar主题发现；原始题录与摘要补核",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 原生Google Scholar方法主题第1页实际显示被引用次数710；本次快照，不是检索引擎摘要或替代数据库计数。 日期：采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+      "evidenceUrls": [
+        "https://journals.sagepub.com/doi/abs/10.1177/0267323112465369",
+        "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29"
+      ]
+    },
+    {
+      "platform": "International Journal of Communication 8",
+      "query": "Facebook, Twitter, and Youth Engagement: A Quasi-experimental Study of Social Media Use and Protest Behavior Using Propensity Score Matching",
+      "channel": "Google Scholar主题发现；原始题录与摘要补核",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 原生Google Scholar方法主题第3页实际显示被引用次数242；本次快照，不是检索引擎摘要或替代数据库计数。 日期：采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+      "evidenceUrls": [
+        "https://ijoc.org/index.php/ijoc/article/view/2022",
+        "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=20"
+      ]
+    },
+    {
+      "platform": "New Media & Society 24(1):178–201",
+      "query": "10.1177/1461444820962121",
+      "channel": "Google Scholar主题发现；原始题录与摘要补核",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 原生Google Scholar方法主题第3页实际显示被引用次数110；本次快照，不是检索引擎摘要或替代数据库计数。 日期：采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+      "evidenceUrls": [
+        "https://journals.sagepub.com/doi/10.1177/1461444820962121",
+        "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=20"
+      ]
+    },
+    {
+      "platform": "Communication Research 46(8)",
+      "query": "10.1177/0093650217714360",
+      "channel": "Google Scholar主题发现；原始题录与摘要补核",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 原生Google Scholar方法主题第1页实际显示被引用次数106；本次快照，不是检索引擎摘要或替代数据库计数。 日期：采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+      "evidenceUrls": [
+        "https://journals.sagepub.com/doi/abs/10.1177/0093650217714360",
+        "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29"
+      ]
+    },
+    {
+      "platform": "Human Communication Research，Advance Access hqag003",
+      "query": "10.1093/hcr/hqag003",
+      "channel": "Oxford Academic完整Advance Access目录直接发现；原始文章核验",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。 日期：采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+      "evidenceUrls": [
+        "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag003/8742091"
+      ]
+    },
+    {
+      "platform": "Human Communication Research，Advance Access hqag002",
+      "query": "10.1093/hcr/hqag002",
+      "channel": "Oxford Academic完整Advance Access目录直接发现；原始文章核验",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "已读方法与结果关键段，按全文核验。 本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。 日期：采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+      "evidenceUrls": [
+        "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag002/8665593"
+      ]
+    },
+    {
+      "platform": "Human Communication Research，Advance Access hqag001",
+      "query": "10.1093/hcr/hqag001",
+      "channel": "Oxford Academic完整Advance Access目录直接发现；原始文章核验",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "逐篇身份、首发日期、摘要/全文与引用核验",
+      "status": "按可读摘要核验，未读关键正文不标全文。 本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。 日期：采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+      "evidenceUrls": [
+        "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag001/8442392"
+      ]
+    },
+    {
+      "platform": "NBER / SSRN",
+      "query": "w35859；SSRN7576659",
+      "channel": "公开读取与原生Chrome补核",
+      "timeRange": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）",
+      "purpose": "记录访问失败与首发纠正",
+      "status": "公开读取NBER403、SSRN页面不可取；原生页面均正常。NBER展开Other Versions看到September 30, 2026 rev0。SSRN完整摘要、Posted 8 Oct及47页可读；平台0 Citations不当成Scholar计数。"
+    }
+  ],
+  "coreTracking": [],
+  "coreTrackingNote": "core-papers.json requests为空，尚无已同步核心文献可核验前后引用；未把私人收藏或主题相似冒称引用关系。",
+  "shortfallReason": "其他研究5/5、传播学与社会科学5/5、HCR完整在线集合3/3；Science0/1，因出版方Cloudflare安全验证持续阻断，不能确认最新合格研究。该刊完成游标不推进。6篇非排序论文的Scholar引用未读取，留缺失；7篇排序论文已实际读取。2篇读正文关键段，11篇按摘要核验。",
+  "groups": [
+    {
+      "id": "crossdisciplinary",
+      "label": "其他研究",
+      "target": 5,
+      "sortBy": "split",
+      "sortDescription": "最新3篇按首次公开日降序；高被引2篇按实际Scholar计数309、204降序。NBER历史版本9月30日早于当前10月版本。",
+      "selectionBuckets": [
+        {
+          "id": "latest",
+          "label": "最新研究",
+          "target": 3,
+          "sortBy": "publicationDate"
+        },
+        {
+          "id": "cited",
+          "label": "高被引研究",
+          "target": 2,
+          "sortBy": "citationCount"
+        }
+      ],
+      "sourceCoverage": [
+        {
+          "database": "NBER",
+          "status": "included",
+          "reason": "本次各纳入1篇近30天最新研究；不声称穷尽全库。"
+        },
+        {
+          "database": "SSRN",
+          "status": "included",
+          "reason": "本次各纳入1篇近30天最新研究；不声称穷尽全库。"
+        },
+        {
+          "database": "arXiv",
+          "status": "included",
+          "reason": "本次各纳入1篇近30天最新研究；不声称穷尽全库。"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
+          "titleZh": "扩展治疗督导：用大语言模型评估心理治疗忠实度",
+          "authors": "Arvind Pillai; Alexis Roach; Jason Holden; Varsha D Badal; Subigya Nepal; Yu Yvonne Wu; Yuliang Chen; Sudarshan Regmi; Sarah Masud Preum; Nicholas C Jacobson; Nikhil Singh; Eric Granholm; Colin Depp; Andrew Campbell",
+          "year": 2026,
+          "venue": "arXiv:2610.28772，审稿中",
+          "url": "https://arxiv.org/abs/2610.28772",
+          "doi": "10.48550/arXiv.2610.28772",
+          "topicIds": [
+            "measurement",
+            "methods"
+          ],
+          "source": "原始来源题录与摘要核验",
+          "category": "测量与传播研究",
+          "evidence": "全文核验",
+          "theory": "将治疗忠实度界定为治疗者对协议和技能的遵循，区分文本评分的专家一致性、已知组区分效度与反馈可用性，不把模型输出稳定当作构念效度。",
+          "data": "原文区分30次专家标注会谈、288次未标注会谈及独立RCT的102份会谈记录；专家标签涉及60项CTS-Psy。RCT共22名参与者，102是会谈数，不是独立受试者数。",
+          "method": "比较3个开放权重模型、不同任务拆分及推理策略；用专家金标准评估、预测驱动推断校准总体评分，并用参与者随机截距及置换max-T校正检验CBT/非CBT技能差异。",
+          "results": "细分类别拆分与证据优先策略改善表现；Qwen3.5-9B该配置平衡准确率0.72、95%区间[0.70,0.74]。独立RCT提供已知组验证，专家反馈研究支持实用性；并不证明治疗患者结局改善。",
+          "takeaway": "细分类别拆分与证据优先策略改善表现；Qwen3.5-9B该配置平衡准确率0.72、95%区间[0.70,0.74]。独立RCT提供已知组验证，专家反馈研究支持实用性；并不证明治疗患者结局改善。",
+          "limitations": "已读HTML的数据、指标和结果关键段。30次金标准会谈规模有限、专家用户研究人数少；临床英语量表的效度不直接迁移到中文微博，也不能由疗法组可区分推出所有技能评分都准确。",
+          "abstractZh": "将治疗忠实度界定为治疗者对协议和技能的遵循，区分文本评分的专家一致性、已知组区分效度与反馈可用性，不把模型输出稳定当作构念效度。 细分类别拆分与证据优先策略改善表现；Qwen3.5-9B该配置平衡准确率0.72、95%区间[0.70,0.74]。独立RCT提供已知组验证，专家反馈研究支持实用性；并不证明治疗患者结局改善。",
+          "abstractSource": "https://arxiv.org/abs/2610.28772",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "为agency/communion文本指标提供验证流程参照：先定义条目层构念，再用独立资料验证群组区分，并保留重复会谈/用户结构。",
+          "readingUse": "变量测量与研究设计：组合人工效标、已知组验证和误差校准。",
+          "researchConnection": "为agency/communion文本指标提供验证流程参照：先定义条目层构念，再用独立资料验证群组区分，并保留重复会谈/用户结构。",
+          "readingPriority": "high",
+          "priorityReason": "同时连接构念效度与统计校准，优先阅读D1/D2/D3分工和外部验证。",
+          "citationNote": "本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。",
+          "fullTextSource": "https://arxiv.org/html/2610.28772v1",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest",
+          "publicationDate": "2026-10-20",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2610.28772",
+          "publicationDateNote": "arXiv v1提交2026-10-20 18:09:44 UTC；DOI页面标待注册，题录以arXiv ID核验。"
+        },
+        {
+          "title": "Same Score, Different Competence? A Study of Product-Process Non-identifiability in AI-assisted L2 Writing Assessment",
+          "titleZh": "同分不同能力？AI辅助二语写作中的作品—过程不可区分问题",
+          "authors": "Huynh Si Tan Nguyen",
+          "year": 2026,
+          "venue": "SSRN working paper，47页",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7576659",
+          "doi": "10.2139/ssrn.7576659",
+          "topicIds": [
+            "measurement",
+            "methods"
+          ],
+          "source": "原始来源题录与摘要核验",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "作品得分不一定唯一反映独立写作能力：同样的协作成品可能来自不同能力与不同AI贡献。作者讨论操作层面的评估推断问题，明确不等同于形式参数不可识别。",
+          "data": "完全合成的Monte Carlo研究，300次主要重复，每次1000个模拟学习者；比较能力中性、补偿性、能力放大及异质任务外包机制。不是30万人实测。",
+          "method": "依据ADEMP框架，用同一训练标准化二阶多项式最小二乘模型比较作品、披露、行为过程证据与独立写作锚点的样本外能力恢复；另做连续机制、噪声和不截断敏感性分析。",
+          "results": "作品单独预测的平均样本外R²在四机制下分别为.775、.556、.861、.748；过程证据可改善异质外包下的恢复。独立锚点也受噪声影响，并非天然优于过程证据。",
+          "takeaway": "作品单独预测的平均样本外R²在四机制下分别为.775、.556、.861、.748；过程证据可改善异质外包下的恢复。独立锚点也受噪声影响，并非天然优于过程证据。",
+          "limitations": "仅核验原生SSRN完整摘要，未读生成代码；这些是特定模拟机制结果，不是现实AI或学习者估计。与昨日120画像“能力压缩”论文主题相关，但本篇题名、DOI及300×1000设计均独立核验，未重复登记昨日论文。",
+          "abstractZh": "作品得分不一定唯一反映独立写作能力：同样的协作成品可能来自不同能力与不同AI贡献。作者讨论操作层面的评估推断问题，明确不等同于形式参数不可识别。 作品单独预测的平均样本外R²在四机制下分别为.775、.556、.861、.748；过程证据可改善异质外包下的恢复。独立锚点也受噪声影响，并非天然优于过程证据。",
+          "abstractSource": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7576659",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "挑战仅由润色文本反推作者心理或能力的做法；微博语料中的AI辅助、过程披露和独立效标应作为推断条件，而不只当噪声。",
+          "readingUse": "研究设计：比较不同证据组合及锚点信度。",
+          "researchConnection": "挑战仅由润色文本反推作者心理或能力的做法；微博语料中的AI辅助、过程披露和独立效标应作为推断条件，而不只当噪声。",
+          "readingPriority": "high",
+          "priorityReason": "适合设计识别和敏感性分析，应用前须检查数据生成机制。",
+          "citationNote": "本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。",
+          "sourceDatabase": "SSRN",
+          "selectionBucket": "latest",
+          "publicationDate": "2026-10-08",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7576659",
+          "publicationDateNote": "原生SSRN Posted 8 Oct 2026；Date Written 7 Oct不是首发。"
+        },
+        {
+          "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations",
+          "titleZh": "博士生将多少科研写作交给AI？美国STEM博士论文证据",
+          "authors": "Daniel P. Gross; Dror Shvadron; Hansen Zhang",
+          "year": 2026,
+          "venue": "NBER Working Paper 35859",
+          "url": "https://www.nber.org/papers/w35859",
+          "doi": "10.3386/w35859",
+          "topicIds": [
+            "measurement",
+            "methods"
+          ],
+          "source": "原始来源题录与摘要核验",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "把科研写作视为技能形成的一部分，研究AI文本使用的分布及其与早期职业去向的关系；“检测到AI文本”和“知识训练被替代”是不同层级的判断。",
+          "data": "近乎覆盖美国2019–2026年STEM博士毕业生的学位论文，连接毕业后的就业资料；完整N、检测器验证集和就业匹配率本次摘要未提供。",
+          "method": "测量论文中的AI生成写作，比较时间、来源国及项目层级，并在同项目同届毕业生内考察AI文本标记与就业去向的关系。设计为观察性，非随机使用AI。",
+          "results": "摘要报告2026年29%论文出现AI写作，非英语来源学生及较低排名项目更多；同项目同届内，含AI文本者较少进入学术研究、较多进入非终身教职或行业，来自美国者关联更强。",
+          "takeaway": "摘要报告2026年29%论文出现AI写作，非英语来源学生及较低排名项目更多；同项目同届内，含AI文本者较少进入学术研究、较多进入非终身教职或行业，来自美国者关联更强。",
+          "limitations": "原生NBER摘要与Other Versions已核验，未读关键正文；检测误差、语言差异和职业自选择限制因果解释，不能据此认定AI造成职业受损。历史版本列表有9月30日，故不把10月修订或Issue Date当首发。",
+          "abstractZh": "把科研写作视为技能形成的一部分，研究AI文本使用的分布及其与早期职业去向的关系；“检测到AI文本”和“知识训练被替代”是不同层级的判断。 摘要报告2026年29%论文出现AI写作，非英语来源学生及较低排名项目更多；同项目同届内，含AI文本者较少进入学术研究、较多进入非终身教职或行业，来自美国者关联更强。",
+          "abstractSource": "https://www.nber.org/papers/w35859",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "支持在AI叙事/微博文本测量中检验不同语言与群体的误差；检测标记不是个体能力，也不能单独识别AI使用的后果。",
+          "readingUse": "变量测量与结果讨论：审计AI文本检测和群体差异。",
+          "researchConnection": "支持在AI叙事/微博文本测量中检验不同语言与群体的误差；检测标记不是个体能力，也不能单独识别AI使用的后果。",
+          "readingPriority": "high",
+          "priorityReason": "优先核验检测器效度与组内比较假设，再讨论技能形成。",
+          "citationNote": "本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。",
+          "sourceDatabase": "NBER",
+          "selectionBucket": "latest",
+          "publicationDate": "2026-09-30",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://www.nber.org/papers/w35859",
+          "publicationDateNote": "NBER原生Other Versions展开显示September 30, 2026（rev0）；这是本次可核验最早版本日期，当前Issue/Revision为October。仍在近30天窗口内。"
+        },
+        {
+          "title": "Causal inference for social network data",
+          "titleZh": "社交网络数据的因果推断",
+          "authors": "Elizabeth L. Ogburn; Oleg Sofrygin; Ivan Diaz; Mark J. van der Laan",
+          "year": 2017,
+          "venue": "arXiv:1705.08527（v6修订于2022；Scholar合并正式期刊记录）",
+          "url": "https://arxiv.org/abs/1705.08527",
+          "doi": "10.48550/arXiv.1705.08527",
+          "topicIds": [
+            "methods",
+            "social"
+          ],
+          "source": "原始来源题录与摘要核验",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "社交网络的观察并非独立，既可能因信息沿连边传播而相互影响，也可能因相连节点潜在相似而相关；识别同伴效应必须区分这两类依赖。",
+          "data": "方法研究并重分析Framingham Heart Study社交网络的肥胖同伴效应；本次摘要未提供节点数、观测期及网络缺失程度，不补写。",
+          "method": "提出单一网络观察资料的半参数估计与推断，在样本增长时允许相关节点数增加；定义对连边及网络结构干预的因果目标，而非把网络相关直接当影响。",
+          "results": "方法同时容纳传播与潜在相似依赖。对争议性肥胖研究的重分析在考虑网络结构后未发现因果同伴效应证据；没有证据不等于证明任何同伴效应都为零。",
+          "takeaway": "方法同时容纳传播与潜在相似依赖。对争议性肥胖研究的重分析在考虑网络结构后未发现因果同伴效应证据；没有证据不等于证明任何同伴效应都为零。",
+          "limitations": "仅核验arXiv题录与摘要；识别、局部依赖和网络观测假设须正文。方法不能自动消除不可观测同质性，推断适用性取决于真实资料是否满足假设。",
+          "abstractZh": "社交网络的观察并非独立，既可能因信息沿连边传播而相互影响，也可能因相连节点潜在相似而相关；识别同伴效应必须区分这两类依赖。 方法同时容纳传播与潜在相似依赖。对争议性肥胖研究的重分析在考虑网络结构后未发现因果同伴效应证据；没有证据不等于证明任何同伴效应都为零。",
+          "abstractSource": "https://arxiv.org/abs/1705.08527",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "为X平台跨语言接触研究提醒：跨语言连边增加、同群选择与因果影响不是同一结果；分析应预先定义节点/连边干预和干扰范围。",
+          "readingUse": "研究设计：将跨语言回复网络的依赖纳入识别。",
+          "researchConnection": "为X平台跨语言接触研究提醒：跨语言连边增加、同群选择与因果影响不是同一结果；分析应预先定义节点/连边干预和干扰范围。",
+          "readingPriority": "high",
+          "priorityReason": "网络相关性的识别边界直接关联跨语言网络研究，建议方法精读。",
+          "citationNote": "原生Google Scholar方法主题第2页实际显示被引用次数309；本次快照，不是检索引擎摘要或替代数据库计数。",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "cited",
+          "publicationDate": "2017-05-23",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/1705.08527",
+          "publicationDateNote": "arXiv v1日；2022修订和2024正式卷期不作为首次公开。",
+          "citationCount": 309,
+          "citationSource": "Google Scholar",
+          "citationSourceUrl": "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=10",
+          "citationCheckedAt": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）"
+        },
+        {
+          "title": "Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates",
+          "titleZh": "文本与因果推断：用文本调整混杂的研究综述",
+          "authors": "Katherine A. Keith; David Jensen; Brendan O'Connor",
+          "year": 2020,
+          "venue": "arXiv:2005.00649；ACL 2020",
+          "url": "https://arxiv.org/abs/2005.00649",
+          "doi": "10.48550/arXiv.2005.00649",
+          "topicIds": [
+            "measurement",
+            "methods"
+          ],
+          "source": "原始来源题录与摘要核验",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "文本可以提供混杂因素的信息，但丰富文本并不自动满足可交换性。研究将“怎样表征文本”和“表征能否调整混杂”连接起来。",
+          "data": "综述不同研究社区使用文本降低观察性因果估计偏差的应用；包括社交媒体历史和新闻内容等资料类型，不是一项新招募样本的实证研究。",
+          "method": "整理文本预处理、表示、调整及评价决策，将散落方法分类，并讨论评价实践不一致与尚未解决的问题；本次仅读摘要，不补写未核验的方法清单。",
+          "results": "提供跨领域方法路线与评估指南，强调文本调整混杂仍有开放问题；不声称某个嵌入或语言模型可普遍恢复无偏效应。",
+          "takeaway": "提供跨领域方法路线与评估指南，强调文本调整混杂仍有开放问题；不声称某个嵌入或语言模型可普遍恢复无偏效应。",
+          "limitations": "摘要核验；具体实验与推荐条件未读。应用时需另外确认文本产生在处理之前、是否包含处理/结果信息及测量误差，不能无条件把全部发帖纳入控制。",
+          "abstractZh": "文本可以提供混杂因素的信息，但丰富文本并不自动满足可交换性。研究将“怎样表征文本”和“表征能否调整混杂”连接起来。 提供跨领域方法路线与评估指南，强调文本调整混杂仍有开放问题；不声称某个嵌入或语言模型可普遍恢复无偏效应。",
+          "abstractSource": "https://arxiv.org/abs/2005.00649",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "补充X平台冲击设计：冲击后帖子可能是中介或结果，不能仅因预测强就作为混杂控制；跨语言接触指标与控制语料需明确分工。",
+          "readingUse": "研究设计：为文本协变量建立因果图和时序审查。",
+          "researchConnection": "补充X平台冲击设计：冲击后帖子可能是中介或结果，不能仅因预测强就作为混杂控制；跨语言接触指标与控制语料需明确分工。",
+          "readingPriority": "high",
+          "priorityReason": "建议在拟定文本控制方案前阅读，先检查时序与因果角色。",
+          "citationNote": "原生Google Scholar方法主题第1页实际显示被引用次数204；本次快照，不是检索引擎摘要或替代数据库计数。",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "cited",
+          "publicationDate": "2020-05-01",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2005.00649",
+          "publicationDateNote": "采用arXiv v1公开日，ACL正式会议日期不替代。",
+          "citationCount": 204,
+          "citationSource": "Google Scholar",
+          "citationSourceUrl": "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29",
+          "citationCheckedAt": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）"
+        }
+      ]
+    },
+    {
+      "id": "journals",
+      "label": "传播学与社会科学",
+      "target": 5,
+      "sortBy": "citationCount",
+      "journalPriorityNote": "四主题原生Scholar检索，方法主题实际浏览前3页；排除历史、未核实资格及无实际引用候选。本轮已核验未推荐传播学候选5篇，均在上传77刊SSCI Q1/Q2表，按1119、710、242、110、106排序，无须补其他社会科学。不声称全领域最高。",
+      "papers": [
+        {
+          "title": "Social Media, Political Expression, and Political Participation: Panel Analysis of Lagged and Concurrent Relationships",
+          "titleZh": "社交媒体、政治表达与政治参与：滞后与同期关系的面板分析",
+          "authors": "Homero Gil de Zúñiga; Logan Molyneux; Pei Zheng",
+          "year": 2014,
+          "venue": "Journal of Communication 64(4):612–634",
+          "url": "https://academic.oup.com/joc/article-abstract/64/4/612/4086027",
+          "doi": "10.1111/jcom.12103",
+          "topicIds": [
+            "social",
+            "methods"
+          ],
+          "source": "Google Scholar主题发现；原始题录与摘要补核",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "把政治表达置于信息使用、社交互动与参与之间，区分新闻用途与关系互动用途，检验表达是否是连接线上使用和行动的机制。",
+          "data": "美国两波面板，比较社交媒体信息/互动用途、政治表达及线上线下参与；本次摘要没有样本N、波间间隔和调查年份，保留未知。",
+          "method": "分别估计滞后与同期关系，以及表达的间接路径；时序面板帮助区分关联顺序，但中介识别仍需额外无混杂假设。",
+          "results": "新闻用途与线下参与存在直接路径，并通过政治表达联系线上线下参与；社交互动用途未见直接参与路径，而经表达产生间接关系。不能把所有用途合成一般使用时长解释。",
+          "takeaway": "新闻用途与线下参与存在直接路径，并通过政治表达联系线上线下参与；社交互动用途未见直接参与路径，而经表达产生间接关系。不能把所有用途合成一般使用时长解释。",
+          "limitations": "仅核验出版方摘要；具体模型拟合、系数和失访控制须正文。两波观察资料不能独立证明中介因果机制，跨国平台迁移需另验。",
+          "abstractZh": "把政治表达置于信息使用、社交互动与参与之间，区分新闻用途与关系互动用途，检验表达是否是连接线上使用和行动的机制。 新闻用途与线下参与存在直接路径，并通过政治表达联系线上线下参与；社交互动用途未见直接参与路径，而经表达产生间接关系。不能把所有用途合成一般使用时长解释。",
+          "abstractSource": "https://academic.oup.com/joc/article-abstract/64/4/612/4086027",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "对微博/X研究，语言接触的数量不等于政治表达或参与；可设置不同结果与路径，并防止把表达同时当处理和结果。",
+          "readingUse": "假设推导：区分接触、表达和行动。",
+          "researchConnection": "对微博/X研究，语言接触的数量不等于政治表达或参与；可设置不同结果与路径，并防止把表达同时当处理和结果。",
+          "readingPriority": "high",
+          "priorityReason": "可用于组织机制变量，优先读时序模型与用途量表。",
+          "citationNote": "原生Google Scholar方法主题第3页实际显示被引用次数1119；本次快照，不是检索引擎摘要或替代数据库计数。",
+          "publicationDate": "2014-06-19",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/joc/article-abstract/64/4/612/4086027",
+          "publicationDateNote": "采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+          "publicationType": "journal",
+          "discoverySource": "Google Scholar",
+          "discipline": "communication",
+          "journalName": "JOURNAL OF COMMUNICATION",
+          "journalEdition": "SSCI",
+          "indexSource": "用户提供的JCR_JournalResults_06_2026.csv",
+          "jifQuartile": "Q1",
+          "quartileSource": "用户提供的JCR_JournalResults_06_2026.csv；指标年份未提供，不推断年份；JIF分区非中科院分区。",
+          "citationCount": 1119,
+          "citationSource": "Google Scholar",
+          "citationSourceUrl": "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=20",
+          "citationCheckedAt": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）"
+        },
+        {
+          "title": "Age and the effects of news media attention and social media use on political interest and participation: Do social media function as leveller?",
+          "titleZh": "年龄与媒体使用的政治效果：社交媒体是否发挥拉平作用？",
+          "authors": "Kristoffer Holt; Adam Shehata; Jesper Strömbäck; Elisabet Ljungberg",
+          "year": 2013,
+          "venue": "European Journal of Communication 28(1)",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/0267323112465369",
+          "doi": "10.1177/0267323112465369",
+          "topicIds": [
+            "social",
+            "methods"
+          ],
+          "source": "Google Scholar主题发现；原始题录与摘要补核",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "从年龄差异讨论社交媒体政治用途能否缓和传统政治参与差距；区分使用方式不同与使用带来的变化不同。",
+          "data": "2010年瑞典全国选举期间四波面板，考察不同年龄群体的新闻注意、政治性社媒使用、政治兴趣及线下参与；摘要未列N。",
+          "method": "在多波资料中比较年龄群体的使用差异与政治参与变化，不将年轻人总体使用更多直接等同于更强的因果效应。",
+          "results": "不同年龄群体的使用结构不同；政治性社媒使用和传统政治新闻注意均与随时间增加的投入相关，作者据此提出年轻人频繁社媒使用可能发挥拉平作用。",
+          "takeaway": "不同年龄群体的使用结构不同；政治性社媒使用和传统政治新闻注意均与随时间增加的投入相关，作者据此提出年轻人频繁社媒使用可能发挥拉平作用。",
+          "limitations": "仅摘要核验，未读交互系数和稳健性；选举期瑞典情境、面板流失与剩余选择限制外推。拉平是有条件解释，不是平台消除不平等的普遍结论。",
+          "abstractZh": "从年龄差异讨论社交媒体政治用途能否缓和传统政治参与差距；区分使用方式不同与使用带来的变化不同。 不同年龄群体的使用结构不同；政治性社媒使用和传统政治新闻注意均与随时间增加的投入相关，作者据此提出年轻人频繁社媒使用可能发挥拉平作用。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/0267323112465369",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "为X跨语言冲击提供分层视角：总平均增幅有限时，可检验既有接触较少者是否变化更大，但需明确基线与交互设计。",
+          "readingUse": "研究设计：检验年龄和基线参与异质性。",
+          "researchConnection": "为X跨语言冲击提供分层视角：总平均增幅有限时，可检验既有接触较少者是否变化更大，但需明确基线与交互设计。",
+          "readingPriority": "normal",
+          "priorityReason": "适合异质性假设参考，先核对“拉平”的具体统计定义。",
+          "citationNote": "原生Google Scholar方法主题第1页实际显示被引用次数710；本次快照，不是检索引擎摘要或替代数据库计数。",
+          "publicationDate": "2013-02-11",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/0267323112465369",
+          "publicationDateNote": "采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+          "publicationType": "journal",
+          "discoverySource": "Google Scholar",
+          "discipline": "communication",
+          "journalName": "EUROPEAN JOURNAL OF COMMUNICATION",
+          "journalEdition": "SSCI",
+          "indexSource": "用户提供的JCR_JournalResults_06_2026.csv",
+          "jifQuartile": "Q1",
+          "quartileSource": "用户提供的JCR_JournalResults_06_2026.csv；指标年份未提供，不推断年份；JIF分区非中科院分区。",
+          "citationCount": 710,
+          "citationSource": "Google Scholar",
+          "citationSourceUrl": "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29",
+          "citationCheckedAt": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）"
+        },
+        {
+          "title": "Facebook, Twitter, and Youth Engagement: A Quasi-experimental Study of Social Media Use and Protest Behavior Using Propensity Score Matching",
+          "titleZh": "Facebook、Twitter与青年行动：倾向得分匹配的准实验研究",
+          "authors": "Sebastián Valenzuela; Arturo Arriagada; Andrés Scherman",
+          "year": 2014,
+          "venue": "International Journal of Communication 8",
+          "url": "https://ijoc.org/index.php/ijoc/article/view/2022",
+          "doi": "",
+          "topicIds": [
+            "social",
+            "methods"
+          ],
+          "source": "Google Scholar主题发现；原始题录与摘要补核",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "平台网络结构可能在抗议周期的不同阶段发挥不同作用；强弱联系的解释需要与平台、事件阶段和参与者选择同时考虑。",
+          "data": "2011年智利学生示威之前、期间和之后的重复横截面调查；不是同一批人持续追踪。样本量与年龄边界本次摘要未列，保留未知。",
+          "method": "用倾向得分匹配比较社媒使用者与可观测特征相近者，并比较抗议周期不同时间及两个平台；匹配目标为观测协变量平衡。",
+          "results": "Facebook和Twitter使用均与抗议可能性有关，但关系因时间和平台而异；作者以抗议周期及强弱联系结构解释差异，强调动态分析价值。",
+          "takeaway": "Facebook和Twitter使用均与抗议可能性有关，但关系因时间和平台而异；作者以抗议周期及强弱联系结构解释差异，强调动态分析价值。",
+          "limitations": "仅核验出版方摘要；没有随机分配，匹配不能处理未测混杂，阶段差异也可能来自样本构成。未核验DOI，故留空，以原始文章URL和题名去重。",
+          "abstractZh": "平台网络结构可能在抗议周期的不同阶段发挥不同作用；强弱联系的解释需要与平台、事件阶段和参与者选择同时考虑。 Facebook和Twitter使用均与抗议可能性有关，但关系因时间和平台而异；作者以抗议周期及强弱联系结构解释差异，强调动态分析价值。",
+          "abstractSource": "https://ijoc.org/index.php/ijoc/article/view/2022",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "补充X平台研究的时间窗口与群体构成问题；重复截面与用户面板回答不同问题，不能将前后群体变化直接当个体变化。",
+          "readingUse": "研究设计：结合平台对照、阶段和匹配诊断。",
+          "researchConnection": "补充X平台研究的时间窗口与群体构成问题；重复截面与用户面板回答不同问题，不能将前后群体变化直接当个体变化。",
+          "readingPriority": "high",
+          "priorityReason": "适合比较采样设计，实施前须读匹配变量、共同支持和敏感性分析。",
+          "citationNote": "原生Google Scholar方法主题第3页实际显示被引用次数242；本次快照，不是检索引擎摘要或替代数据库计数。",
+          "publicationDate": "2014-07-29",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://ijoc.org/index.php/ijoc/article/view/2022",
+          "publicationDateNote": "采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+          "publicationType": "journal",
+          "discoverySource": "Google Scholar",
+          "discipline": "communication",
+          "journalName": "International Journal of Communication",
+          "journalEdition": "SSCI",
+          "indexSource": "用户提供的JCR_JournalResults_06_2026.csv",
+          "jifQuartile": "Q2",
+          "quartileSource": "用户提供的JCR_JournalResults_06_2026.csv；指标年份未提供，不推断年份；JIF分区非中科院分区。",
+          "citationCount": 242,
+          "citationSource": "Google Scholar",
+          "citationSourceUrl": "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=20",
+          "citationCheckedAt": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）"
+        },
+        {
+          "title": "Incidental news exposure via social media and political participation: Evidence of reciprocal effects",
+          "titleZh": "偶遇新闻与政治参与：双向关系的面板证据",
+          "authors": "Sangwon Lee; Michael Xenos",
+          "year": 2022,
+          "venue": "New Media & Society 24(1):178–201",
+          "url": "https://journals.sagepub.com/doi/10.1177/1461444820962121",
+          "doi": "10.1177/1461444820962121",
+          "topicIds": [
+            "social",
+            "methods"
+          ],
+          "source": "Google Scholar主题发现；原始题录与摘要补核",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "比较动员、强化和双向模型，询问偶遇新闻使人参与，还是参与倾向改变其社媒使用并增加偶遇。",
+          "data": "两套面板数据，涉及偶遇新闻、政治用途社媒使用与政治参与；摘要未列两组样本N、地区及波数，保留未知。",
+          "method": "用交叉滞后和自回归路径模型比较两个单向解释与双向解释，并检验政治用途的间接路径；模型方向不能替代外生变异。",
+          "results": "两个方向均存在经政治性使用的间接联系；两项研究中，参与到偶遇接触的路径强于接触到参与的路径。结果不支持只讲单向动员。",
+          "takeaway": "两个方向均存在经政治性使用的间接联系；两项研究中，参与到偶遇接触的路径强于接触到参与的路径。结果不支持只讲单向动员。",
+          "limitations": "摘要核验，具体时距、测量和效应量未读；稳定个体差异与未测时变混杂仍可能解释滞后关系，不能仅凭交叉滞后便宣称因果方向。",
+          "abstractZh": "比较动员、强化和双向模型，询问偶遇新闻使人参与，还是参与倾向改变其社媒使用并增加偶遇。 两个方向均存在经政治性使用的间接联系；两项研究中，参与到偶遇接触的路径强于接触到参与的路径。结果不支持只讲单向动员。",
+          "abstractSource": "https://journals.sagepub.com/doi/10.1177/1461444820962121",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "挑战把跨语言接触仅视为平台供给结果的假设：先前主动参与可能改变后续跨语言推荐与互动，需区分选择和平台冲击。",
+          "readingUse": "研究设计：同时估计接触与使用选择。",
+          "researchConnection": "挑战把跨语言接触仅视为平台供给结果的假设：先前主动参与可能改变后续跨语言推荐与互动，需区分选择和平台冲击。",
+          "readingPriority": "high",
+          "priorityReason": "与外生冲击研究的选择机制直接相关，建议对照单向与双向模型。",
+          "citationNote": "原生Google Scholar方法主题第3页实际显示被引用次数110；本次快照，不是检索引擎摘要或替代数据库计数。",
+          "publicationDate": "2020-10-04",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/10.1177/1461444820962121",
+          "publicationDateNote": "采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+          "publicationType": "journal",
+          "discoverySource": "Google Scholar",
+          "discipline": "communication",
+          "journalName": "NEW MEDIA & SOCIETY",
+          "journalEdition": "SSCI",
+          "indexSource": "用户提供的JCR_JournalResults_06_2026.csv",
+          "jifQuartile": "Q1",
+          "quartileSource": "用户提供的JCR_JournalResults_06_2026.csv；指标年份未提供，不推断年份；JIF分区非中科院分区。",
+          "citationCount": 110,
+          "citationSource": "Google Scholar",
+          "citationSourceUrl": "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29&start=20",
+          "citationCheckedAt": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）"
+        },
+        {
+          "title": "The Development of Political Interest Among Adolescents: A Communication Mediation Approach Using Five Waves of Panel Data",
+          "titleZh": "青少年政治兴趣的形成：五波面板的传播中介研究",
+          "authors": "Adam Shehata; Erik Amnå",
+          "year": 2019,
+          "venue": "Communication Research 46(8)",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/0093650217714360",
+          "doi": "10.1177/0093650217714360",
+          "topicIds": [
+            "methods",
+            "social"
+          ],
+          "source": "Google Scholar主题发现；原始题录与摘要补核",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "以公民传播中介模型研究政治兴趣如何形成，关注家庭和朋友对时政新闻的兴趣及其传播环境，而不只把政治兴趣当固定背景控制。",
+          "data": "瑞典青少年四年内五波面板；考察自身政治兴趣及家庭、朋友的新闻兴趣。摘要未列N、各波年龄及失访率，保留未知。",
+          "method": "用多波资料检验传播中介模型的若干假设、机制和发展过程，比较父母与同伴的关联；具体参数和间接路径须正文。",
+          "results": "若干传播中介假设得到支持，父母在塑造青少年政治兴趣方面看起来比同伴更重要；本次不补写未读的系数和显著性表。",
+          "takeaway": "若干传播中介假设得到支持，父母在塑造青少年政治兴趣方面看起来比同伴更重要；本次不补写未读的系数和显著性表。",
+          "limitations": "仅摘要核验；观察性家庭/同伴关系可能有共同原因，五波不等于随机化。不能把青少年政治兴趣模型直接套到成年人的agency/communion。",
+          "abstractZh": "以公民传播中介模型研究政治兴趣如何形成，关注家庭和朋友对时政新闻的兴趣及其传播环境，而不只把政治兴趣当固定背景控制。 若干传播中介假设得到支持，父母在塑造青少年政治兴趣方面看起来比同伴更重要；本次不补写未读的系数和显著性表。",
+          "abstractSource": "https://journals.sagepub.com/doi/abs/10.1177/0093650217714360",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "补充跨语言研究中“既有兴趣”的角色：它可能随接触发展，也可能先于接触影响选择，需按研究问题明确时序。",
+          "readingUse": "理论与设计：将兴趣和社交环境视为动态变量。",
+          "researchConnection": "补充跨语言研究中“既有兴趣”的角色：它可能随接触发展，也可能先于接触影响选择，需按研究问题明确时序。",
+          "readingPriority": "normal",
+          "priorityReason": "适合长期社会化研究参照，优先检查家庭与朋友变量的测量来源。",
+          "citationNote": "原生Google Scholar方法主题第1页实际显示被引用次数106；本次快照，不是检索引擎摘要或替代数据库计数。",
+          "publicationDate": "2017-06-18",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://journals.sagepub.com/doi/abs/10.1177/0093650217714360",
+          "publicationDateNote": "采用出版方首次在线日期；正式卷期与修订日不替代首发。",
+          "publicationType": "journal",
+          "discoverySource": "Google Scholar",
+          "discipline": "communication",
+          "journalName": "COMMUNICATION RESEARCH",
+          "journalEdition": "SSCI",
+          "indexSource": "用户提供的JCR_JournalResults_06_2026.csv",
+          "jifQuartile": "Q1",
+          "quartileSource": "用户提供的JCR_JournalResults_06_2026.csv；指标年份未提供，不推断年份；JIF分区非中科院分区。",
+          "citationCount": 106,
+          "citationSource": "Google Scholar",
+          "citationSourceUrl": "https://scholar.google.com/scholar?q=%28%22causal+inference%22+OR+%22panel+data%22+OR+%22interrupted+time+series%22+OR+%22text+measurement%22%29+%28communication+OR+%22digital+platforms%22+OR+%22social+media%22%29",
+          "citationCheckedAt": "2026-10-26 05:57–06:02 Asia/Shanghai（本次实际检索与核验时段）"
+        }
+      ]
+    },
+    {
+      "id": "communication-issue",
+      "label": "传播学顶刊完整一期",
+      "unit": "issue",
+      "target": 3,
+      "sortBy": "issue",
+      "sortDescription": "出版方Advance Access完整在线目录顺序，3篇研究全部解读；不以主题相关性删减。",
+      "collection": {
+        "journalId": "hcr",
+        "journalName": "Human Communication Research",
+        "kind": "online-first",
+        "title": "Advance Access：2026-10-26完整在线集合快照",
+        "url": "https://academic.oup.com/hcr/advance-articles",
+        "checkedAt": "2026-10-26T06:05:20+08:00",
+        "complete": true,
+        "enumerated": 3,
+        "paginationNote": "公开目录从Advance Access至页脚3条正文研究，无分页/加载更多；侧栏Latest不是Advance Access正文目录，未将其重复题名或其他推荐条目算作本集合新增。",
+        "toc": [
+          {
+            "title": "Technology-mediated communication among migrant families separated by borders: understanding the tensions of relational maintenance",
+            "url": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag003/8742091",
+            "articleType": "Research Article",
+            "status": "new"
+          },
+          {
+            "title": "The invisible labor of assimilation by individuals with stigmatized identities: a qualitative study of autistic workers’ organizational socialization",
+            "url": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag002/8665593",
+            "articleType": "Research Article",
+            "status": "new"
+          },
+          {
+            "title": "Relationship uncertainty and person-specific dynamics of partner rumination and relational turbulence in day-to-day life",
+            "url": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag001/8442392",
+            "articleType": "Research Article",
+            "status": "new"
+          }
+        ]
+      },
+      "papers": [
+        {
+          "title": "Technology-mediated communication among migrant families separated by borders: understanding the tensions of relational maintenance",
+          "titleZh": "跨境分离移民家庭的技术中介沟通：关系维系的张力",
+          "authors": "Hyojin Lee; Jennifer A Kam; Nancy Molina-Rogers; Ricardo Delgado Solis; Amy Gonzales",
+          "year": 2026,
+          "venue": "Human Communication Research，Advance Access hqag003",
+          "url": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag003/8742091",
+          "doi": "10.1093/hcr/hqag003",
+          "topicIds": [
+            "social",
+            "agency"
+          ],
+          "source": "Oxford Academic完整Advance Access目录直接发现；原始文章核验",
+          "category": "传播学顶刊 · 在线集合通读",
+          "evidence": "摘要核验",
+          "theory": "将关系维系理解为收益与成本可能同时出现的过程，而非维系越多关系越好；结构障碍和文化规范影响同一策略对各家庭角色的意义。",
+          "data": "27个墨西哥/危地马拉来源的分离家庭三元组，共81位父母与9–17岁子女分别访谈；2023年6–12月招募，访谈主要以西班牙语电话进行。",
+          "method": "解释性取向，ATLAS.ti中开放、二级和轴心编码，结合持续比较及家庭内部/家庭之间三角互证；译文另由研究助理核对。读到方法，结果按所读摘要概括。",
+          "results": "维持常规联系、优先实时互动和选择性披露三类维系策略均伴随张力；技术可连接，也可能放大思念和压力，且家庭成员负担不均。",
+          "takeaway": "维持常规联系、优先实时互动和选择性披露三类维系策略均伴随张力；技术可连接，也可能放大思念和压力，且家庭成员负担不均。",
+          "limitations": "本次读摘要及方法，未完成结果关键段精读，保守按摘要核验。资源不足和跨境分离家庭的情境不能代表所有远距关系；质性主题不是总体发生率或平均效果。",
+          "abstractZh": "将关系维系理解为收益与成本可能同时出现的过程，而非维系越多关系越好；结构障碍和文化规范影响同一策略对各家庭角色的意义。 维持常规联系、优先实时互动和选择性披露三类维系策略均伴随张力；技术可连接，也可能放大思念和压力，且家庭成员负担不均。",
+          "abstractSource": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag003/8742091",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "为共融性表达的情境解释提供补充：联系频繁和情感词多未必意味着关系负担较小；不强行把家庭结论迁移为微博用户心理属性。",
+          "readingUse": "理论框架与背景阅读：从同一实践的收益/成本发展关系机制。",
+          "researchConnection": "为共融性表达的情境解释提供补充：联系频繁和情感词多未必意味着关系负担较小；不强行把家庭结论迁移为微博用户心理属性。",
+          "readingPriority": "high",
+          "priorityReason": "三元组资料和张力理论有助于避免单一受访者或单向积极效果的解释。",
+          "citationNote": "本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。",
+          "publicationDate": "2026-07-26",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag003/8742091",
+          "publicationDateNote": "采用出版方首次在线日期；正式卷期与修订日不替代首发。"
+        },
+        {
+          "title": "The invisible labor of assimilation by individuals with stigmatized identities: a qualitative study of autistic workers’ organizational socialization",
+          "titleZh": "污名身份者隐形的同化劳动：自闭症劳动者的组织社会化",
+          "authors": "Young Ji Kim; Margot Plunkett",
+          "year": 2026,
+          "venue": "Human Communication Research，Advance Access hqag002",
+          "url": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag002/8665593",
+          "doi": "10.1093/hcr/hqag002",
+          "topicIds": [
+            "agency",
+            "social"
+          ],
+          "source": "Oxford Academic完整Advance Access目录直接发现；原始文章核验",
+          "category": "传播学顶刊 · 在线集合通读",
+          "evidence": "全文核验",
+          "theory": "提出“同化劳动”：污名身份者为适应占主导的规范持续付出的刻意且常不可见的工作。把看似被动的适应置于神经典型规范和组织权力之中。",
+          "data": "访谈31名自闭症劳动者，提供面对面、Zoom音视频/文字及邮件选择；口头访谈平均78分钟，形成729页单倍行距材料。不是组织总体代表样本。",
+          "method": "使用实践智慧迭代质性分析，在资料和组织社会化、污名等理论之间往返；先以约20%材料开放编码，形成550个一级码，再轴心编码为结构条件与实践类别。",
+          "results": "结构性污名、神经规范化的社交期待、缺少意义资源的不可预测信息环境及感官规范促成同化劳动；环境扫描、预先准备、伪装模仿及应对便利安排构成隐形适应实践。",
+          "takeaway": "结构性污名、神经规范化的社交期待、缺少意义资源的不可预测信息环境及感官规范促成同化劳动；环境扫描、预先准备、伪装模仿及应对便利安排构成隐形适应实践。",
+          "limitations": "已读方法、发现和讨论关键段，按全文核验。质性概念不能直接当已验证量表或总体普遍率；不能从公开语言中擅自推断个体神经发展身份。",
+          "abstractZh": "提出“同化劳动”：污名身份者为适应占主导的规范持续付出的刻意且常不可见的工作。把看似被动的适应置于神经典型规范和组织权力之中。 结构性污名、神经规范化的社交期待、缺少意义资源的不可预测信息环境及感官规范促成同化劳动；环境扫描、预先准备、伪装模仿及应对便利安排构成隐形适应实践。",
+          "abstractSource": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag002/8665593",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "挑战把少发声、退缩或谨慎语言直接等同低能动性的解释；agency/communion测量需要了解情境规范，但本研究没有提供现成文本指标。",
+          "readingUse": "理论框架：区分表面主动性与维持基本成员资格的隐形劳动。",
+          "researchConnection": "挑战把少发声、退缩或谨慎语言直接等同低能动性的解释；agency/communion测量需要了解情境规范，但本研究没有提供现成文本指标。",
+          "readingPriority": "high",
+          "priorityReason": "可用于反思能动性构念的规范预设，建议精读概念边界与编码例证。",
+          "citationNote": "本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。",
+          "publicationDate": "2026-04-30",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag002/8665593",
+          "publicationDateNote": "采用出版方首次在线日期；正式卷期与修订日不替代首发。"
+        },
+        {
+          "title": "Relationship uncertainty and person-specific dynamics of partner rumination and relational turbulence in day-to-day life",
+          "titleZh": "关系不确定性、伴侣反刍与关系动荡的个体动态",
+          "authors": "Alan K Goodboy; Megan R Dillow; San Bolkan; Rebekah M Chiasson; Megan A Vendemia",
+          "year": 2026,
+          "venue": "Human Communication Research，Advance Access hqag001",
+          "url": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag001/8442392",
+          "doi": "10.1093/hcr/hqag001",
+          "topicIds": [
+            "methods"
+          ],
+          "source": "Oxford Academic完整Advance Access目录直接发现；原始文章核验",
+          "category": "传播学顶刊 · 在线集合通读",
+          "evidence": "摘要核验",
+          "theory": "将关系动荡理论放入日常个体动态，区分人与人之间的平均差异，与同一人某一天偏离自身常态的变化。",
+          "data": "N=202约会伴侣，前测关系不确定性，连续30天记录反刍与关系动荡，后测协作规划；N不自行改写为202对伴侣。",
+          "method": "随机效应动态结构方程模型估计均值、惯性和波动，以及当日和跨日关系，再以个体关系不确定性解释动态差异。",
+          "results": "较平常反刍更多的日子动荡更高，动荡较高之后次日反刍更多；反刍均值、惯性及波动与月均动荡相关，但最终只有动荡平均水平预测后续协作规划。",
+          "takeaway": "较平常反刍更多的日子动荡更高，动荡较高之后次日反刍更多；反刍均值、惯性及波动与月均动荡相关，但最终只有动荡平均水平预测后续协作规划。",
+          "limitations": "仅出版方摘要可读，正文需访问权限；时间滞后并不排除未测共同原因。30天关系过程不能替代长期关系质量，也不能把个体间系数当个体内机制。",
+          "abstractZh": "将关系动荡理论放入日常个体动态，区分人与人之间的平均差异，与同一人某一天偏离自身常态的变化。 较平常反刍更多的日子动荡更高，动荡较高之后次日反刍更多；反刍均值、惯性及波动与月均动荡相关，但最终只有动荡平均水平预测后续协作规划。",
+          "abstractSource": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag001/8442392",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractUnavailableReason": "本期提供原创中文概述；未同时完成完整英文摘要的逐字校对与转载许可存档，不转载完整原文。来源链接保留。",
+          "relevance": "对重复微博/X语言测量提供层级参照：用户通常较高的agency得分与其某天升高可能有不同含义，不应以单一池化回归混合。",
+          "readingUse": "研究设计：明确用户平均、日内偏差和滞后效应。",
+          "researchConnection": "对重复微博/X语言测量提供层级参照：用户通常较高的agency得分与其某天升高可能有不同含义，不应以单一池化回归混合。",
+          "readingPriority": "high",
+          "priorityReason": "对纵向用户语料的个体内外区分直接有用，优先读动态模型与缺失处理。",
+          "citationNote": "本次未实际读取该篇Google Scholar引用数，留缺失，不记0，不以下载、平台引用或其他计量替代。",
+          "publicationDate": "2026-01-27",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/hcr/advance-article/doi/10.1093/hcr/hqag001/8442392",
+          "publicationDateNote": "采用出版方首次在线日期；正式卷期与修订日不替代首发。"
+        }
+      ]
+    },
+    {
+      "id": "general-science",
+      "label": "综合顶刊最新在线社会科学研究",
+      "target": 1,
+      "sortBy": "publicationDate",
+      "rotationJournalId": "science",
+      "papers": []
+    }
+  ]
+}

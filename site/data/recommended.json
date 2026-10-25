@@ -868,6 +868,112 @@
         "doi:10.1038/s41586-026-11161-8",
         "title:theanatomyofapersonalhealthagent"
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
+      "identifiers": [
+        "arxiv:2610.28772",
+        "doi:10.48550/arxiv.2610.28772",
+        "title:scalingtherapysupervisionassessingpsychotherapyfidelityusinglargelanguagemodels"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Same Score, Different Competence? A Study of Product-Process Non-identifiability in AI-assisted L2 Writing Assessment",
+      "identifiers": [
+        "doi:10.2139/ssrn.7576659",
+        "title:samescoredifferentcompetenceastudyofproductprocessnonidentifiabilityinaiassistedl2writingassessment"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations",
+      "identifiers": [
+        "doi:10.3386/w35859",
+        "title:howheavilyarephdstudentsoffloadingtheirscientificwritingtoaievidencefromusstemphddissertations"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Causal inference for social network data",
+      "identifiers": [
+        "arxiv:1705.08527",
+        "doi:10.48550/arxiv.1705.08527",
+        "title:causalinferenceforsocialnetworkdata"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates",
+      "identifiers": [
+        "arxiv:2005.00649",
+        "doi:10.48550/arxiv.2005.00649",
+        "title:textandcausalinferenceareviewofusingtexttoremoveconfoundingfromcausalestimates"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Social Media, Political Expression, and Political Participation: Panel Analysis of Lagged and Concurrent Relationships",
+      "identifiers": [
+        "doi:10.1111/jcom.12103",
+        "title:socialmediapoliticalexpressionandpoliticalparticipationpanelanalysisoflaggedandconcurrentrelationships"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Age and the effects of news media attention and social media use on political interest and participation: Do social media function as leveller?",
+      "identifiers": [
+        "doi:10.1177/0267323112465369",
+        "title:ageandtheeffectsofnewsmediaattentionandsocialmediauseonpoliticalinterestandparticipationdosocialmediafunctionasleveller"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Facebook, Twitter, and Youth Engagement: A Quasi-experimental Study of Social Media Use and Protest Behavior Using Propensity Score Matching",
+      "identifiers": [
+        "title:facebooktwitterandyouthengagementaquasiexperimentalstudyofsocialmediauseandprotestbehaviorusingpropensityscorematching"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Incidental news exposure via social media and political participation: Evidence of reciprocal effects",
+      "identifiers": [
+        "doi:10.1177/1461444820962121",
+        "title:incidentalnewsexposureviasocialmediaandpoliticalparticipationevidenceofreciprocaleffects"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "The Development of Political Interest Among Adolescents: A Communication Mediation Approach Using Five Waves of Panel Data",
+      "identifiers": [
+        "doi:10.1177/0093650217714360",
+        "title:thedevelopmentofpoliticalinterestamongadolescentsacommunicationmediationapproachusingfivewavesofpaneldata"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Technology-mediated communication among migrant families separated by borders: understanding the tensions of relational maintenance",
+      "identifiers": [
+        "doi:10.1093/hcr/hqag003",
+        "title:technologymediatedcommunicationamongmigrantfamiliesseparatedbybordersunderstandingthetensionsofrelationalmaintenance"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "The invisible labor of assimilation by individuals with stigmatized identities: a qualitative study of autistic workers’ organizational socialization",
+      "identifiers": [
+        "doi:10.1093/hcr/hqag002",
+        "title:theinvisiblelaborofassimilationbyindividualswithstigmatizedidentitiesaqualitativestudyofautisticworkersorganizationalsocialization"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Relationship uncertainty and person-specific dynamics of partner rumination and relational turbulence in day-to-day life",
+      "identifiers": [
+        "doi:10.1093/hcr/hqag001",
+        "title:relationshipuncertaintyandpersonspecificdynamicsofpartnerruminationandrelationalturbulenceindaytodaylife"
+      ]
     }
   ]
 }

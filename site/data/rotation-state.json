@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T06:10:03+08:00",
+  "updatedAt": "2026-10-26T06:05:20+08:00",
   "communication": {
     "ct": {
       "lastCompleteSnapshot": "2026-10-22",
@@ -13,6 +13,12 @@
       "collectionUrl": "https://academic.oup.com/joc/advance-articles",
       "enumerated": 8,
       "researchArticles": 7
+    },
+    "hcr": {
+      "lastCompleteSnapshot": "2026-10-26",
+      "collectionUrl": "https://academic.oup.com/hcr/advance-articles",
+      "enumerated": 3,
+      "researchArticles": 3
     }
   },
   "general": {
@@ -111,6 +117,22 @@
         "selected": 1,
         "socialScienceAssessment": "uncertain",
         "completionCursorAdvanced": true
+      }
+    },
+    "2026-10-26": {
+      "communication": {
+        "journalId": "hcr",
+        "status": "complete",
+        "enumerated": 3,
+        "totalReported": 3,
+        "completionCursorAdvanced": true
+      },
+      "general": {
+        "journalId": "science",
+        "status": "incomplete",
+        "selected": 0,
+        "completionCursorAdvanced": false,
+        "reason": "出版方安全验证阻断，目录与最新候选未核验"
       }
     }
   }
