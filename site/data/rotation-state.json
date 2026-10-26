@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T06:05:20+08:00",
+  "updatedAt": "2026-10-27T06:09:29+08:00",
   "communication": {
     "ct": {
       "lastCompleteSnapshot": "2026-10-22",
@@ -133,6 +133,26 @@
         "selected": 0,
         "completionCursorAdvanced": false,
         "reason": "出版方安全验证阻断，目录与最新候选未核验"
+      }
+    },
+    "2026-10-27": {
+      "communication": {
+        "journalId": "cr",
+        "status": "incomplete",
+        "enumerated": 10,
+        "totalReported": 99,
+        "missingDirectoryEntries": 89,
+        "verifiedNewResearch": 0,
+        "missingResearchCount": null,
+        "completionCursorAdvanced": false,
+        "reason": "仅首10条截断预览，安全验证阻断后续分页和独立摘要核验"
+      },
+      "general": {
+        "journalId": "science-advances",
+        "status": "incomplete",
+        "selected": 0,
+        "completionCursorAdvanced": false,
+        "reason": "出版方安全验证阻断，目录及最新社会科学候选未核验"
       }
     }
   }
