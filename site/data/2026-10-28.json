@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 6,
+  "historyPolicy": "exclude-recommended",
+  "journalPolicy": "ssci-communication-q1-q2-and-social-science",
+  "searchPlatforms": [
+    "Google Scholar",
+    "NBER",
+    "SSRN",
+    "arXiv"
+  ],
+  "date": "2026-10-28",
+  "title": "目标特定的社会感知测量、标签效度与人机亲密关系",
+  "summary": "共5篇新推荐：三库方法与测量3篇、JCMC 1篇、Scientific Data 1篇跨学科候选；引用排序栏目和JCMC整期仍有缺额。",
+  "notice": "本期有缺额；arXiv基础资源扩展时间窗，Scientific Data学科归属待判断。没有将未读全的目录或缺失引用标作完成。",
+  "searchNote": "读取最新main及全部必需配置；search-settings和core-papers请求均为空，四主题默认生效。measurement四式独立执行，其他主题采用日志中的适配式。公开域名检索不冒称站内高级检索；出版方检查不套主题词。Scholar异常流量阻断后停止，不能认为已穷尽传播学候选。与121条永久历史及本期按身份字段去重。",
+  "themeSearches": [
+    {
+      "platform": "Google Scholar",
+      "query": "\"dictionary\" \"text\" \"development\" \"validation\" psychology",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "原生页面报异常流量，单次刷新仍阻断；停止该站，其余原生主题式与引用核验未执行。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "云端Chrome原生Scholar"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "\"dictionary\" \"text\" \"development\" \"validation\" psychology [domains: nber.org, ssrn.com, arxiv.org]",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "逐条独立执行；多为旧资源，已推荐项永久排除。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "\"word embeddings\" measurement sociology [domains: nber.org, ssrn.com, arxiv.org]",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "逐条独立执行；多为旧资源，已推荐项永久排除。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "\"distributed dictionary representation\" measurement [domains: nber.org, ssrn.com, arxiv.org]",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "逐条独立执行；多为旧资源，已推荐项永久排除。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "(\"text measurement\" OR \"text-based measures\" OR \"text as data\") \"construct validity\" [domains: nber.org, ssrn.com, arxiv.org]",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "逐条独立执行；多为旧资源，已推荐项永久排除。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "(\"Weibo\" OR \"Sina Weibo\" OR \"Chinese social media\") (\"opinion expression\" OR rumor OR censorship) [domains: nber.org, ssrn.com, arxiv.org]",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "按原主题适配短式并实际执行；agency发现W&C-Sent；旧资料不冒称近30天。",
+      "topicIds": [
+        "social"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "(\"agency and communion\" OR \"warmth and competence\") (language OR text OR media) [domains: nber.org, ssrn.com, arxiv.org]",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "按原主题适配短式并实际执行；agency发现W&C-Sent；旧资料不冒称近30天。",
+      "topicIds": [
+        "agency"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") (communication OR \"social media\") [domains: nber.org, ssrn.com, arxiv.org]",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "按原主题适配短式并实际执行；agency发现W&C-Sent；旧资料不冒称近30天。",
+      "topicIds": [
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "三库",
+      "query": "\"construct validity\" \"October 2026\"",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补充发现/候选复核；不据搜索引擎的抓取日期判断首发。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "arXiv",
+      "query": "\"construct validity\" \"2026\" \"Oct\" -horizons -Reproducibility -Refusal",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补充发现/候选复核；不据搜索引擎的抓取日期判断首发。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "arXiv / SSRN",
+      "query": "\"dictionary\" \"text\" \"validation\" \"2026\" \"October\"",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补充发现/候选复核；不据搜索引擎的抓取日期判断首发。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "SSRN",
+      "query": "\"Dual Authority in Legal AI\"",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补充发现/候选复核；不据搜索引擎的抓取日期判断首发。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    },
+    {
+      "platform": "NBER",
+      "query": "\"Measurement Error in Self-Reported Data on Stigmatized Behavior\"",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补充发现/候选复核；不据搜索引擎的抓取日期判断首发。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非原生站内检索"
+    }
+  ],
+  "verificationLog": [
+    {
+      "platform": "SSRN",
+      "query": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7623601",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "题录、摘要、正文与引用核验",
+      "status": "SSRN Posted 19 Oct 2026；写作17日、修订20日不作首发。 按SSRN题录和完整摘要核验；公开全文读取失败，未标全文核验。原站保留所有权利，不转载原文摘要。反事实文本实验与真实裁判过程不同，也没有证明某个模型适合实际司法决策。 Scholar实际引用未读取。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "原始题录/正文；等级逐篇说明"
+    },
+    {
+      "platform": "NBER",
+      "query": "https://www.nber.org/papers/w35891",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "题录、摘要、正文与引用核验",
+      "status": "原站Issue Date October 2026，只保存月份，日级先后和更早版本未完全确认，不将检索日期补为首发。 按摘要核验，PDF公开读取未成功，首发只确认到NBER的2026年10月。它研究调查报告而非词典或embedding，作为资料生成与推断的方法补充；不从该研究给出个体医疗或法律建议。 Scholar实际引用未读取。",
+      "topicIds": [
+        "methods"
+      ],
+      "channel": "原始题录/正文；等级逐篇说明"
+    },
+    {
+      "platform": "arXiv",
+      "query": "https://arxiv.org/abs/2601.06316",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "题录、摘要、正文与引用核验",
+      "status": "v1为2026-01-09 21:19:46 UTC；本次读v3（4月25日），不把修订或会议接收当首发。 已读HTML数据、标注、实验设置及表3关键结果。英语、争议政治议题和不均衡目标分布限制外推；标注分歧并非全是噪声。信任/社交性/能力与agency/communion只部分重叠，不能直接互换；中文微博需要本地定义、目标抽取和独立验证。 Scholar实际引用未读取。",
+      "topicIds": [
+        "measurement",
+        "agency",
+        "methods"
+      ],
+      "channel": "原始题录/正文；等级逐篇说明"
+    },
+    {
+      "platform": "Journal of Computer-Mediated Communication 31(5), zmag016",
+      "query": "https://academic.oup.com/jcmc/article/31/5/zmag016/8778837",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "题录、摘要、正文与引用核验",
+      "status": "出版方Published为2026-09-01；卷期为2026年9月。 已读公开正文理论、方法和结果开头及关系启动段；未完整核对维持/解体的全部分主题，不标已通读全文。小规模自选、回顾性访谈，不能估计中国用户总体比例或建立因果序列；文化解释也不能等同跨国比较证据。 Scholar实际引用未读取。",
+      "topicIds": [
+        "agency"
+      ],
+      "channel": "原始题录/正文；等级逐篇说明"
+    },
+    {
+      "platform": "Scientific Data，2026，Data Descriptor（提前在线版本）",
+      "query": "https://www.nature.com/articles/s41597-026-08521-4",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "题录、摘要、正文与引用核验",
+      "status": "出版方Published为2026-10-27，永久DOI已给出；提前在线版本，不等待正式卷期。 按提前在线页面的摘要核验；页面尚未呈现完整方法、数据记录和验证章节，未读取PDF正文。分配规则会将船队与空间资料误差传递到网格；不能把网格值当作逐船直接观测。学科归属待判断：经济成本与人类生产活动相关，但主体仍是环境与渔业数据。 Scholar实际引用未读取。",
+      "topicIds": [],
+      "channel": "原始题录/正文；等级逐篇说明"
+    },
+    {
+      "platform": "永久历史",
+      "query": "DOI / arXiv ID / 规范化题名 / 已核验别名",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "历史与当期跨栏去重",
+      "status": "以已同步121条永久历史与本期5篇检查，未匹配已推荐身份；JCMC31(6)两篇仅检查不再推荐。",
+      "topicIds": [],
+      "channel": "本地main数据"
+    }
+  ],
+  "periodicalChecks": [
+    {
+      "platform": "JCMC / Oxford",
+      "query": "https://academic.oup.com/jcmc/advance-articles",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "无主题词检查最新在线集合",
+      "status": "完整页显示当前无advance articles；侧栏Latest不是在线目录。",
+      "topicIds": [],
+      "channel": "出版方目录"
+    },
+    {
+      "platform": "JCMC / Oxford",
+      "query": "https://academic.oup.com/jcmc/issue",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "核对已荐目录和正式卷期",
+      "status": "31(6) In Progress只有zmag024、025，均为10月21日已推荐，不重复；转前一期31(5)。",
+      "topicIds": [],
+      "channel": "出版方目录"
+    },
+    {
+      "platform": "JCMC / Oxford",
+      "query": "https://academic.oup.com/jcmc/issue/31/5",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "正式一期核验",
+      "status": "目录6篇、读至目录后部，无分页；1篇取得足够正文证据。另5篇公开重取失败，云端安全验证单次刷新仍阻断，停止。目录已枚举不等于整期解读完成。",
+      "topicIds": [],
+      "channel": "出版方公开目录与云端Chrome"
+    },
+    {
+      "platform": "Scientific Data",
+      "query": "https://www.nature.com/sdata/articles?",
+      "timeRange": "2026-10-28 05:56–06:00 Asia/Shanghai；主题默认近30天，扩展项单列真实首发",
+      "purpose": "无关键词按最新目录筛选",
+      "status": "先读Data Descriptor按日期列表，再切All类型核对；最新27日6篇中5篇为土地覆盖、调度、蚊虫图像及基因/单细胞等自然科学或技术资料。渔业能源与经济成本数据为同日可相关跨学科候选。",
+      "topicIds": [],
+      "channel": "云端Chrome出版方目录与原站文章"
+    }
+  ],
+  "coreTracking": [],
+  "coreTrackingNote": "core-papers.json requests为空，无已同步核心文献可追踪，不把私人收藏或主题相近冒称前后引用关系。",
+  "shortfallReason": "其他研究3/5，缺高被引2篇；传播学与社会科学0/5，缺5篇，均因Scholar实际引用无法读取。arXiv最新名额经说明扩大至2026年1月基础资源，不冒称近30天。JCMC 31(5)目录6篇，本期完成1篇解读，5篇独立摘要/题录未完成核验；整期未完成，不推进完成游标。Scientific Data 1/1，为学科归属待判断的渔业经济/能源数据候选。5篇引用均缺失；2篇读正文关键部分、3篇按摘要核验。",
+  "groups": [
+    {
+      "id": "crossdisciplinary",
+      "label": "其他研究",
+      "target": 5,
+      "sortBy": "split",
+      "sortDescription": "最新名额先列已核验日期；NBER只有月精度，与SSRN的日级先后不完全确定。arXiv资源明确扩窗至1月，非当月新作。",
+      "selectionBuckets": [
+        {
+          "id": "latest",
+          "label": "最新研究（含扩窗资源）",
+          "target": 3,
+          "sortBy": "publicationDate"
+        },
+        {
+          "id": "cited",
+          "label": "高被引研究",
+          "target": 2,
+          "sortBy": "citationCount",
+          "sortDescription": "缺2篇：实际Scholar引用不可读。"
+        }
+      ],
+      "sourceCoverage": [
+        {
+          "database": "NBER",
+          "status": "included"
+        },
+        {
+          "database": "SSRN",
+          "status": "included"
+        },
+        {
+          "database": "arXiv",
+          "status": "included"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Dual Authority in Legal AI: Statutes as the Target, Judgments as the Ground Truth",
+          "titleZh": "法律AI的双重权威：规范目标与裁判标签的分离",
+          "authors": "Zhuang Yao",
+          "year": 2026,
+          "venue": "SSRN 7623601，22页，工作论文",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7623601",
+          "doi": "10.2139/ssrn.7623601",
+          "publicationDate": "2026-10-19",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7623601",
+          "source": "原始题录与摘要；已读正文关键部分者另列",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "区分系统应遵循的规范目标与训练、评分使用的记录标签。历史判决既是制度授权的决定，又可能包含规范不允许的影响；模型与其一致不等于对目标构念的有效测量。",
+          "data": "立场论文以1,000宗中国故意伤害案件构造双胞胎案例，仅改变被告性别，比较4个语言模型。这个存在性检验不是对整个司法系统歧视程度的估计；案件筛选年份、模型名称和完整样本构成未从摘要核验。",
+          "method": "先做法律规范与基准标签的概念区分，再用性别反事实替换检查量刑预测变化。作者提出评价不能止于标签一致性；本次未读正文，具体效应量、显著性和提示控制细节均未知。",
+          "results": "摘要报告4个模型在只改变被告性别时调整预测刑期，而单纯与历史标签一致的评分未必惩罚这种变化。它证明标签拟合可能漏掉规范性问题，不能单凭此判断变化源于训练数据还是模型其他环节。",
+          "takeaway": "摘要报告4个模型在只改变被告性别时调整预测刑期，而单纯与历史标签一致的评分未必惩罚这种变化。它证明标签拟合可能漏掉规范性问题，不能单凭此判断变化源于训练数据还是模型其他环节。",
+          "limitations": "按SSRN题录和完整摘要核验；公开全文读取失败，未标全文核验。原站保留所有权利，不转载原文摘要。反事实文本实验与真实裁判过程不同，也没有证明某个模型适合实际司法决策。",
+          "abstractZh": "区分系统应遵循的规范目标与训练、评分使用的记录标签。历史判决既是制度授权的决定，又可能包含规范不允许的影响；模型与其一致不等于对目标构念的有效测量。 摘要报告4个模型在只改变被告性别时调整预测刑期，而单纯与历史标签一致的评分未必惩罚这种变化。它证明标签拟合可能漏掉规范性问题，不能单凭此判断变化源于训练数据还是模型其他环节。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7623601",
+          "abstractUnavailableReason": "SSRN页面明确保留所有权利；本期仅提供原创中文概述及原站链接。",
+          "relevance": "对微博文本测量的启发：先问标签究竟是人类意见、制度决定还是理论构念，不能把高标注一致性直接称为构念效度。法律规范与社会心理构念并不等同，迁移限于评价逻辑。",
+          "researchConnection": "对微博文本测量的启发：先问标签究竟是人类意见、制度决定还是理论构念，不能把高标注一致性直接称为构念效度。法律规范与社会心理构念并不等同，迁移限于评价逻辑。",
+          "readingUse": "变量测量和研究设计：建立独立于训练标签的效度标准，用最小文本替换检查不应变化的维度。",
+          "topicIds": [
+            "measurement",
+            "methods"
+          ],
+          "readingPriority": "high",
+          "priorityReason": "优先核对构念、标注单位和外部验证的关系。",
+          "citationNote": "本次Scholar原生页面异常流量阻断，实际引用数留缺失，不记0，不沿用往期值，不用其他平台指标替代。",
+          "sourceDatabase": "SSRN",
+          "selectionBucket": "latest",
+          "publicationDateNote": "SSRN Posted 19 Oct 2026；写作17日、修订20日不作首发。"
+        },
+        {
+          "title": "Measurement Error in Self-Reported Data on Stigmatized Behavior: Experimental Evidence on Intimate Partner Violence",
+          "titleZh": "污名化行为自报的测量误差：亲密伴侣暴力的实验依据",
+          "authors": "Jorge M. Agüero; Ursula T. Aldana; Erica M. Field; Veronica Frisancho; Ignacio Rodriguez Hurtado; Javier Romero",
+          "year": 2026,
+          "venue": "NBER Working Paper 35891",
+          "url": "https://www.nber.org/papers/w35891",
+          "doi": "10.3386/w35891",
+          "publicationDate": "2026-10",
+          "publicationDatePrecision": "month",
+          "publicationDateSource": "https://www.nber.org/papers/w35891",
+          "source": "原始题录与摘要；已读正文关键部分者另列",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "将受访者的报告行为与潜在经历分开，关注隐私情境如何产生非随机少报。改变资料生成机制，可能比对已获得的观测值使用更复杂估计器更关键。",
+          "data": "比较隐私增强的投票式收集、访员可知回答的标准调查及列表实验，并将调查与两个自然实验相连。原站摘要未给样本量、国家、时期及随机化层级，均留未知。",
+          "method": "以不同报告方式比较测量结果，再检查少报是否影响决定因素的推断。只核验摘要，尚未确认各比较的具体随机分配、自然实验内容、效度参照和标准误。",
+          "results": "作者报告隐私增强方式得到比标准调查和列表实验更多、且更准确的暴力报告，低教育群体的差异尤其明显；非随机少报可能使决定因素估计产生偏差。摘要没有可逐项核验的效应量，不能把更多报告自动当成更准确的一般规律。",
+          "takeaway": "作者报告隐私增强方式得到比标准调查和列表实验更多、且更准确的暴力报告，低教育群体的差异尤其明显；非随机少报可能使决定因素估计产生偏差。摘要没有可逐项核验的效应量，不能把更多报告自动当成更准确的一般规律。",
+          "limitations": "按摘要核验，PDF公开读取未成功，首发只确认到NBER的2026年10月。它研究调查报告而非词典或embedding，作为资料生成与推断的方法补充；不从该研究给出个体医疗或法律建议。",
+          "abstractZh": "将受访者的报告行为与潜在经历分开，关注隐私情境如何产生非随机少报。改变资料生成机制，可能比对已获得的观测值使用更复杂估计器更关键。 作者报告隐私增强方式得到比标准调查和列表实验更多、且更准确的暴力报告，低教育群体的差异尤其明显；非随机少报可能使决定因素估计产生偏差。摘要没有可逐项核验的效应量，不能把更多报告自动当成更准确的一般规律。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://www.nber.org/papers/w35891",
+          "abstractUnavailableReason": "提供原创中文概述，不转载完整原文摘要；未同时完成逐字校对与许可存档。",
+          "relevance": "为社交媒体资料补充选择机制思考：可见表达受到情境影响，沉默和缺帖不一定表示构念不存在。微博审查、隐私与自我呈现需要自己的验证设计，本文未测量这些机制。",
+          "researchConnection": "为社交媒体资料补充选择机制思考：可见表达受到情境影响，沉默和缺帖不一定表示构念不存在。微博审查、隐私与自我呈现需要自己的验证设计，本文未测量这些机制。",
+          "readingUse": "研究设计与结果讨论：在因果模型中单列观测/披露过程，检验测量误差是否随处理、教育或情境系统变化。",
+          "topicIds": [
+            "methods"
+          ],
+          "readingPriority": "normal",
+          "priorityReason": "用于比较研究设计与情境边界，避免把关联解释为因果。",
+          "citationNote": "本次Scholar原生页面异常流量阻断，实际引用数留缺失，不记0，不沿用往期值，不用其他平台指标替代。",
+          "sourceDatabase": "NBER",
+          "selectionBucket": "latest",
+          "publicationDateNote": "原站Issue Date October 2026，只保存月份，日级先后和更早版本未完全确认，不将检索日期补为首发。"
+        },
+        {
+          "title": "Annotating Dimensions of Social Perception in Text: A Sentence-Level Dataset of Warmth and Competence",
+          "titleZh": "社会感知维度的句子级标注：温暖与能力数据集",
+          "authors": "Mutaz Ayesh; Saif M. Mohammad; Nedjma Ousidhoum",
+          "year": 2026,
+          "venue": "arXiv:2601.06316，原站标ACL2026 Main接收",
+          "url": "https://arxiv.org/abs/2601.06316",
+          "doi": "10.48550/arXiv.2601.06316",
+          "publicationDate": "2026-01-09",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2601.06316",
+          "source": "原始题录与摘要；已读正文关键部分者另列",
+          "category": "测量与传播研究",
+          "evidence": "全文核验",
+          "theory": "以刻板印象内容模型为基础，把对特定目标的社会感知拆为信任、社交性与能力；前两者属于温暖的不同侧面。测量单位是句子—目标对，不能把文本作者的特质与文本对他人的评价混为一谈。",
+          "data": "W&C-Sent含1,633个英语句子—目标对，覆盖3名政治人物及4类群体，来自SemEval立场资料和ABCDE。每个维度由4–7名英语熟练者独立评分，尺度为−3至+3；来源段落与表1的子样本数字有不一致，本期不强行调和，只使用一致的最终总数。",
+          "method": "用Prolific筛选标注者、注意力题与人工预标检查控制质量；分开标注三个维度。按60/20/20划分训练、开发、测试，比较TF-IDF逻辑回归、BERTweet与6个LLM的零样本/少样本配置，并区分细粒度和粗粒度预测。",
+          "results": "正文表3显示细粒度任务仍有明显误差：GPT-4o零样本在信任维度F1为0.42，社交性0.40，能力0.31；加入少量示例并不统一改善。结果提示，能够顺畅生成语言并不意味着能可靠恢复目标特定的社会感知维度。",
+          "takeaway": "正文表3显示细粒度任务仍有明显误差：GPT-4o零样本在信任维度F1为0.42，社交性0.40，能力0.31；加入少量示例并不统一改善。结果提示，能够顺畅生成语言并不意味着能可靠恢复目标特定的社会感知维度。",
+          "limitations": "已读HTML数据、标注、实验设置及表3关键结果。英语、争议政治议题和不均衡目标分布限制外推；标注分歧并非全是噪声。信任/社交性/能力与agency/communion只部分重叠，不能直接互换；中文微博需要本地定义、目标抽取和独立验证。",
+          "abstractZh": "以刻板印象内容模型为基础，把对特定目标的社会感知拆为信任、社交性与能力；前两者属于温暖的不同侧面。测量单位是句子—目标对，不能把文本作者的特质与文本对他人的评价混为一谈。 正文表3显示细粒度任务仍有明显误差：GPT-4o零样本在信任维度F1为0.42，社交性0.40，能力0.31；加入少量示例并不统一改善。结果提示，能够顺畅生成语言并不意味着能可靠恢复目标特定的社会感知维度。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://arxiv.org/abs/2601.06316",
+          "abstractUnavailableReason": "提供原创中文概述，不转载完整原文摘要；未同时完成逐字校对与许可存档。",
+          "relevance": "直接补充微博测量方案：先明确评价对象，再决定帖子级还是句子级评分；同一帖子针对不同目标可能给出不同温暖与能力评价。可用于构建中文金标准，而不是把英语模型分数当现成有效量表。",
+          "researchConnection": "直接补充微博测量方案：先明确评价对象，再决定帖子级还是句子级评分；同一帖子针对不同目标可能给出不同温暖与能力评价。可用于构建中文金标准，而不是把英语模型分数当现成有效量表。",
+          "readingUse": "变量测量与标注设计：迁移句子—目标结构和维度分开标注，保留人群/目标分层验证及标注分歧。",
+          "topicIds": [
+            "measurement",
+            "agency",
+            "methods"
+          ],
+          "readingPriority": "high",
+          "priorityReason": "优先核对构念、标注单位和外部验证的关系。",
+          "citationNote": "本次Scholar原生页面异常流量阻断，实际引用数留缺失，不记0，不沿用往期值，不用其他平台指标替代。",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest",
+          "fullTextSource": "https://arxiv.org/html/2601.06316v3",
+          "publicationDateNote": "v1为2026-01-09 21:19:46 UTC；本次读v3（4月25日），不把修订或会议接收当首发。",
+          "lookbackExtension": "本轮近30天直接相关arXiv候选多已推荐，未核验出更合适的新项，扩大至1月9日；此为本期新推荐的基础资源，不是近30天新发表。"
+        }
+      ]
+    },
+    {
+      "id": "journals",
+      "label": "传播学与社会科学",
+      "target": 5,
+      "sortBy": "citationCount",
+      "journalPriorityNote": "上传表77种SSCI传播学Q1/Q2已读取，但本轮原生Scholar发现受阻，无法形成按实际引用排序的候选集。不声称传播学供给已穷尽，不以其他社会科学或未知引用数补足。",
+      "papers": []
+    },
+    {
+      "id": "communication-issue",
+      "label": "传播学顶刊推荐",
+      "unit": "issue",
+      "target": 1,
+      "sortBy": "issue",
+      "sortDescription": "JCMC 31(5)六篇目录已枚举，本期仅1篇完成内容核验，缺5篇，整期未完成。",
+      "collection": {
+        "journalId": "jcmc",
+        "journalName": "Journal of Computer-Mediated Communication",
+        "kind": "issue",
+        "title": "JCMC Volume 31, Issue 5, September 2026（解读未完成）",
+        "url": "https://academic.oup.com/jcmc/issue/31/5",
+        "checkedAt": "2026-10-28T06:02:17+08:00",
+        "complete": false,
+        "totalReported": 6,
+        "enumerationComplete": true,
+        "verifiedResearch": 1,
+        "toc": [
+          {
+            "title": "Context, script, cue: understanding human–AI intimate relationships",
+            "url": "https://academic.oup.com/jcmc/article/31/5/zmag016/8778837",
+            "articleType": "Full-length Research Article",
+            "status": "new"
+          }
+        ],
+        "unverifiedToc": [
+          {
+            "title": "A comparative test of the protection motivation theory: active and passive privacy protection in Brazil, Germany, the United States, and Vietnam",
+            "url": "https://academic.oup.com/jcmc/article/31/5/zmag019/8778838",
+            "articleType": "Full-length Research Article",
+            "reason": "目录已核验；独立摘要和完整题录未读，未作新推荐"
+          },
+          {
+            "title": "Exposure to “connective language” in political Facebook posts leads to more enjoyment and less psychological reactance",
+            "url": "https://academic.oup.com/jcmc/article/31/5/zmag020/8789706",
+            "articleType": "Full-length Research Article",
+            "reason": "目录已核验；独立摘要和完整题录未读，未作新推荐"
+          },
+          {
+            "title": "How does political efficacy condition clicks on politics? Understanding information-selection behavior in algorithmic feeds over time",
+            "url": "https://academic.oup.com/jcmc/article/31/5/zmag022/8812171",
+            "articleType": "Full-length Research Article",
+            "reason": "目录已核验；独立摘要和完整题录未读，未作新推荐"
+          },
+          {
+            "title": "Face-off: facial expression disclosure affects the processing of proxemic norms in virtual reality",
+            "url": "https://academic.oup.com/jcmc/article/31/5/zmag021/8832613",
+            "articleType": "Full-length Research Article",
+            "reason": "目录已核验；独立摘要和完整题录未读，未作新推荐"
+          },
+          {
+            "title": "Clarifying the role of authenticity in online self-effects: examining authentic cognition and authentic self-expression",
+            "url": "https://academic.oup.com/jcmc/article/31/5/zmag023/8842583",
+            "articleType": "Full-length Research Article",
+            "reason": "目录已核验；独立摘要和完整题录未读，未作新推荐"
+          }
+        ]
+      },
+      "papers": [
+        {
+          "title": "Context, script, cue: understanding human–AI intimate relationships",
+          "titleZh": "情境、脚本与线索：理解人机亲密关系",
+          "authors": "Fan Yang; Meiling Du; Ningxin Li; Qing Yan",
+          "year": 2026,
+          "venue": "Journal of Computer-Mediated Communication 31(5), zmag016",
+          "url": "https://academic.oup.com/jcmc/article/31/5/zmag016/8778837",
+          "doi": "10.1093/jcmc/zmag016",
+          "publicationDate": "2026-09-01",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/jcmc/article/31/5/zmag016/8778837",
+          "source": "原始题录与摘要；已读正文关键部分者另列",
+          "category": "测量与传播研究",
+          "evidence": "全文核验",
+          "theory": "把CASA的社会线索与互动脚本置于关系发展和文化情境之中。Context–Script–Cue框架提出：用户先重构AI关系的正当性，再运用关系脚本，将技术信号解释为亲密线索；知道AI是人造物并不自动排除情感投入。",
+          "data": "2024年6月至2025年2月线上访谈23人，15女8男，20–31岁；从豆瓣、小红书相关社区并结合滚雪球招募。6人未超越关系初始阶段，17人曾进入此类关系，其中9人经历建立、维持及解体，8人在访谈时仍维持。",
+          "method": "半结构访谈每次40–120分钟，以人机亲密、人际亲密比较和既往AI经验为主轴。两位研究者在NVivo中结合演绎和归纳编码，借分歧讨论迭代主题，不能把该定性归纳读成随机干预或发生率调查。",
+          "results": "研究归纳出情境重构、脚本运用与线索赋义三个机制。启动阶段的叙述显示，部分人借AI获得较少被评判的表达空间；实用工具角色可成为情感联系的入口，用户会主动将持续支持或意外拟人反应转为关系意义。",
+          "takeaway": "研究归纳出情境重构、脚本运用与线索赋义三个机制。启动阶段的叙述显示，部分人借AI获得较少被评判的表达空间；实用工具角色可成为情感联系的入口，用户会主动将持续支持或意外拟人反应转为关系意义。",
+          "limitations": "已读公开正文理论、方法和结果开头及关系启动段；未完整核对维持/解体的全部分主题，不标已通读全文。小规模自选、回顾性访谈，不能估计中国用户总体比例或建立因果序列；文化解释也不能等同跨国比较证据。",
+          "abstractZh": "把CASA的社会线索与互动脚本置于关系发展和文化情境之中。Context–Script–Cue框架提出：用户先重构AI关系的正当性，再运用关系脚本，将技术信号解释为亲密线索；知道AI是人造物并不自动排除情感投入。 研究归纳出情境重构、脚本运用与线索赋义三个机制。启动阶段的叙述显示，部分人借AI获得较少被评判的表达空间；实用工具角色可成为情感联系的入口，用户会主动将持续支持或意外拟人反应转为关系意义。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://academic.oup.com/jcmc/article/31/5/zmag016/8778837",
+          "abstractUnavailableReason": "提供原创中文概述，不转载完整原文摘要；未同时完成逐字校对与许可存档。",
+          "relevance": "可作为AI被叙述为工具或关系伙伴的质性参照；若用于微博，需要另建可重复编码的语境和脚本指标。本文的关系情境不能直接转写成个体agency/communion量表。",
+          "researchConnection": "可作为AI被叙述为工具或关系伙伴的质性参照；若用于微博，需要另建可重复编码的语境和脚本指标。本文的关系情境不能直接转写成个体agency/communion量表。",
+          "readingUse": "理论框架与背景阅读：比较工具脚本和关系脚本，检验主动赋义如何补充自动社会反应的解释。",
+          "topicIds": [
+            "agency"
+          ],
+          "readingPriority": "normal",
+          "priorityReason": "用于比较研究设计与情境边界，避免把关联解释为因果。",
+          "citationNote": "本次Scholar原生页面异常流量阻断，实际引用数留缺失，不记0，不沿用往期值，不用其他平台指标替代。",
+          "fullTextSource": "https://academic.oup.com/jcmc/article/31/5/zmag016/8778837",
+          "publicationDateNote": "出版方Published为2026-09-01；卷期为2026年9月。"
+        }
+      ]
+    },
+    {
+      "id": "general-science",
+      "label": "综合顶刊推荐",
+      "target": 1,
+      "sortBy": "publicationDate",
+      "rotationJournalId": "scientific-data",
+      "papers": [
+        {
+          "title": "Carbon footprint and energy-related performance indicators of Mediterranean and Black Sea trawl fisheries",
+          "titleZh": "地中海与黑海拖网渔业的碳足迹及能源绩效空间数据",
+          "authors": "Tommaso Russo; Maria Silvia Labriola; Carmen Ferrà; Anna Nora Tassetti; Luca Marsaglia; Sofia Rinalduzzi; Antonello Sala",
+          "year": 2026,
+          "venue": "Scientific Data，2026，Data Descriptor（提前在线版本）",
+          "url": "https://www.nature.com/articles/s41597-026-08521-4",
+          "doi": "10.1038/s41597-026-08521-4",
+          "publicationDate": "2026-10-27",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://www.nature.com/articles/s41597-026-08521-4",
+          "source": "原始题录与摘要；已读正文关键部分者另列",
+          "category": "综合顶刊 · 学科归属待判断",
+          "evidence": "摘要核验",
+          "theory": "为渔业生产的能源消耗、成本与减碳评估建立一致的空间指标。它将经济绩效与人类捕捞活动连接到地理网格，而非直接测量公众态度或社会行为动机。",
+          "data": "提供2013–2022年地中海和黑海拖网渔业的4套协调空间数据，以0.5° c-square网格表示。整合欧盟年度经济报告的船队分组资料与FDI数据库的捕捞努力、上岸量；船舶或网格精确数量未在可读摘要中给出。",
+          "method": "按捕捞努力及上岸量的空间分布，将船队层级燃油消耗、成本分配到渔场；产品从捕捞技术、渔具、船长分层到网格内各船队汇总。以AIS活动及经验燃油关系独立重建消耗作验证。",
+          "results": "发布能源消耗、能源成本、燃油使用强度、能源使用强度和燃油效率等指标，可支持空间比较及减碳情景建模。可读页面未给验证误差大小或具体政策效应，不能据此断言某项减碳政策有效。",
+          "takeaway": "发布能源消耗、能源成本、燃油使用强度、能源使用强度和燃油效率等指标，可支持空间比较及减碳情景建模。可读页面未给验证误差大小或具体政策效应，不能据此断言某项减碳政策有效。",
+          "limitations": "按提前在线页面的摘要核验；页面尚未呈现完整方法、数据记录和验证章节，未读取PDF正文。分配规则会将船队与空间资料误差传递到网格；不能把网格值当作逐船直接观测。学科归属待判断：经济成本与人类生产活动相关，但主体仍是环境与渔业数据。",
+          "abstractZh": "为渔业生产的能源消耗、成本与减碳评估建立一致的空间指标。它将经济绩效与人类捕捞活动连接到地理网格，而非直接测量公众态度或社会行为动机。 发布能源消耗、能源成本、燃油使用强度、能源使用强度和燃油效率等指标，可支持空间比较及减碳情景建模。可读页面未给验证误差大小或具体政策效应，不能据此断言某项减碳政策有效。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://www.nature.com/articles/s41597-026-08521-4",
+          "abstractUnavailableReason": "提供原创中文概述，不转载完整原文摘要；未同时完成逐字校对与许可存档。",
+          "relevance": "为“微观文本—宏观外部变量”对齐提供反例提醒：外部数据存在汇总、空间分配及推断误差，不能把精细网格误认作原始观测。与微博课题为间接方法参照，无直接语言或心理指标。",
+          "researchConnection": "为“微观文本—宏观外部变量”对齐提供反例提醒：外部数据存在汇总、空间分配及推断误差，不能把精细网格误认作原始观测。与微博课题为间接方法参照，无直接语言或心理指标。",
+          "readingUse": "研究设计与背景阅读：核对汇总层级、时间覆盖和空间分配机制，评估外部指标能否支持目标层级的推断。",
+          "topicIds": [],
+          "readingPriority": "normal",
+          "priorityReason": "用于比较研究设计与情境边界，避免把关联解释为因果。",
+          "citationNote": "本次Scholar原生页面异常流量阻断，实际引用数留缺失，不记0，不沿用往期值，不用其他平台指标替代。",
+          "socialScienceAssessment": "uncertain",
+          "socialScienceReason": "包含经济成本、生产效率、人类捕捞活动与减碳治理用途；是否属于所需社会科学范围尚不确定，交由用户判断。",
+          "publicationDateNote": "出版方Published为2026-10-27，永久DOI已给出；提前在线版本，不等待正式卷期。"
+        }
+      ]
+    }
+  ]
+}
