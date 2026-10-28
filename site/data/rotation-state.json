@@ -1,12 +1,16 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T06:02:17+08:00",
+  "updatedAt": "2026-10-29T06:02:06+08:00",
   "communication": {
     "ct": {
       "lastCompleteSnapshot": "2026-10-22",
       "collectionUrl": "https://academic.oup.com/ct/advance-articles",
       "enumerated": 27,
-      "researchArticles": 25
+      "researchArticles": 25,
+      "lastCompleteIssue": "36(3)",
+      "lastCompleteIssueDate": "2026-10-29",
+      "issueUrl": "https://academic.oup.com/ct/issue/36/3",
+      "issueResearchArticles": 5
     },
     "joc": {
       "lastCompleteSnapshot": "2026-10-25",
@@ -28,8 +32,8 @@
       "socialScienceAssessment": "uncertain"
     },
     "nature-communications": {
-      "lastSelectedPublicationDate": "2026-10-22",
-      "lastSelectedDoi": "10.1038/s41467-026-78593-8"
+      "lastSelectedPublicationDate": "2026-10-28",
+      "lastSelectedDoi": "10.1038/s41467-026-78846-6"
     },
     "pnas": {
       "lastSelectedPublicationDate": "2026-10-23",
@@ -170,6 +174,22 @@
         "status": "complete",
         "selected": 1,
         "socialScienceAssessment": "uncertain",
+        "completionCursorAdvanced": true
+      }
+    },
+    "2026-10-29": {
+      "communication": {
+        "journalId": "ct",
+        "status": "complete",
+        "kind": "issue",
+        "enumerated": 5,
+        "verifiedResearch": 5,
+        "completionCursorAdvanced": true
+      },
+      "general": {
+        "journalId": "nature-communications",
+        "status": "complete",
+        "selected": 1,
         "completionCursorAdvanced": true
       }
     }

@@ -1,0 +1,892 @@
+{
+  "schemaVersion": 6,
+  "historyPolicy": "exclude-recommended",
+  "journalPolicy": "ssci-communication-q1-q2-and-social-science",
+  "searchPlatforms": [
+    "Google Scholar",
+    "NBER",
+    "SSRN",
+    "arXiv"
+  ],
+  "date": "2026-10-29",
+  "title": "测量项目、语言克制与行动者导向的媒介理论",
+  "summary": "共9篇：三库方法与测量3篇、Communication Theory正式一期5篇、Nature Communications政策评估1篇。引用排序栏目仍缺额。",
+  "notice": "Scholar异常流量导致所有引用数缺失；SSRN明确扩窗至9月4日；正文核验与摘要核验分开标注。",
+  "searchNote": "已同步最新main，读取七个配置和执行规则。默认四主题生效，无用户搜索覆盖、无已同步核心文献。四条measurement式分别执行，公开域名检索不冒称原生。按126条永久记录和本期跨栏身份去重；只选当前可核验的相关候选，不声称全库穷尽。",
+  "coreTracking": [],
+  "coreTrackingNote": "core-papers.json requests为空，无已同步核心文献可追踪，不把私人收藏或主题相近冒称前后引用关系。",
+  "themeSearches": [
+    {
+      "platform": "Google Scholar",
+      "query": "\"dictionary\" \"text\" \"development\" \"validation\" psychology",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "原生页面异常流量；刷新一次仍阻断，停止该站。其他原生主题式及所有引用核验未执行。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "云端Chrome原生Scholar",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "\"dictionary\" \"text\" \"development\" \"validation\" psychology [domains: arxiv.org, nber.org, ssrn.com]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "独立执行，返回多为旧文与已推荐项；后续补充式另列。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "\"word embeddings\" measurement sociology [domains: arxiv.org, nber.org, ssrn.com]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "独立执行，返回多为旧文与已推荐项；后续补充式另列。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "\"distributed dictionary representation\" measurement [domains: arxiv.org, nber.org, ssrn.com]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "独立执行，返回多为旧文与已推荐项；后续补充式另列。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "(\"text measurement\" OR \"text-based measures\" OR \"text as data\") \"construct validity\" [domains: arxiv.org, nber.org, ssrn.com]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "独立执行，返回多为旧文与已推荐项；后续补充式另列。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "三库",
+      "query": "(\"Weibo\" OR \"Sina Weibo\" OR \"Chinese social media\") (\"opinion expression\" OR rumor OR censorship) [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行；一引擎social返回站外噪声，排除；后用明确site限定补查。",
+      "topicIds": [
+        "social"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "三库",
+      "query": "(\"agency and communion\" OR \"warmth and competence\") (language OR text OR media) [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行；一引擎social返回站外噪声，排除；后用明确site限定补查。",
+      "topicIds": [
+        "agency"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "三库",
+      "query": "(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") (communication OR \"social media\") 2026 October [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行；一引擎social返回站外噪声，排除；后用明确site限定补查。",
+      "topicIds": [
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "三库",
+      "query": "\"construct validity\" October 2026 [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "NBER",
+      "query": "(\"causal inference\" OR \"text measurement\") \"October 2026\" [domain: nber.org]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "arXiv",
+      "query": "(\"text\" OR \"language\") \"validation\" \"Oct\" \"2026\" [domain: arxiv.org]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "三库",
+      "query": "(\"Weibo\" OR \"Sina Weibo\") censorship [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "SSRN",
+      "query": "\"Quiet by Design\" \"Posted\" [domain: ssrn.com]",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "agency"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "NBER",
+      "query": "text measurement causal inference \"October 2026\" site:nber.org/papers",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "arXiv",
+      "query": "text construct validity October 2026 site:arxiv.org/abs",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "SSRN",
+      "query": "\"Quiet by Design\" site:papers.ssrn.com/sol3/papers.cfm",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "agency"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "arXiv",
+      "query": "\"text\" \"measurement\" \"Oct\" \"2026\" site:arxiv.org/abs -2601.06316 -2610.12466",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "arXiv",
+      "query": "\"2610.11951\" site:arxiv.org",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "SSRN",
+      "query": "\"Quiet by Design\" site:papers.ssrn.com/sol3/Delivery.cfm",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "agency"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "NBER",
+      "query": "\"Estimating the Impact of Targeted Public Policies\" site:nber.org/system",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "主题发现与核验",
+      "status": "已执行补查；发现IRT基准与功效计算；不把搜索引擎抓取日期作首次公开。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "公开网页域名限定检索，非站内高级检索",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    }
+  ],
+  "verificationLog": [
+    {
+      "platform": "arXiv:2610.24972，预印本",
+      "query": "https://arxiv.org/abs/2610.24972",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "题录、摘要、正文、日期与引用核验",
+      "status": "2026-10-18；arXiv v1：2026-10-18 03:06:18 UTC；首发，不是检索或修订日。 已读HTML理论、反应矩阵定义、3.1–3.3节和表1/2关键部分；未通读附录和所有IRT结果。阈值在基准上校准的可迁移性需要独立测试；只有14个检测器，项目参数稳定性需关注。人机辨别效度不等于心理或社会构念效度。 实际Scholar引用未读。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "原始页面/原始来源搜索结果，逐篇分级",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "NBER Working Paper 35894",
+      "query": "https://www.nber.org/papers/w35894",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "题录、摘要、正文、日期与引用核验",
+      "status": "2026-10；NBER Issue Date October 2026，仅月份可核验；与本月日精度论文的真实先后不确定，排序采用已有日期字符串，不伪造日。 按原站摘要核验；网页直接读取403，检索返回的NBER原始题录和完整摘要可读，PDF正文未读。首次公开仅确认到2026年10月，日级先后与更早版本未知。 实际Scholar引用未读。",
+      "topicIds": [
+        "methods"
+      ],
+      "channel": "原始页面/原始来源搜索结果，逐篇分级",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "SSRN Working Paper，42页",
+      "query": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7412204",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "题录、摘要、正文、日期与引用核验",
+      "status": "2026-09-04；SSRN Posted 4 Sep 2026；不以抓取日期当首发。 按SSRN原始题录与完整摘要核验；直接落地页不可读、下载链接403，未读正文。匹配观察面板和销售先后关系不等于因果；词频是组织表达而非成员人格。首发9月4日，明确超出默认30天窗口。 实际Scholar引用未读。",
+      "topicIds": [
+        "measurement",
+        "agency"
+      ],
+      "channel": "原始页面/原始来源搜索结果，逐篇分级",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Communication Theory 36(3), August 2026",
+      "query": "https://academic.oup.com/ct/article/36/3/119/8724343",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "题录、摘要、正文、日期与引用核验",
+      "status": "2026-06-03；出版方首次在线日期，非正式卷期日期。 按出版方完整摘要核验；正文重定向读取失败。无法核实文献选择标准，不能把维度提案当成已验证测量工具。 实际Scholar引用未读。",
+      "topicIds": [],
+      "channel": "原始页面/原始来源搜索结果，逐篇分级",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Communication Theory 36(3), August 2026",
+      "query": "https://academic.oup.com/ct/article/36/3/134/8272698",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "题录、摘要、正文、日期与引用核验",
+      "status": "2025-10-03；出版方首次在线日期，非正式卷期日期。 摘要核验；15人的访谈不能估计总体比例或媒体的因果效应，理论整合也不是各理论机制的实验比较。首次在线2025年10月，2026年8月为正式卷期。 实际Scholar引用未读。",
+      "topicIds": [
+        "agency"
+      ],
+      "channel": "原始页面/原始来源搜索结果，逐篇分级",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Communication Theory 36(3), August 2026",
+      "query": "https://academic.oup.com/ct/article/36/3/145/8416567",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "题录、摘要、正文、日期与引用核验",
+      "status": "2026-01-07；出版方首次在线日期，非正式卷期日期。 摘要核验，正文访问失败；不能据此认定某类常识普遍正确，也未核验概念可操作化标准。 实际Scholar引用未读。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "原始页面/原始来源搜索结果，逐篇分级",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Communication Theory 36(3), August 2026",
+      "query": "https://academic.oup.com/ct/article/36/3/154/8418143",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "题录、摘要、正文、日期与引用核验",
+      "status": "2026-01-09；出版方首次在线日期，非正式卷期日期。 仅摘要核验；文中关于可预测性的主张不等于已经完成独立样本的预测验证，亦不是因果效果识别。 实际Scholar引用未读。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "原始页面/原始来源搜索结果，逐篇分级",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Communication Theory 36(3), August 2026",
+      "query": "https://academic.oup.com/ct/article/36/3/165/8317943",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "题录、摘要、正文、日期与引用核验",
+      "status": "2025-11-10；出版方首次在线日期，非正式卷期日期。 已读公开正文概念、文献整理方法、需求框架和诉求/动员关键段落；未完整通读全部8类及讨论。理论综合不是跨国因果检验，原文系统性检索的可复现程度仍需核实。 实际Scholar引用未读。",
+      "topicIds": [
+        "social",
+        "methods"
+      ],
+      "channel": "原始页面/原始来源搜索结果，逐篇分级",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Nature Communications，提前在线",
+      "query": "https://www.nature.com/articles/s41467-026-78846-6",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "题录、摘要、正文、日期与引用核验",
+      "status": "2026-10-28；出版方Published 28 October 2026；提前在线、永久DOI，可引用，不等正式卷期。 按提前在线页面完整摘要核验；页面只给摘要及附属信息，未读PDF或完整方法正文。政策选择、同期措施和空间相关需要进一步核查，不因作者使用因果估计就视所有识别假设已验证。 实际Scholar引用未读。",
+      "topicIds": [],
+      "channel": "原始页面/原始来源搜索结果，逐篇分级",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "永久历史",
+      "query": "DOI / arXiv ID / 规范化题名 / 已核验别名",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "历史及跨栏目去重",
+      "status": "126条永久历史与本期9篇身份交叉检查无重复；未据主题相近增加身份别名。",
+      "topicIds": [],
+      "channel": "本地main数据",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    }
+  ],
+  "periodicalChecks": [
+    {
+      "platform": "Communication Theory",
+      "query": "https://academic.oup.com/ct/advance-articles",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "在线集合枚举与历史对照",
+      "status": "读至目录末尾27项，25篇研究与2项非研究；与10月22日已推荐身份比较，没有新研究，按规则转最新正式一期。",
+      "topicIds": [],
+      "channel": "出版方公开目录，无主题词",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Communication Theory",
+      "query": "https://academic.oup.com/ct/issue/36/3",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "正式一期核验",
+      "status": "36(3), August 2026，完整目录5篇原创论文，无分页，5篇均未推荐；附Front Matter和Table of Contents不是研究。 Front Matter标题页可读；独立目录PDF重定向失败，但HTML研究目录完整，不影响5篇枚举。",
+      "topicIds": [],
+      "channel": "出版方公开目录，无主题词",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Communication Theory",
+      "query": "36(3)五篇文章链接，见collection.toc",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "逐篇核验",
+      "status": "直接正文4篇重定向失败；出版方原始abstract页检索返回完整摘要及题录，足以摘要核验；qtaf030取得正文关键部分。",
+      "topicIds": [],
+      "channel": "出版方文章与原站题名检索，非主题筛选",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Nature Communications",
+      "query": "https://www.nature.com/ncomms/articles",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "最新在线社会科学筛选",
+      "status": "按当前目录顺序检查首页20项（均10月28日），前17项含评论、自然/技术/生物研究；第18项环境治理准实验符合公共政策研究，选择之。相同日期内部无时刻排序，不声称日内唯一最新。",
+      "topicIds": [],
+      "channel": "出版方目录，无主题词",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    },
+    {
+      "platform": "Nature Communications",
+      "query": "https://www.nature.com/articles/s41467-026-78846-6",
+      "timeRange": "2026-10-29 05:56–06:02 Asia/Shanghai；默认近30天，扩窗项单列首发",
+      "purpose": "文章核验",
+      "status": "云端原生页面核验作者、10月28日首发、永久DOI和完整摘要；提前在线页未呈现方法正文。",
+      "topicIds": [],
+      "channel": "出版方原生页面",
+      "checkedAt": "2026-10-29T06:02:06+08:00"
+    }
+  ],
+  "shortfallReason": "其他研究3/5，缺高被引2篇；传播学与社会科学0/5，缺5篇：Scholar异常流量，实际引用不可读，不能排序。SSRN最新名额扩窗至9月4日，不冒称近30天。CT正式36(3)完整5篇（4篇摘要、1篇正文关键部分）；Nature Communications 1/1。全部9篇引用数缺失；2篇正文关键部分、7篇摘要核验。NBER首发日期仅到月。",
+  "groups": [
+    {
+      "id": "crossdisciplinary",
+      "label": "其他研究",
+      "target": 5,
+      "sortBy": "split",
+      "sortDescription": "最新3篇分库各1；按已知首发日期降序，NBER仅月份，日级真实先后不明；高被引缺2。",
+      "selectionBuckets": [
+        {
+          "id": "latest",
+          "label": "最新研究（含明确扩窗）",
+          "target": 3,
+          "sortBy": "publicationDate"
+        },
+        {
+          "id": "cited",
+          "label": "高被引研究",
+          "target": 2,
+          "sortBy": "citationCount"
+        }
+      ],
+      "sourceCoverage": [
+        {
+          "database": "NBER",
+          "status": "included"
+        },
+        {
+          "database": "SSRN",
+          "status": "included"
+        },
+        {
+          "database": "arXiv",
+          "status": "included"
+        }
+      ],
+      "papers": [
+        {
+          "title": "A Measurement Perspective on Benchmarking LLM-Generated Text Detectors using Item Response Theory",
+          "titleZh": "用项目反应理论诊断AI文本检测基准",
+          "authors": "Yanbin Zhao; Zhipeng Chen; Guangsheng Bao; Guandong Zhang; Yan Li",
+          "year": 2026,
+          "venue": "arXiv:2610.24972，预印本",
+          "url": "https://arxiv.org/abs/2610.24972",
+          "doi": "10.48550/arXiv.2610.24972",
+          "publicationDate": "2026-10-18",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2610.24972",
+          "source": "出版方/原始库题录及摘要；正文阅读范围见局限与核验日志",
+          "category": "研究解读",
+          "evidence": "全文核验",
+          "theory": "把文本作为测量项目、检测器作为作答者，以多维IRT分离文本难度/区分度与检测器能力；聚合准确率不足以描述测量结构。",
+          "data": "32,000篇文本：arXiv摘要、Writing Prompt故事、XSum新闻、Yelp评论，每域4,000人工文本及4,000生成文本；14个检测器。生成使用GPT-5、Claude Sonnet 4.5、Qwen3-32B、Llama 3.3 70B，以原文前30词提示续写。",
+          "method": "保留检测器×文本的二元正确反应矩阵，估计多维IRT参数。连续检测分数按Youden指数校准阈值，再作域别比较及项目空间聚类压缩；并非开发新检测器。",
+          "results": "表2中DetectGPT的AUC最高（0.742），LogRank的F1（0.703）和准确率（0.656）最高，说明排名取决于指标。摘要报告2,088篇子集约占6.5%，大体保留原比较模式，不代表所有新检测器或新语料都可同样压缩。",
+          "takeaway": "表2中DetectGPT的AUC最高（0.742），LogRank的F1（0.703）和准确率（0.656）最高，说明排名取决于指标。摘要报告2,088篇子集约占6.5%，大体保留原比较模式，不代表所有新检测器或新语料都可同样压缩。",
+          "limitations": "已读HTML理论、反应矩阵定义、3.1–3.3节和表1/2关键部分；未通读附录和所有IRT结果。阈值在基准上校准的可迁移性需要独立测试；只有14个检测器，项目参数稳定性需关注。人机辨别效度不等于心理或社会构念效度。",
+          "abstractZh": "把文本作为测量项目、检测器作为作答者，以多维IRT分离文本难度/区分度与检测器能力；聚合准确率不足以描述测量结构。 表2中DetectGPT的AUC最高（0.742），LogRank的F1（0.703）和准确率（0.656）最高，说明排名取决于指标。摘要报告2,088篇子集约占6.5%，大体保留原比较模式，不代表所有新检测器或新语料都可同样压缩。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://arxiv.org/abs/2610.24972",
+          "abstractUnavailableReason": "仅提供原创中文解读和原站链接；未同时完成原文逐字校对及完整转载许可存档。",
+          "relevance": "补充微博文本测量的模型评价：除总体F1，还应检验语言、时期、目标群体和长度分层误差。该论文不证明词典或embedding能测量agency/communion，也不支持用检测分数指控个体。",
+          "researchConnection": "补充微博文本测量的模型评价：除总体F1，还应检验语言、时期、目标群体和长度分层误差。该论文不证明词典或embedding能测量agency/communion，也不支持用检测分数指控个体。",
+          "readingUse": "变量测量和验证集设计：保存逐条误判，诊断项目构成与模型排名变化，迁移前另做中文标注。",
+          "topicIds": [
+            "measurement",
+            "methods"
+          ],
+          "readingPriority": "high",
+          "priorityReason": "优先用于测量设计和效度诊断。",
+          "citationNote": "2026-10-29原生Scholar报异常流量，刷新一次仍阻断；实际引用数留缺失，不沿用往期数，不记0，不以SSRN引用、下载或其他指标替代。",
+          "fullTextSource": "https://arxiv.org/html/2610.24972v1",
+          "publicationDateNote": "arXiv v1：2026-10-18 03:06:18 UTC；首发，不是检索或修订日。",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest"
+        },
+        {
+          "title": "Estimating the Impact of Targeted Public Policies with Limited Data",
+          "titleZh": "有限数据下如何识别针对小群体的政策效果",
+          "authors": "Kelly M. Jones; Mayra Pineda-Torres",
+          "year": 2026,
+          "venue": "NBER Working Paper 35894",
+          "url": "https://www.nber.org/papers/w35894",
+          "doi": "10.3386/w35894",
+          "publicationDate": "2026-10",
+          "publicationDatePrecision": "month",
+          "publicationDateSource": "https://www.nber.org/papers/w35894",
+          "source": "出版方/原始库题录及摘要；正文阅读范围见局限与核验日志",
+          "category": "研究解读",
+          "evidence": "摘要核验",
+          "theory": "政策直接针对小群体时，使用总体资料可能稀释信号；研究设计要同时考虑识别假设与统计功效。",
+          "data": "以堕胎禁令对经济福利的影响为方法示例。摘要未给具体样本量、资料年份、群体比例或效应参数，均不补写。",
+          "method": "通过事前功效计算，判断总体资料是否足以检出小群体中具有实质意义的政策效果。尚未读到具体公式、聚类处理和计算实例。",
+          "results": "作者提供事前判断资料是否足够的路线图，而非宣称某政策没有效果。摘要未报告可核验的最小可检测效应或数值，不能据此估计实际政策效应。",
+          "takeaway": "作者提供事前判断资料是否足够的路线图，而非宣称某政策没有效果。摘要未报告可核验的最小可检测效应或数值，不能据此估计实际政策效应。",
+          "limitations": "按原站摘要核验；网页直接读取403，检索返回的NBER原始题录和完整摘要可读，PDF正文未读。首次公开仅确认到2026年10月，日级先后与更早版本未知。",
+          "abstractZh": "政策直接针对小群体时，使用总体资料可能稀释信号；研究设计要同时考虑识别假设与统计功效。 作者提供事前判断资料是否足够的路线图，而非宣称某政策没有效果。摘要未报告可核验的最小可检测效应或数值，不能据此估计实际政策效应。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://www.nber.org/papers/w35894",
+          "abstractUnavailableReason": "仅提供原创中文解读和原站链接；未同时完成原文逐字校对及完整转载许可存档。",
+          "relevance": "对跨语言接触研究的补充：总体平均变化小，可能掩盖真正获得翻译功能或使用少数语言的小群体变化；本文没有研究X，也不能据此证明翻译有效。",
+          "researchConnection": "对跨语言接触研究的补充：总体平均变化小，可能掩盖真正获得翻译功能或使用少数语言的小群体变化；本文没有研究X，也不能据此证明翻译有效。",
+          "readingUse": "研究设计：在估计ITS或分组效应前做功效和最小可检测效应分析；不能把增加帖子数直接等同增加独立样本。",
+          "topicIds": [
+            "methods"
+          ],
+          "readingPriority": "high",
+          "priorityReason": "优先用于测量设计和效度诊断。",
+          "citationNote": "2026-10-29原生Scholar报异常流量，刷新一次仍阻断；实际引用数留缺失，不沿用往期数，不记0，不以SSRN引用、下载或其他指标替代。",
+          "publicationDateNote": "NBER Issue Date October 2026，仅月份可核验；与本月日精度论文的真实先后不确定，排序采用已有日期字符串，不伪造日。",
+          "sourceDatabase": "NBER",
+          "selectionBucket": "latest"
+        },
+        {
+          "title": "Quiet by Design: Linguistic Restraint as an Observable Trace of Socioemotional Wealth in Family Firms",
+          "titleZh": "家族企业的语言克制：少谈成就不等于多谈温暖",
+          "authors": "Kevin Heupel; Alex Brinkmeier; John P. Berns",
+          "year": 2026,
+          "venue": "SSRN Working Paper，42页",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7412204",
+          "doi": "10.2139/ssrn.7412204",
+          "publicationDate": "2026-09-04",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7412204",
+          "source": "出版方/原始库题录及摘要；正文阅读范围见局限与核验日志",
+          "category": "研究解读",
+          "evidence": "摘要核验",
+          "theory": "将社会情感财富中的身份认同维度落实为组织日常自我呈现中的语言克制；agency与communion应分别测量。",
+          "data": "2023–2025年匹配的S&P500家族/非家族企业面板，两套独立材料为网站自述与CEO致股东信。具体企业数、匹配变量、文本总量未见摘要，不猜测。",
+          "method": "使用Pietraszkiewicz等（2019）的agency/communion词典，比较匹配企业的用词，并考察不同受众文本与后续销售的关系。未核验回归固定效应、因果识别或标准误。",
+          "results": "摘要报告家族企业每千词约少10个agency词、差异约半个标准差，在两类材料均出现；差异来自较少agency而非较多communion。agency与后续销售的关联见于面向消费者的网站自述，未见于股东信。",
+          "takeaway": "摘要报告家族企业每千词约少10个agency词、差异约半个标准差，在两类材料均出现；差异来自较少agency而非较多communion。agency与后续销售的关联见于面向消费者的网站自述，未见于股东信。",
+          "limitations": "按SSRN原始题录与完整摘要核验；直接落地页不可读、下载链接403，未读正文。匹配观察面板和销售先后关系不等于因果；词频是组织表达而非成员人格。首发9月4日，明确超出默认30天窗口。",
+          "abstractZh": "将社会情感财富中的身份认同维度落实为组织日常自我呈现中的语言克制；agency与communion应分别测量。 摘要报告家族企业每千词约少10个agency词、差异约半个标准差，在两类材料均出现；差异来自较少agency而非较多communion。agency与后续销售的关联见于面向消费者的网站自述，未见于股东信。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7412204",
+          "abstractUnavailableReason": "仅提供原创中文解读和原站链接；未同时完成原文逐字校对及完整转载许可存档。",
+          "relevance": "支持将agency/communion分开而非做一根两极量尺；挑战脱离受众和体裁解释同一语言分数。迁移到中文微博时需验证词义、否定、发帖者/组织层级，不能直接把少用成就词称为低主体性。",
+          "researchConnection": "支持将agency/communion分开而非做一根两极量尺；挑战脱离受众和体裁解释同一语言分数。迁移到中文微博时需验证词义、否定、发帖者/组织层级，不能直接把少用成就词称为低主体性。",
+          "readingUse": "变量测量与结果讨论：分别编码两维，按体裁、受众做异质性和效度比较。",
+          "topicIds": [
+            "measurement",
+            "agency"
+          ],
+          "readingPriority": "high",
+          "priorityReason": "优先用于测量设计和效度诊断。",
+          "citationNote": "2026-10-29原生Scholar报异常流量，刷新一次仍阻断；实际引用数留缺失，不沿用往期数，不记0，不以SSRN引用、下载或其他指标替代。",
+          "lookbackExtension": "近30天本轮已核验且直接相关SSRN多已推荐；扩至2026-09-04（55天）纳入这项词典应用，不声称穷尽或为30天新发表。",
+          "publicationDateNote": "SSRN Posted 4 Sep 2026；不以抓取日期当首发。",
+          "sourceDatabase": "SSRN",
+          "selectionBucket": "latest"
+        }
+      ]
+    },
+    {
+      "id": "journals",
+      "label": "传播学与社会科学",
+      "target": 5,
+      "sortBy": "citationCount",
+      "journalPriorityNote": "已读取上传的77种SSCI传播学Q1/Q2名单；原生Scholar主题发现受阻，不能宣称相关传播学候选已穷尽，也不以未知引用或其他社会科学补满。",
+      "papers": []
+    },
+    {
+      "id": "communication-issue",
+      "label": "传播学顶刊推荐",
+      "unit": "issue",
+      "target": 5,
+      "sortBy": "issue",
+      "sortDescription": "无新在线研究，转正式36(3)完整5篇，保持出版方目录顺序。",
+      "collection": {
+        "journalId": "ct",
+        "journalName": "Communication Theory",
+        "kind": "issue",
+        "title": "Volume 36, Issue 3, August 2026",
+        "url": "https://academic.oup.com/ct/issue/36/3",
+        "checkedAt": "2026-10-29T06:02:06+08:00",
+        "complete": true,
+        "totalReported": 7,
+        "enumerationComplete": true,
+        "toc": [
+          {
+            "title": "Videoconferencing as a social process: an explication of its multimodal, adaptable, virtual, and interactive dimensions",
+            "url": "https://academic.oup.com/ct/article/36/3/119/8724343",
+            "articleType": "Original Article",
+            "status": "new"
+          },
+          {
+            "title": "Dynamic age-group dissociation: older adults’ engagement with age stereotypes in hybrid media environments",
+            "url": "https://academic.oup.com/ct/article/36/3/134/8272698",
+            "articleType": "Original Article",
+            "status": "new"
+          },
+          {
+            "title": "Rethinking the role of common-sense in journalism and journalism studies",
+            "url": "https://academic.oup.com/ct/article/36/3/145/8416567",
+            "articleType": "Original Article",
+            "status": "new"
+          },
+          {
+            "title": "Delegitimizing democracy: the limits of populism to explain the destructuring of the democratic imaginary",
+            "url": "https://academic.oup.com/ct/article/36/3/154/8418143",
+            "articleType": "Original Article",
+            "status": "new"
+          },
+          {
+            "title": "Differential social media affordances: an actor type-centric, intermediate-level approach using the case of social movements",
+            "url": "https://academic.oup.com/ct/article/36/3/165/8317943",
+            "articleType": "Original Article",
+            "status": "new"
+          },
+          {
+            "title": "Front Matter",
+            "url": "https://academic.oup.com/ct/issue-pdf/36/3/70416670",
+            "articleType": "Front matter",
+            "status": "non-research"
+          },
+          {
+            "title": "Table of Contents",
+            "url": "https://academic.oup.com/ct/issue-pdf/36/3/70416671",
+            "articleType": "Front matter",
+            "status": "non-research"
+          }
+        ],
+        "researchArticles": 5
+      },
+      "papers": [
+        {
+          "title": "Videoconferencing as a social process: an explication of its multimodal, adaptable, virtual, and interactive dimensions",
+          "titleZh": "将视频会议解释为社会过程",
+          "authors": "Shruti Malviya; Edson C. Tandoc, Jr.; Benjamin J. Li",
+          "year": 2026,
+          "venue": "Communication Theory 36(3), August 2026",
+          "url": "https://academic.oup.com/ct/article/36/3/119/8724343",
+          "doi": "10.1093/ct/qtag012",
+          "publicationDate": "2026-06-03",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/ct/article/36/3/119/8724343",
+          "source": "出版方/原始库题录及摘要；正文阅读范围见局限与核验日志",
+          "category": "传播学顶刊 · 正式整期",
+          "evidence": "摘要核验",
+          "theory": "针对视频会议概念仍停留于音视频传输和远程接入的问题，重新界定社会传播过程。",
+          "data": "概念研究材料来自学术文献以及主要行业参与者的趋势和定义，不是用户效果实验；摘要未给文献数量和检索范围。",
+          "method": "跨学科综合与概念阐释，提炼多模态、适应性、虚拟性、互动性四维。",
+          "results": "提出四维概念框架，以便在技术更新时仍能有区别地描述视频会议。没有提供四维量表的因子验证或效果大小。",
+          "takeaway": "提出四维概念框架，以便在技术更新时仍能有区别地描述视频会议。没有提供四维量表的因子验证或效果大小。",
+          "limitations": "按出版方完整摘要核验；正文重定向读取失败。无法核实文献选择标准，不能把维度提案当成已验证测量工具。",
+          "abstractZh": "针对视频会议概念仍停留于音视频传输和远程接入的问题，重新界定社会传播过程。 提出四维概念框架，以便在技术更新时仍能有区别地描述视频会议。没有提供四维量表的因子验证或效果大小。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://academic.oup.com/ct/article/36/3/119/8724343",
+          "abstractUnavailableReason": "仅提供原创中文解读和原站链接；未同时完成原文逐字校对及完整转载许可存档。",
+          "relevance": "有助于区分平台技术特征与社会互动过程；与当前跨语言接触研究仅为概念层面的比较。",
+          "researchConnection": "有助于区分平台技术特征与社会互动过程；与当前跨语言接触研究仅为概念层面的比较。",
+          "readingUse": "理论框架与概念辨析；期刊通读，不强行转为个人课题的因果证据。",
+          "topicIds": [],
+          "readingPriority": "normal",
+          "priorityReason": "用于理论比较与研究边界判断，需结合原文深入阅读。",
+          "citationNote": "2026-10-29原生Scholar报异常流量，刷新一次仍阻断；实际引用数留缺失，不沿用往期数，不记0，不以SSRN引用、下载或其他指标替代。"
+        },
+        {
+          "title": "Dynamic age-group dissociation: older adults’ engagement with age stereotypes in hybrid media environments",
+          "titleZh": "混合媒介中的动态年龄群体疏离",
+          "authors": "Yirui Jiang; Yujun Lin",
+          "year": 2025,
+          "venue": "Communication Theory 36(3), August 2026",
+          "url": "https://academic.oup.com/ct/article/36/3/134/8272698",
+          "doi": "10.1093/ct/qtaf023",
+          "publicationDate": "2025-10-03",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/ct/article/36/3/134/8272698",
+          "source": "出版方/原始库题录及摘要；正文阅读范围见局限与核验日志",
+          "category": "传播学顶刊 · 正式整期",
+          "evidence": "摘要核验",
+          "theory": "整合社会认同、自我分类、元刻板印象与传播适应理论，提出动态年龄群体疏离。",
+          "data": "对15名中国退休者深入访谈；具体招募、城市、年龄分布和访谈时期未从摘要核实。",
+          "method": "以经验和文化规范为线索解释受访者对传统/社交媒体中不同年龄形象的选择性认同与疏离，具体编码程序未读。",
+          "results": "传统媒体和社交媒体均可能同时强化积极与消极年龄刻板印象；老年人主动协商自我认知，并非被动接受一种媒体形象。",
+          "takeaway": "传统媒体和社交媒体均可能同时强化积极与消极年龄刻板印象；老年人主动协商自我认知，并非被动接受一种媒体形象。",
+          "limitations": "摘要核验；15人的访谈不能估计总体比例或媒体的因果效应，理论整合也不是各理论机制的实验比较。首次在线2025年10月，2026年8月为正式卷期。",
+          "abstractZh": "整合社会认同、自我分类、元刻板印象与传播适应理论，提出动态年龄群体疏离。 传统媒体和社交媒体均可能同时强化积极与消极年龄刻板印象；老年人主动协商自我认知，并非被动接受一种媒体形象。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://academic.oup.com/ct/article/36/3/134/8272698",
+          "abstractUnavailableReason": "仅提供原创中文解读和原站链接；未同时完成原文逐字校对及完整转载许可存档。",
+          "relevance": "可补充群体刻板印象与自我身份的区分；本文未直接用agency/communion词典，不能重标为该构念测量。",
+          "researchConnection": "可补充群体刻板印象与自我身份的区分；本文未直接用agency/communion词典，不能重标为该构念测量。",
+          "readingUse": "理论框架与概念辨析；期刊通读，不强行转为个人课题的因果证据。",
+          "topicIds": [
+            "agency"
+          ],
+          "readingPriority": "normal",
+          "priorityReason": "用于理论比较与研究边界判断，需结合原文深入阅读。",
+          "citationNote": "2026-10-29原生Scholar报异常流量，刷新一次仍阻断；实际引用数留缺失，不沿用往期数，不记0，不以SSRN引用、下载或其他指标替代。"
+        },
+        {
+          "title": "Rethinking the role of common-sense in journalism and journalism studies",
+          "titleZh": "重新审视新闻中的常识",
+          "authors": "Hagar Lahav; Zvi Reich; C. W. Anderson",
+          "year": 2026,
+          "venue": "Communication Theory 36(3), August 2026",
+          "url": "https://academic.oup.com/ct/article/36/3/145/8416567",
+          "doi": "10.1093/ct/qtaf035",
+          "publicationDate": "2026-01-07",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/ct/article/36/3/145/8416567",
+          "source": "出版方/原始库题录及摘要；正文阅读范围见局限与核验日志",
+          "category": "传播学顶刊 · 正式整期",
+          "evidence": "摘要核验",
+          "theory": "将新闻工作依赖的常识置于新闻认识论中心，结合哲学、政治学与新闻学进行反思。",
+          "data": "概念论文，摘要未报告采访、语料或实验样本；不附会成内容分析。",
+          "method": "讨论新闻常识适用条件及研究领域忽视它的原因；详细论证和两个原因的内容未读，故不代填。",
+          "results": "作者主张记者作为常识的审慎守护者，推动决策者和受众形成更自觉、谨慎、反思的常识素养。属于规范性与概念性主张，不是已验证的效果。",
+          "takeaway": "作者主张记者作为常识的审慎守护者，推动决策者和受众形成更自觉、谨慎、反思的常识素养。属于规范性与概念性主张，不是已验证的效果。",
+          "limitations": "摘要核验，正文访问失败；不能据此认定某类常识普遍正确，也未核验概念可操作化标准。",
+          "abstractZh": "将新闻工作依赖的常识置于新闻认识论中心，结合哲学、政治学与新闻学进行反思。 作者主张记者作为常识的审慎守护者，推动决策者和受众形成更自觉、谨慎、反思的常识素养。属于规范性与概念性主张，不是已验证的效果。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://academic.oup.com/ct/article/36/3/145/8416567",
+          "abstractUnavailableReason": "仅提供原创中文解读和原站链接；未同时完成原文逐字校对及完整转载许可存档。",
+          "relevance": "用于反思文本标注中何谓不言自明的判断，不能把研究者常识直接当独立金标准。",
+          "researchConnection": "用于反思文本标注中何谓不言自明的判断，不能把研究者常识直接当独立金标准。",
+          "readingUse": "理论框架与概念辨析；期刊通读，不强行转为个人课题的因果证据。",
+          "topicIds": [
+            "measurement"
+          ],
+          "readingPriority": "normal",
+          "priorityReason": "用于理论比较与研究边界判断，需结合原文深入阅读。",
+          "citationNote": "2026-10-29原生Scholar报异常流量，刷新一次仍阻断；实际引用数留缺失，不沿用往期数，不记0，不以SSRN引用、下载或其他指标替代。"
+        },
+        {
+          "title": "Delegitimizing democracy: the limits of populism to explain the destructuring of the democratic imaginary",
+          "titleZh": "民主去合法化：民粹主义概念的解释边界",
+          "authors": "Jennifer Stromer-Galley; Brian McKernan",
+          "year": 2026,
+          "venue": "Communication Theory 36(3), August 2026",
+          "url": "https://academic.oup.com/ct/article/36/3/154/8418143",
+          "doi": "10.1093/ct/qtaf034",
+          "publicationDate": "2026-01-09",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/ct/article/36/3/154/8418143",
+          "source": "出版方/原始库题录及摘要；正文阅读范围见局限与核验日志",
+          "category": "传播学顶刊 · 正式整期",
+          "evidence": "摘要核验",
+          "theory": "以修辞性去合法化区分民粹诉求与系统破坏民主制度正当性的论述。",
+          "data": "2020年美国总统竞选中特朗普、拜登、沃伦、桑德斯的社交媒体信息；摘要未给总帖数、平台或抽样规则。",
+          "method": "分析四位候选人的竞选信息及民粹诉求，并将特朗普2020年信息与其2024年当选后行动相联系。具体编码和预测评估未核验。",
+          "results": "作者认为单靠民粹主义不足以解释民主倒退，去合法化修辞能更好捕捉针对程序、制度和对手的系统性破坏论证。",
+          "takeaway": "作者认为单靠民粹主义不足以解释民主倒退，去合法化修辞能更好捕捉针对程序、制度和对手的系统性破坏论证。",
+          "limitations": "仅摘要核验；文中关于可预测性的主张不等于已经完成独立样本的预测验证，亦不是因果效果识别。",
+          "abstractZh": "以修辞性去合法化区分民粹诉求与系统破坏民主制度正当性的论述。 作者认为单靠民粹主义不足以解释民主倒退，去合法化修辞能更好捕捉针对程序、制度和对手的系统性破坏论证。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://academic.oup.com/ct/article/36/3/154/8418143",
+          "abstractUnavailableReason": "仅提供原创中文解读和原站链接；未同时完成原文逐字校对及完整转载许可存档。",
+          "relevance": "概念有助于区分主题出现、框架表达与制度正当性的论证方式，不能只靠主题模型输出断定去合法化。",
+          "researchConnection": "概念有助于区分主题出现、框架表达与制度正当性的论证方式，不能只靠主题模型输出断定去合法化。",
+          "readingUse": "理论框架与概念辨析；期刊通读，不强行转为个人课题的因果证据。",
+          "topicIds": [
+            "measurement"
+          ],
+          "readingPriority": "normal",
+          "priorityReason": "用于理论比较与研究边界判断，需结合原文深入阅读。",
+          "citationNote": "2026-10-29原生Scholar报异常流量，刷新一次仍阻断；实际引用数留缺失，不沿用往期数，不记0，不以SSRN引用、下载或其他指标替代。"
+        },
+        {
+          "title": "Differential social media affordances: an actor type-centric, intermediate-level approach using the case of social movements",
+          "titleZh": "以行动者类型为中心的差异化社交媒体可供性",
+          "authors": "Christian Baden; Annett Heft; Michael Vaughan; Barbara Pfetsch",
+          "year": 2025,
+          "venue": "Communication Theory 36(3), August 2026",
+          "url": "https://academic.oup.com/ct/article/36/3/165/8317943",
+          "doi": "10.1093/ct/qtaf030",
+          "publicationDate": "2025-11-10",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://academic.oup.com/ct/article/36/3/165/8317943",
+          "source": "出版方/原始库题录及摘要；正文阅读范围见局限与核验日志",
+          "category": "传播学顶刊 · 正式整期",
+          "evidence": "全文核验",
+          "theory": "在过于抽象的共同可供性与过于特定的案例之间建立中层框架：同一平台的价值取决于行动者的目标和情境。",
+          "data": "以社会运动研究文献为示例材料，正文说明先系统关键词收集，再补充平台、地区和运动类型中代表不足的资料；未在已读部分找到最终文献数。",
+          "method": "从公共诉求表达、抗争动员、组织/网络/集体身份建设三类需求出发，综合8类可供性，比较网络式与房间式架构的机会、成本和限制。",
+          "results": "框架把平台功能与行动目标连接起来：广泛传播、协作叙事、动机与协调的价值随受众、政治压制和平台架构变化；功能存在本身不是可供性已被实现的证据。",
+          "takeaway": "框架把平台功能与行动目标连接起来：广泛传播、协作叙事、动机与协调的价值随受众、政治压制和平台架构变化；功能存在本身不是可供性已被实现的证据。",
+          "limitations": "已读公开正文概念、文献整理方法、需求框架和诉求/动员关键段落；未完整通读全部8类及讨论。理论综合不是跨国因果检验，原文系统性检索的可复现程度仍需核实。",
+          "abstractZh": "在过于抽象的共同可供性与过于特定的案例之间建立中层框架：同一平台的价值取决于行动者的目标和情境。 框架把平台功能与行动目标连接起来：广泛传播、协作叙事、动机与协调的价值随受众、政治压制和平台架构变化；功能存在本身不是可供性已被实现的证据。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://academic.oup.com/ct/article/36/3/165/8317943",
+          "abstractUnavailableReason": "仅提供原创中文解读和原站链接；未同时完成原文逐字校对及完整转载许可存档。",
+          "relevance": "补充X翻译研究：先明确行动者目标和跨语言交往的价值，再检查技术功能是否在该群体实际形成机会；不能从翻译按钮上线直接推导社会边界被打破。",
+          "researchConnection": "补充X翻译研究：先明确行动者目标和跨语言交往的价值，再检查技术功能是否在该群体实际形成机会；不能从翻译按钮上线直接推导社会边界被打破。",
+          "readingUse": "理论框架与概念辨析；期刊通读，不强行转为个人课题的因果证据。",
+          "topicIds": [
+            "social",
+            "methods"
+          ],
+          "readingPriority": "normal",
+          "priorityReason": "用于理论比较与研究边界判断，需结合原文深入阅读。",
+          "citationNote": "2026-10-29原生Scholar报异常流量，刷新一次仍阻断；实际引用数留缺失，不沿用往期数，不记0，不以SSRN引用、下载或其他指标替代。",
+          "fullTextSource": "https://academic.oup.com/ct/article/36/3/165/8317943"
+        }
+      ]
+    },
+    {
+      "id": "general-science",
+      "label": "综合顶刊推荐",
+      "target": 1,
+      "sortBy": "publicationDate",
+      "rotationJournalId": "nature-communications",
+      "papers": [
+        {
+          "title": "The integrated environmental zoning-based regulation further enhances sustainable development in China",
+          "titleZh": "中国环境分区管控的增量政策效果",
+          "authors": "Zishu Wang; Zonghan Li; Yang Yang; Qian Li; Yuying Wang; Mai Su; Dan Xie; Feng Ji; Yi Liu",
+          "year": 2026,
+          "venue": "Nature Communications，提前在线",
+          "url": "https://www.nature.com/articles/s41467-026-78846-6",
+          "doi": "10.1038/s41467-026-78846-6",
+          "publicationDate": "2026-10-28",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://www.nature.com/articles/s41467-026-78846-6",
+          "source": "出版方/原始库题录及摘要；正文阅读范围见局限与核验日志",
+          "category": "综合顶刊 · 社会科学研究",
+          "evidence": "摘要核验",
+          "theory": "将综合环境分区管控视为治理制度，关注2017年启动政策在既有生态红线之外的增量作用。",
+          "data": "110多个中国试点城市，生态空间保护和城市PM2.5；摘要未给精确城市数、全部观察年份和测量来源。",
+          "method": "摘要说明使用准实验与空间比较，目录介绍因果机器学习；完整估计器、对照组构造、空间溢出和趋势检验未从提前在线正文核实。",
+          "results": "摘要报告普通生态空间保护效果相对政策前均值提高24.7%；97.3%的城市PM2.5下降方向为正向政策改善，贡献2020年总体降幅的17.5%。后两数不是PM2.5浓度下降97.3%或17.5%。",
+          "takeaway": "摘要报告普通生态空间保护效果相对政策前均值提高24.7%；97.3%的城市PM2.5下降方向为正向政策改善，贡献2020年总体降幅的17.5%。后两数不是PM2.5浓度下降97.3%或17.5%。",
+          "limitations": "按提前在线页面完整摘要核验；页面只给摘要及附属信息，未读PDF或完整方法正文。政策选择、同期措施和空间相关需要进一步核查，不因作者使用因果估计就视所有识别假设已验证。",
+          "abstractZh": "将综合环境分区管控视为治理制度，关注2017年启动政策在既有生态红线之外的增量作用。 摘要报告普通生态空间保护效果相对政策前均值提高24.7%；97.3%的城市PM2.5下降方向为正向政策改善，贡献2020年总体降幅的17.5%。后两数不是PM2.5浓度下降97.3%或17.5%。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://www.nature.com/articles/s41467-026-78846-6",
+          "abstractUnavailableReason": "仅提供原创中文解读和原站链接；未同时完成原文逐字校对及完整转载许可存档。",
+          "relevance": "用于比较制度干预如何转化为可观察结果，提醒区分相对政策前均值、城市占比和总体降幅贡献三种分母。与微博/翻译主题无直接经验关系。",
+          "researchConnection": "用于比较制度干预如何转化为可观察结果，提醒区分相对政策前均值、城市占比和总体降幅贡献三种分母。与微博/翻译主题无直接经验关系。",
+          "readingUse": "研究设计与结果解释：比较准实验和空间政策评估，阅读正文后再考虑迁移。",
+          "topicIds": [],
+          "readingPriority": "normal",
+          "priorityReason": "用于理论比较与研究边界判断，需结合原文深入阅读。",
+          "citationNote": "2026-10-29原生Scholar报异常流量，刷新一次仍阻断；实际引用数留缺失，不沿用往期数，不记0，不以SSRN引用、下载或其他指标替代。",
+          "socialScienceAssessment": "confirmed",
+          "socialScienceReason": "研究问题是政府环境治理制度的增量政策效果，以城市试点及空间政策比较为识别对象；环境指标为结果，核心解释为公共政策评估。",
+          "publicationDateNote": "出版方Published 28 October 2026；提前在线、永久DOI，可引用，不等正式卷期。"
+        }
+      ]
+    }
+  ]
+}
