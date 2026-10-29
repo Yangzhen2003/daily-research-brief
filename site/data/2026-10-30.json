@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 6,
+  "historyPolicy": "exclude-recommended",
+  "journalPolicy": "ssci-communication-q1-q2-and-social-science",
+  "searchPlatforms": [
+    "Google Scholar",
+    "NBER",
+    "SSRN",
+    "arXiv"
+  ],
+  "coreTracking": [],
+  "coreTrackingNote": "core-papers.json requests为空，无已同步核心文献可追踪，不把私人收藏或主题相近冒称前后引用关系。",
+  "date": "2026-10-30",
+  "title": "语料多样性的三种含义与面向具体推断的测量验证",
+  "summary": "共3篇新推荐，附周五编辑周评。Scholar引用排序栏目、NMS完整在线集合与PNAS仍有缺额。",
+  "notice": "Scholar异常流量及两家出版方安全验证持续；没有推进未完成的期刊游标。SSRN方法资源明确扩窗。",
+  "searchNote": "已同步最新main并读取全部七个必需配置；无用户覆盖请求、无已同步核心文献，四主题默认生效。四条measurement分别执行，公开域名检索不冒称站内检索。按135条永久历史与本期跨栏目身份去重；旧修订和重复来源不作新推荐。",
+  "shortfallReason": "其他研究3/5，缺高被引2篇；传播学与社会科学0/5，缺5篇：实际Scholar引用不可读。NMS前10/202项均已推荐，另192项目录未取，未知其中未推荐研究数量，不能称整期完成；PNAS0/1，安全验证导致目录及最新在线候选未核验。全部3篇引用数缺失；1篇读正文关键部分，2篇按摘要核验。NBER首发仅到月；SSRN扩窗至9月21日。",
+  "themeSearches": [
+    {
+      "platform": "Google Scholar",
+      "query": "\"dictionary\" \"text\" \"development\" \"validation\" psychology",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "原生返回异常流量；刷新一次仍阻断。停止该站；其余原生主题式及引用核验未执行。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "云端Chrome原生页面",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "\"dictionary\" \"text\" \"development\" \"validation\" psychology [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "独立执行；返回旧资料和重复推荐为主，补充检索另列。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "\"word embeddings\" measurement sociology [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "独立执行；返回旧资料和重复推荐为主，补充检索另列。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "\"distributed dictionary representation\" measurement [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "独立执行；返回旧资料和重复推荐为主，补充检索另列。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "NBER / SSRN / arXiv",
+      "query": "(\"text measurement\" OR \"text-based measures\" OR \"text as data\") \"construct validity\" [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "独立执行；返回旧资料和重复推荐为主，补充检索另列。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "三库",
+      "query": "(\"Weibo\" OR \"Chinese social media\") (\"opinion expression\" OR censorship OR rumor) [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行，相关但已推荐论文排除；候选另查首发与摘要。",
+      "topicIds": [
+        "social"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "三库",
+      "query": "(\"agency and communion\" OR \"warmth and competence\") (language OR text OR media) [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行，相关但已推荐论文排除；候选另查首发与摘要。",
+      "topicIds": [
+        "agency"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "三库",
+      "query": "(\"causal inference\" OR \"panel data\" OR \"interrupted time series\" OR \"text measurement\") (communication OR \"social media\") October 2026 [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行，相关但已推荐论文排除；候选另查首发与摘要。",
+      "topicIds": [
+        "methods"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "三库",
+      "query": "text measurement validity October 2026 [domains: arxiv.org, ssrn.com, nber.org]",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行，相关但已推荐论文排除；候选另查首发与摘要。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "NBER",
+      "query": "text measurement \"October 2026\" site:nber.org/papers",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行补充发现/题名核验；不以修订或抓取日期作首发。",
+      "topicIds": [
+        "methods",
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "arXiv",
+      "query": "\"text\" \"measurement\" \"Oct\" \"2026\" site:arxiv.org/abs -2610.24972 -2610.12466",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行补充发现/题名核验；不以修订或抓取日期作首发。",
+      "topicIds": [
+        "methods",
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "SSRN",
+      "query": "\"construct validity\" \"Oct\" \"2026\" site:papers.ssrn.com -7575478 -7623601 -7558778",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行补充发现/题名核验；不以修订或抓取日期作首发。",
+      "topicIds": [
+        "methods",
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "SSRN",
+      "query": "\"agency\" \"communion\" \"Oct\" \"2026\" site:papers.ssrn.com",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行补充发现/题名核验；不以修订或抓取日期作首发。",
+      "topicIds": [
+        "methods",
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "SSRN",
+      "query": "\"LLM Measurements that Agree with Human Coders\" site:papers.ssrn.com",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行补充发现/题名核验；不以修订或抓取日期作首发。",
+      "topicIds": [
+        "methods",
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "SSRN",
+      "query": "\"A Validity Threat Framework for Measuring Student\" site:papers.ssrn.com",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行补充发现/题名核验；不以修订或抓取日期作首发。",
+      "topicIds": [
+        "methods",
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "arXiv",
+      "query": "\"Measuring Data Diversity with Embeddings\" site:arxiv.org",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行补充发现/题名核验；不以修订或抓取日期作首发。",
+      "topicIds": [
+        "methods",
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "arXiv",
+      "query": "\"Measuring Psychological Constructs\" \"May\" site:arxiv.org",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "主题检索与候选核验",
+      "status": "已执行补充发现/题名核验；不以修订或抓取日期作首发。",
+      "topicIds": [
+        "methods",
+        "measurement"
+      ],
+      "channel": "公开域名限定检索，非原生站内搜索",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    }
+  ],
+  "verificationLog": [
+    {
+      "platform": "arXiv:2610.24888；原站标注EMNLP 2026 Main接收",
+      "query": "https://arxiv.org/abs/2610.24888",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "逐篇身份、日期、摘要、全文与引用核验",
+      "status": "原站v1为2026-10-17 22:09:17 UTC（上海10月18日06:09）；日期字段按原站提交日保留，不以会议接收或检索日当首发。 已读正文引言、概念分解及第4节基准设计关键部分；第5节图形未逐格核验，结果定性部分按摘要/引言。类别代理、英语Wikipedia句子及embedding模型限制外推，不能把语言多样性等同群体开放性或实际接触。 本次实际Scholar引用未读取。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "原始来源题录/摘要及正文，范围逐篇注明",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "NBER Working Paper 35860",
+      "query": "https://www.nber.org/papers/w35860",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "逐篇身份、日期、摘要、全文与引用核验",
+      "status": "NBER Issue Date October 2026，只核验到月；与10月日精度文献真实先后未知，按记录精度排序，不编造日期。 原始NBER检索结果完整摘要及题录核验；落地页403，正文未读。Issue Date仅2026年10月，日精度及更早公开版本未完全核实。预测信息含量不是心理构念效度，也不是文字本身造成回报。 本次实际Scholar引用未读取。",
+      "topicIds": [
+        "measurement",
+        "methods"
+      ],
+      "channel": "原始来源题录/摘要及正文，范围逐篇注明",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "SSRN Working Paper，12页",
+      "query": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7485819",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "逐篇身份、日期、摘要、全文与引用核验",
+      "status": "SSRN Posted 21 Sep 2026；Date Written 18 Sep不是首发。 按SSRN原始题录及完整摘要核验；直接页面不可读、PDF403，未读正文。材料是图像，不把它冒称文本测量实验；推广到微博LLM编码需要自己验证。首发9月21日，超默认30天。 本次实际Scholar引用未读取。",
+      "topicIds": [
+        "methods"
+      ],
+      "channel": "原始来源题录/摘要及正文，范围逐篇注明",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "arXiv",
+      "query": "https://arxiv.org/abs/2610.33677",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "候选首发与跨版本身份排查",
+      "status": "发现WEPA；arXiv明载已发表于Behavioral Sciences 16(5),762，相关DOI10.3390/bs16050762。10月24日仅arXiv上传；更早正式公开日期未核实，故不冒称10月新文，本期未推荐。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "arXiv题录与HTML",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "SSRN",
+      "query": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587018",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "排除首发未核实候选",
+      "status": "原始题录显示已有AIME-Con会议版、Date Written April 10；Oct9上传并不能确认首次公开。摘要为概念框架，未核实更早日期，暂不推荐。",
+      "topicIds": [
+        "measurement"
+      ],
+      "channel": "原始来源检索结果",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "永久历史",
+      "query": "DOI / arXiv ID / 规范化题名 / 已核验别名",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "历史及当期跨栏目去重",
+      "status": "135条永久历史与本期3篇无重复；没有凭主题相似添加别名。",
+      "topicIds": [],
+      "channel": "本地已同步main",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    }
+  ],
+  "periodicalChecks": [
+    {
+      "platform": "New Media & Society",
+      "query": "https://journals.sagepub.com/toc/nmsa/0/0",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "完整在线集合与分页核验",
+      "status": "公开目录仅1–10/202，10项题名与10月23日已推荐身份一致；未见后续页链接。云端浏览器Cloudflare安全验证，刷新一次仍阻断，停止该站。192项未取，不转正式期替代。",
+      "topicIds": [],
+      "channel": "出版方目录与云端原生状态，无主题词",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    },
+    {
+      "platform": "PNAS",
+      "query": "https://www.pnas.org/toc/pnas/current",
+      "timeRange": "2026-10-30 05:57–06:01 Asia/Shanghai；默认近30天，扩窗单列",
+      "purpose": "最新在线社会科学核验",
+      "status": "公开读取403；云端页面明确安全验证，刷新一次仍阻断。未取得目录，无法据此排查最新在线；不改荐其他期刊。",
+      "topicIds": [],
+      "channel": "出版方原生页面，无主题词",
+      "checkedAt": "2026-10-30T06:01:32+08:00"
+    }
+  ],
+  "groups": [
+    {
+      "id": "crossdisciplinary",
+      "label": "其他研究",
+      "target": 5,
+      "sortBy": "split",
+      "sortDescription": "最新3篇各库1篇，按已知首发日期排序；NBER月份精度导致日级先后未知；高被引缺2。",
+      "selectionBuckets": [
+        {
+          "id": "latest",
+          "label": "最新研究（含明确扩窗）",
+          "target": 3,
+          "sortBy": "publicationDate"
+        },
+        {
+          "id": "cited",
+          "label": "高被引研究",
+          "target": 2,
+          "sortBy": "citationCount"
+        }
+      ],
+      "sourceCoverage": [
+        {
+          "database": "NBER",
+          "status": "included"
+        },
+        {
+          "database": "SSRN",
+          "status": "included"
+        },
+        {
+          "database": "arXiv",
+          "status": "included"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Measuring Data Diversity with Embeddings: A Taxonomy and Benchmark for Diversity Measures",
+          "titleZh": "语料多样性究竟测什么：种类、均衡与差异",
+          "authors": "Cantao Su; Anna Wegmann; Esther Ploeger; Dong Nguyen",
+          "year": 2026,
+          "venue": "arXiv:2610.24888；原站标注EMNLP 2026 Main接收",
+          "url": "https://arxiv.org/abs/2610.24888",
+          "doi": "10.48550/arXiv.2610.24888",
+          "publicationDate": "2026-10-17",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://arxiv.org/abs/2610.24888",
+          "source": "原始库题录与摘要；正文阅读范围逐篇注明",
+          "category": "测量与传播研究",
+          "evidence": "全文核验",
+          "theory": "采用Stirling的多样性分解：种类数variety、分配均衡balance、类别之间差异disparity。不同指标可能对这三个分量有不同敏感性，不能把任意一个向量距离叫作总体多样性。",
+          "data": "EmbDivBench比较21种embedding指标，分距离、几何、分布、图四类。包括层级高斯混合模拟向量与英语Wikipedia自然句子两层；每配置固定10,000个元素，五种多样性水平、五个随机种子。自然层以主题/领域作语义类别代理，未读附录总句数。",
+          "method": "一次改变一个分量并固定另两个，检查指标能否正确排列五级数据集。种类数取10/20/30/40/50；均衡从均匀到偏斜；差异通过超类别数量变化作代理。类别只用于验证真值，指标本身只看embedding。",
+          "results": "摘要与引言报告：类别差异最难测，自然文本比模拟数据更难；常用Mean Pairwise Distance在三个分量上都被一些替代指标超过，Graph Entropy总体表现最好。这是该基准上的相对结论，未从复杂图形逐格读取效应量，不将其当所有语料的普适排名。",
+          "takeaway": "摘要与引言报告：类别差异最难测，自然文本比模拟数据更难；常用Mean Pairwise Distance在三个分量上都被一些替代指标超过，Graph Entropy总体表现最好。这是该基准上的相对结论，未从复杂图形逐格读取效应量，不将其当所有语料的普适排名。",
+          "limitations": "已读正文引言、概念分解及第4节基准设计关键部分；第5节图形未逐格核验，结果定性部分按摘要/引言。类别代理、英语Wikipedia句子及embedding模型限制外推，不能把语言多样性等同群体开放性或实际接触。",
+          "abstractZh": "采用Stirling的多样性分解：种类数variety、分配均衡balance、类别之间差异disparity。不同指标可能对这三个分量有不同敏感性，不能把任意一个向量距离叫作总体多样性。 摘要与引言报告：类别差异最难测，自然文本比模拟数据更难；常用Mean Pairwise Distance在三个分量上都被一些替代指标超过，Graph Entropy总体表现最好。这是该基准上的相对结论，未从复杂图形逐格读取效应量，不将其当所有语料的普适排名。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://arxiv.org/abs/2610.24888",
+          "abstractUnavailableReason": "提供原创中文概述及原站链接；未同时完成完整原文逐字校对与转载许可存档。",
+          "relevance": "支持将X平台的语言种类数、语言分布均衡、内容语义差异分开。即使三者增加，也不等于跨语言回复边增加；用多语embedding比较时还须排除不同语言本身造成的距离。",
+          "researchConnection": "支持将X平台的语言种类数、语言分布均衡、内容语义差异分开。即使三者增加，也不等于跨语言回复边增加；用多语embedding比较时还须排除不同语言本身造成的距离。",
+          "readingUse": "变量测量与稳健性：先定义多样性分量，再构造固定样本量、单一分量改变的合成检查，与实际连边指标分别报告。",
+          "topicIds": [
+            "measurement",
+            "methods"
+          ],
+          "readingPriority": "high",
+          "priorityReason": "优先核对构念、层级和目标效应的验证链。",
+          "fullTextSource": "https://arxiv.org/html/2610.24888v1",
+          "publicationDateNote": "原站v1为2026-10-17 22:09:17 UTC（上海10月18日06:09）；日期字段按原站提交日保留，不以会议接收或检索日当首发。",
+          "sourceDatabase": "arXiv",
+          "selectionBucket": "latest",
+          "citationNote": "2026-10-30原生Scholar异常流量，刷新一次仍阻断；实际引用数留缺失，不记0，不沿用往期或其他平台指标。"
+        },
+        {
+          "title": "Communicating Performance: Textual and Financial Disclosures in Private Equity",
+          "titleZh": "文本披露的信息含量会随投资阶段改变",
+          "authors": "Josh Lerner; Fiona Paine; Antoinette Schoar",
+          "year": 2026,
+          "venue": "NBER Working Paper 35860",
+          "url": "https://www.nber.org/papers/w35860",
+          "doi": "10.3386/w35860",
+          "publicationDate": "2026-10",
+          "publicationDatePrecision": "month",
+          "publicationDateSource": "https://www.nber.org/papers/w35860",
+          "source": "原始库题录与摘要；正文阅读范围逐篇注明",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "不透明市场中，文本讨论和数值估值可能在不同阶段承担不同信号功能；预测未来表现的效标应随制度和时间环境解释。",
+          "data": "私募资本基金经理对投资组合企业的文字讨论、中期估值和最终表现；摘要提及投资最初三年。具体基金/企业数、年份、披露频率和资料选择机制未核实。",
+          "method": "比较早期与后期的文本信息和中期估值对最终表现的解释力，并区分文本语调与内容、企业是否发生融资事件。未读具体文本操作化、模型公式或固定效应，不能声称采用某种因果识别。",
+          "results": "摘要报告投资早期文字讨论具有较多关于最终表现的信息，中期估值相对较少；后期关系反转，尤其在企业融资之后。文字的语调和内容都影响这种关系。没有核验效应大小，不据此判断哪位经理或哪项资产更优。",
+          "takeaway": "摘要报告投资早期文字讨论具有较多关于最终表现的信息，中期估值相对较少；后期关系反转，尤其在企业融资之后。文字的语调和内容都影响这种关系。没有核验效应大小，不据此判断哪位经理或哪项资产更优。",
+          "limitations": "原始NBER检索结果完整摘要及题录核验；落地页403，正文未读。Issue Date仅2026年10月，日精度及更早公开版本未完全核实。预测信息含量不是心理构念效度，也不是文字本身造成回报。",
+          "abstractZh": "不透明市场中，文本讨论和数值估值可能在不同阶段承担不同信号功能；预测未来表现的效标应随制度和时间环境解释。 摘要报告投资早期文字讨论具有较多关于最终表现的信息，中期估值相对较少；后期关系反转，尤其在企业融资之后。文字的语调和内容都影响这种关系。没有核验效应大小，不据此判断哪位经理或哪项资产更优。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://www.nber.org/papers/w35860",
+          "abstractUnavailableReason": "提供原创中文概述及原站链接；未同时完成完整原文逐字校对与转载许可存档。",
+          "relevance": "补充文本指标的时间效度：同一文本变量与外部结果的关系可能随阶段改变。对微博或翻译前后研究，需要区分语境、样本和资料生成变化，不能直接复制金融场景结论。",
+          "researchConnection": "补充文本指标的时间效度：同一文本变量与外部结果的关系可能随阶段改变。对微博或翻译前后研究，需要区分语境、样本和资料生成变化，不能直接复制金融场景结论。",
+          "readingUse": "结果讨论与变量验证：分时期检验外部效标关系，分别比较文本语调、内容与结构化指标，不以单一预测相关证明理论解释。",
+          "topicIds": [
+            "measurement",
+            "methods"
+          ],
+          "readingPriority": "normal",
+          "priorityReason": "用于比较文本指标的情境和时间边界。",
+          "publicationDateNote": "NBER Issue Date October 2026，只核验到月；与10月日精度文献真实先后未知，按记录精度排序，不编造日期。",
+          "sourceDatabase": "NBER",
+          "selectionBucket": "latest",
+          "citationNote": "2026-10-30原生Scholar异常流量，刷新一次仍阻断；实际引用数留缺失，不记0，不沿用往期或其他平台指标。"
+        },
+        {
+          "title": "LLM Measurements that Agree with Human Coders Overall can Still Distort Specific Effects",
+          "titleZh": "总体一致的AI评分仍会扭曲具体效应",
+          "authors": "Alexander Moore; Bingqing Li; Xin (Shane) Wang; Matthew Thomson",
+          "year": 2026,
+          "venue": "SSRN Working Paper，12页",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7485819",
+          "doi": "10.2139/ssrn.7485819",
+          "publicationDate": "2026-09-21",
+          "publicationDatePrecision": "day",
+          "publicationDateSource": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7485819",
+          "source": "原始库题录与摘要；正文阅读范围逐篇注明",
+          "category": "测量与传播研究",
+          "evidence": "摘要核验",
+          "theory": "测量验证需对准将检验的具体主张；模型与人工评分的总体相关可能掩盖组间对比和排序的系统误差。",
+          "data": "开放权重LLM对568张食物照片、1,811张场景照片的评分，与人工测量比较；六种提示。不是文本语料评分实验，具体模型版本、人工人数与刺激时期未从摘要确认。",
+          "method": "比较总体一致性与具体对比/排序是否共同改善，考察不同提示下误差是否共享，并与相同规模随机误差的影响比较。具体估计式和检验程序未读。",
+          "results": "摘要报告效应可能被放大、削弱或反转；改善总体一致性可能同时改善一种对比、恶化另一种。部分误差在六提示间共享，因此抽换提示未必能消除系统偏差。未提供可核验的逐项效应值。",
+          "takeaway": "摘要报告效应可能被放大、削弱或反转；改善总体一致性可能同时改善一种对比、恶化另一种。部分误差在六提示间共享，因此抽换提示未必能消除系统偏差。未提供可核验的逐项效应值。",
+          "limitations": "按SSRN原始题录及完整摘要核验；直接页面不可读、PDF403，未读正文。材料是图像，不把它冒称文本测量实验；推广到微博LLM编码需要自己验证。首发9月21日，超默认30天。",
+          "abstractZh": "测量验证需对准将检验的具体主张；模型与人工评分的总体相关可能掩盖组间对比和排序的系统误差。 摘要报告效应可能被放大、削弱或反转；改善总体一致性可能同时改善一种对比、恶化另一种。部分误差在六提示间共享，因此抽换提示未必能消除系统偏差。未提供可核验的逐项效应值。",
+          "abstractMode": "unavailable",
+          "originalAbstract": "",
+          "abstractSource": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7485819",
+          "abstractUnavailableReason": "提供原创中文概述及原站链接；未同时完成完整原文逐字校对与转载许可存档。",
+          "relevance": "补充本周跨模型分歧研究：高相关并不能保证跨语言、时段或群体差异无偏。应用到X接触研究时，应在预设语言对和处理前后分别验证，避免总体准确率掩盖方向性误差。",
+          "researchConnection": "补充本周跨模型分歧研究：高相关并不能保证跨语言、时段或群体差异无偏。应用到X接触研究时，应在预设语言对和处理前后分别验证，避免总体准确率掩盖方向性误差。",
+          "readingUse": "研究设计和效度检验：在人工验证集中预留实际将比较的组别、时期与关键对比；直接检查目标回归效应的误差传播。",
+          "topicIds": [
+            "methods"
+          ],
+          "readingPriority": "high",
+          "priorityReason": "优先核对构念、层级和目标效应的验证链。",
+          "publicationDateNote": "SSRN Posted 21 Sep 2026；Date Written 18 Sep不是首发。",
+          "lookbackExtension": "近30天本轮直接相关且已核验SSRN候选多为永久历史；扩展到9月21日（39天）。这是图片评分的方法补充，不是近30天文本实证新作；未声称全库穷尽。",
+          "sourceDatabase": "SSRN",
+          "selectionBucket": "latest",
+          "citationNote": "2026-10-30原生Scholar异常流量，刷新一次仍阻断；实际引用数留缺失，不记0，不沿用往期或其他平台指标。"
+        }
+      ]
+    },
+    {
+      "id": "journals",
+      "label": "传播学与社会科学",
+      "target": 5,
+      "sortBy": "citationCount",
+      "journalPriorityNote": "77种SSCI传播学Q1/Q2名单已读取，但原生Scholar发现与引用受阻，不能声称本轮传播学候选已穷尽，不用其他社会科学或未知引用填充。",
+      "papers": []
+    },
+    {
+      "id": "communication-issue",
+      "label": "传播学顶刊推荐",
+      "unit": "issue",
+      "target": 0,
+      "sortBy": "issue",
+      "sortDescription": "10项已推荐目录仅链接旧解读；另192项未取，新研究数量未知，整期未完成。",
+      "collection": {
+        "journalId": "nms",
+        "journalName": "New Media & Society",
+        "kind": "online-first",
+        "title": "OnlineFirst：10/202目录可见，完整集合未完成",
+        "url": "https://journals.sagepub.com/toc/nmsa/0/0",
+        "checkedAt": "2026-10-30T06:01:32+08:00",
+        "complete": false,
+        "totalReported": 202,
+        "enumerated": 10,
+        "missingEntries": 192,
+        "incompleteReason": "前10项已推荐；后192项目录无法取得，不能确定新研究缺额。",
+        "toc": [
+          {
+            "title": "The managed sisterhood: Gendered labor and intimacy in Chinese fashion influencer industry",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261493399",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          },
+          {
+            "title": "Guardians of the cyberverse: Dispositional, attitudinal, and autobiographical correlates of user engagement against misogynist digital hate",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261492098",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          },
+          {
+            "title": "Stress and self-efficacy under artificial intelligence disruption: A mixed-methods study on the usage of artificial intelligence among Finnish workers",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261488700",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          },
+          {
+            "title": "Platformed affective withdrawal: Quiet quitting and the refusal of gendered emotional labour on TikTok",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261488701",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          },
+          {
+            "title": "Praise, rent, and the platform: Substack and the enclosure of blog culture",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261488694",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          },
+          {
+            "title": "“In a way, I want TikTok to tell me what I want. . .” Users’ experience of TikTok as a televisual algorithmic flow",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261477680",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          },
+          {
+            "title": "Are they virtue-signalling or sincere? The impact of perceived motives on the effectiveness of online collective action",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261475059",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          },
+          {
+            "title": "Cross-platformization: How U.S. right-leaning media curate their posts on Twitter and Truth Social",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261470889",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          },
+          {
+            "title": "News for connection, status and belonging: Exploring the social currency of local news",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261477944",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          },
+          {
+            "title": "Ambivalent algorithms, fragile connectedness: How algorithm awareness facets shape responsiveness and insensitivity on TikTok",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/14614448261477892",
+            "articleType": "Research article",
+            "status": "previously-recommended",
+            "recommendedDate": "2026-10-23",
+            "reviewUrl": "https://yangzhen2003.github.io/daily-research-brief/?date=2026-10-23&view=daily&tab=communication-issue"
+          }
+        ]
+      },
+      "papers": []
+    },
+    {
+      "id": "general-science",
+      "label": "综合顶刊推荐",
+      "target": 1,
+      "sortBy": "publicationDate",
+      "rotationJournalId": "pnas",
+      "papers": []
+    }
+  ],
+  "weeklyReview": {
+    "weekStart": "2026-10-23",
+    "weekEnd": "2026-10-29",
+    "topPapers": [
+      {
+        "title": "What the Corpus Does not say: Reply Structure, Time and Coverage in YouTube Comment Data",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7606338",
+        "reason": "先验证回复边，再解释跨语言接触。10月24日解读指出API父节点、界面关系与@称呼并非同一记录；文献结果来自YouTube，X需要自己的抽样人工审计。"
+      },
+      {
+        "title": "Annotating Dimensions of Social Perception in Text: A Sentence-Level Dataset of Warmth and Competence",
+        "url": "https://arxiv.org/abs/2601.06316",
+        "reason": "提供句子—评价目标对和分开标注温暖子维度/能力的设计。10月28日已读关键正文；英语政治语料不等于中文微博的现成量表。"
+      },
+      {
+        "title": "Quiet by Design: Linguistic Restraint as an Observable Trace of Socioemotional Wealth in Family Firms",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7412204",
+        "reason": "组织文本显示少用agency不等于多用communion，且与销售的关系依赖受众体裁。10月29日仅摘要核验，适合提出竞争解释，不能用匹配观察数据证明因果。"
+      }
+    ],
+    "designImplications": [
+      "本周编辑回顾基于10月23—29日七期已发布的86篇；本期新候选不算作此前已验证的历史证据。引用缺失、摘要核验和出版方访问限制使覆盖并不均衡，不把篇数当质量排名。",
+      "为X研究建立可审计的回复边表：reply_id、author_id、parent_post_id、parent_author_id、两端语言、时间戳和自回复标记。先抽查父节点与真实回应对象，再按预先定义区分跨语言回复与潜在曝光；这些字段是本周文献启发的设计建议，不是论文已提供的X数据。",
+      "测量层级必须明确：句子对目标的评价、用户使用的语言和群体语料的分布不是同一Y。先固定聚合规则和分母，再做时间比较，避免发帖量和用户组成变化被误认为心理变化。",
+      "10月23日Same Text显示换模型可能改变下游系数；10月29日IRT论文提醒总体排名依赖项目组成。应保存逐条模型输出，按语言对、时期与群体构造独立人工效标，并检查目标效应而不只总体F1。",
+      "10月29日功效计算论文提示总体平均变化小可能与受影响群体占比较小有关；大量回复不等于大量独立用户。网络因果推断论文另提醒干扰和同质性。ITS中应事先界定估计对象、时间趋势、观察窗口与依赖结构，不能用加入author_id自动解决自回复、选择或同期冲击。"
+    ],
+    "literatureUses": [
+      "测量与数据来源综述：把What the Corpus和When Is Text Data Valid用于说明平台记录、抽样覆盖与有效推断之间的缺口。",
+      "agency/communion操作化：以W&C-Sent组织目标特定标注，以Quiet by Design比较体裁和受众边界；两者构念不完全相同，不能合并为同一个已验证量表。",
+      "研究设计与局限：将Same Text、IRT基准及功效计算分别放在工具选择、验证集构成和可检测效应章节，区分可靠预测、构念效度与因果识别。"
+    ],
+    "openQuestions": [
+      "跨语言比例的分母是所有回复、不同用户、曝光机会还是可翻译帖子？各分母对应不同估计对象，现有数据究竟能支持哪一种？",
+      "排除自回复后，变化来自原用户改变交往、用户进入退出、语言识别误差还是议题构成？可否固定用户和话题作描述性分解，再考虑因果模型？",
+      "同一语言指标跨时段、群体与体裁是否保持含义？需要哪些独立标注或反例才能推翻当前解释，而不是只对已有相关寻找理论？",
+      "温暖/能力、agency/communion与语言多样性分别测量什么，哪些是文本表达，哪些才有足够依据推断个体属性或群体关系？"
+    ]
+  }
+}

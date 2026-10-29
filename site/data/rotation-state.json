@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T06:02:06+08:00",
+  "updatedAt": "2026-10-30T06:01:32+08:00",
   "communication": {
     "ct": {
       "lastCompleteSnapshot": "2026-10-22",
@@ -191,6 +191,24 @@
         "status": "complete",
         "selected": 1,
         "completionCursorAdvanced": true
+      }
+    },
+    "2026-10-30": {
+      "communication": {
+        "journalId": "nms",
+        "status": "incomplete",
+        "enumerated": 10,
+        "totalReported": 202,
+        "missingDirectoryEntries": 192,
+        "verifiedNewResearch": 0,
+        "completionCursorAdvanced": false
+      },
+      "general": {
+        "journalId": "pnas",
+        "status": "incomplete",
+        "selected": 0,
+        "completionCursorAdvanced": false,
+        "reason": "安全验证阻断，未取得最新在线目录"
       }
     }
   }

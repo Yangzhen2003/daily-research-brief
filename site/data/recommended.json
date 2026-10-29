@@ -1113,6 +1113,31 @@
         "doi:10.1038/s41467-026-78846-6",
         "title:theintegratedenvironmentalzoningbasedregulationfurtherenhancessustainabledevelopmentinchina"
       ]
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Measuring Data Diversity with Embeddings: A Taxonomy and Benchmark for Diversity Measures",
+      "identifiers": [
+        "arxiv:2610.24888",
+        "doi:10.48550/arxiv.2610.24888",
+        "title:measuringdatadiversitywithembeddingsataxonomyandbenchmarkfordiversitymeasures"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Communicating Performance: Textual and Financial Disclosures in Private Equity",
+      "identifiers": [
+        "doi:10.3386/w35860",
+        "title:communicatingperformancetextualandfinancialdisclosuresinprivateequity"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "title": "LLM Measurements that Agree with Human Coders Overall can Still Distort Specific Effects",
+      "identifiers": [
+        "doi:10.2139/ssrn.7485819",
+        "title:llmmeasurementsthatagreewithhumancodersoverallcanstilldistortspecificeffects"
+      ]
     }
   ]
 }
